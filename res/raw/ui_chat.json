@@ -1,0 +1,12 @@
+{
+  "name": "category_chat",
+  "help_id": "command",
+  "android_icon": "messages_24",
+  "shortcut_color": "shortcut_blue",
+
+  "items": [
+    {
+      "type": "command_list"
+    }
+  ]
+}

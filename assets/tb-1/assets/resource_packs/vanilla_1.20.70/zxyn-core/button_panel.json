@@ -1,0 +1,353 @@
+/*File made by @Farhan.
+//(c) Jangan gunakan code ini tanpa izin!*/
+
+{
+  "namespace": "x_button_panel",
+
+  "glyph_button_panel": {
+    "type": "panel",
+    "$popup_text|default": false,
+    "$layer_bg_label|default": 1,
+    "$layer_label|default": 2,
+    "$offset_label|default": [ 0 , -25 ],
+    "$hans_icon_size|default": [ 15, 15 ],
+    
+    "$hans_icon_anchor_from|default": "center",
+    "$hans_icon_anchor_to|default": "center",
+    "layer": 999,
+    "controls": [
+      {
+        "label_bg@neko_c.bg_r": {
+          "alpha": 0.75,
+          "layer": "$layer_bg_label",
+          "offset": "$offset_label",
+          "visible": "$pressed_alpha",
+          "size": [ "100%c + 3px", "13px"],
+          "controls": [
+            {
+              "tab_button_text": {
+                "type": "label",
+                "layer": "$layer_label",
+                "font_scale_factor": 0.8,
+                "offset": [ 1.2, -1 ],
+                "text": "$button_text",
+                "font_type": "EudoxusSans-Bold",
+                "color": "white"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "icon": {
+          "type": "image",
+          "texture": "$hans_icon_texture",
+          "size": "$hans_icon_size",
+          "offset": "$hans_icon_offset",
+          "anchor_from": "$hans_icon_anchor_from",
+          "anchor_to": "$hans_icon_anchor_to",
+          "variables": [
+            {
+              "requires": "$default_state",
+              "$hans_icon_offset": [ 0, -1.5 ]
+            },
+            {
+              "requires": "$hover_state",
+              "$hans_icon_offset": [ 0, 0 ]
+            },
+            {
+              "requires": "$pressed_state",
+              "$hans_icon_offset": [ 0, 0 ]
+            },
+            {
+              "requires": "$locked_state",
+              "$hans_icon_offset": [ 0, 0 ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "death_screen_button_panel": {
+    "type": "panel",
+    "$icon_offest|default": [ 0 , -8.5 ],
+    "$icon_anchor_from|default": "center",
+    "$icon_anchor_to|default": "center",
+    "$button_label_offset|default": [ 0 , -4 ],
+    "layer": 2,
+    "controls": [
+      {
+        "icon_texture": {
+          "type": "image",
+          "anchor_from": "$icon_anchor_from",
+          "anchor_to": "$icon_anchor_to",
+          "offset": "$icon_offest",
+          "texture": "('textures/neko/button_icon/sleep_and_death_icon/' + $icon_texture )",
+          "size": "$icon_size",
+          "layer": 3,
+          "color": "$glyph_color",
+          "alpha": "$content_alpha",
+
+          "$glyph_bindings|default": [],
+          "bindings": "$glyph_bindings"
+        }
+      },
+      {
+        "icon_line_texture": {
+          "type": "image",
+          "anchor_from": "$icon_anchor_from",
+          "anchor_to": "$icon_anchor_to",
+          "offset": "$icon_offest",
+          "texture": "('textures/neko/button_icon/sleep_and_death_icon/' + $icon_line_texture )",
+          "size": "$icon_size",
+          "layer": 4,
+          "alpha": "$content_alpha",
+          "color": "$warna_color_line",
+          "variables": [
+            {
+              "requires": "$default_state",
+              "$warna_color_line": [ 0.0, 0.0, 0.0 ]
+            },
+            {
+              "requires": "$hover_state",
+              "$warna_color_line": [ 1.0, 1.0, 1.0 ]
+            },
+            {
+              "requires": "$pressed_state",
+              "$warna_icon": [ 0.54, 0.80, 1.00 ]
+            },
+            {
+              "requires": "$locked_state",
+              "$warna_color_line": [ 1.00, 0.00, 0.00 ]
+            }
+          ],
+
+          "$glyph_bindings|default": [],
+          "bindings": "$glyph_bindings"
+        }
+      },
+      {
+        "title_button_text": {
+          "type": "label",
+          "font_type": "MinecraftTen",
+          "anchor_from": "bottom_middle",
+          "anchor_to": "bottom_middle",
+          "font_scale_factor": 0.85,
+          "size": [ "100%", "default" ],
+          "text_alignment": "center",
+          "max_size": [ "100% - 20px", "15px" ],
+          "offset": "$button_label_offset",
+          "text": "$button_text",
+          "layer": 3,
+          "color": "$text_color",
+          "alpha": "$content_alpha",
+
+          "$button_text_binding_type|default": "none",
+          "$button_text_grid_collection_name|default": "",
+          "$button_text_binding_condition|default": "none",
+
+          "bindings": [
+            {
+              "binding_type": "$button_text_binding_type",
+              "binding_condition": "$button_text_binding_condition",
+              "binding_collection_name": "$button_text_grid_collection_name",
+              "binding_name": "$button_text",
+              "binding_name_override": "$button_text"
+            }
+          ]
+        }
+      }
+    ]
+  },  
+
+  "main_screen_button_2": {
+    "type": "panel",
+    "$glyph_anchor_from": "center",
+    "$glyph_anchor_to": "center",
+    "$button_label_offset": [ 0 , -0.1 ],
+    "layer": 5,
+    "controls": [
+      {
+        "new_offsers_icon": {
+          "type": "panel",
+          "$enable_store_new_offers|default": false, 
+          "visible": "$enable_store_new_offers",
+          "controls": [
+            {
+              "new_offers_icon@common_store.new_offer_icon": {
+                "anchor_from": "top_right",
+                "anchor_to": "top_right",
+                "layer": 11,
+                "bindings": [
+                  {
+                    "binding_name": "#new_offers",
+                    "binding_name_override": "#visible"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "glyph": {
+          "type": "image",
+          "anchor_from": "$glyph_anchor_from",
+          "anchor_to": "$glyph_anchor_to",
+          "offset": "$glyph_offset",
+          "texture": "$glyph_texture",
+          "size": "$glyph_size",
+          "layer": 6,
+          "color": "$warna_icon",
+          "variables": [
+            {
+              "requires": "$default_state",
+              "$glyph_offset": [ 0 , -2 ],
+              "$warna_icon": [ 1.0, 1.0, 1.0 ]
+            },
+            {
+              "requires": "$hover_state",
+              "$glyph_offset": [ 0 , -2 ],
+              "$warna_icon": [ 0.06, 0.76, 1.00 ]
+            },
+            {
+              "requires": "$pressed_state",
+              "$glyph_offset": [ 0 , -2 ],
+              "$warna_icon": [ 0.5, 0.76, 1.00 ]
+            },
+            {
+              "requires": "$locked_state",
+              "$glyph_offset":[ 0 , -2 ],
+              "$warna_icon": [ 1.0, 1.0, 1.0 ]
+            }
+          ],
+          "alpha": "$content_alpha",
+
+          "$glyph_bindings|default": [],
+          "bindings": "$glyph_bindings"
+        }
+      },
+      {
+        "tab_button_text": {
+          "type": "label",
+          "anchor_from": "bottom_middle",
+          "anchor_to": "bottom_middle",
+          "shadow": false,
+          "font_type": "EudoxusSans-Bold",
+          "font_scale_factor": 0.85,
+          "text_alignment": "center",
+          "size": [ "100% - 15px", "default" ],
+          "max_size": [ "100% - 15px", "15px" ],
+          "offset": "$offset_label",
+          "variables": [
+            {
+              "requires": "$default_state",
+              "$offset_label": [ 0 , -2.0 ]
+            },
+            {
+              "requires": "$hover_state",
+              "$offset_label": [ 0 , -2.0 ]
+            },
+            {
+              "requires": "$pressed_state",
+              "$offset_label": [ 0 , -2.0 ]
+            },
+            {
+              "requires": "$locked_state",
+              "$offset_label": [ 0 , -2.0 ]
+            }
+          ],
+          "text": "$button_text",
+          "layer": 100,
+          "color": "$text_color",
+          "alpha": "$han_alpha",
+
+          "$button_text_binding_type|default": "none",
+          "$button_text_grid_collection_name|default": "",
+          "$button_text_binding_condition|default": "none",
+
+          "bindings": [
+            {
+              "binding_type": "$button_text_binding_type",
+              "binding_condition": "$button_text_binding_condition",
+              "binding_collection_name": "$button_text_grid_collection_name",
+              "binding_name": "$button_text",
+              "binding_name_override": "$button_text"
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "pause_button_panel": {
+    "type": "panel",
+    "$glyph_offset": [ 0 , 0 ],
+    "$glyph_anchor_from": "middle",
+    "$glyph_anchor_to": "middle",
+    "$button_label_offset": [ 0, -7 ],
+    "$button_label_anchor_from": "bottom_middle",
+    "$button_label_anchor_to": "bottom_middle",
+    "layer": 5,
+    "controls": [
+      {
+        "glyph": {
+          "type": "image",
+          "anchor_from": "$glyph_anchor_from",
+          "anchor_to": "$glyph_anchor_to",
+          "offset": "$glyph_offset",
+          "texture": "$glyph_texture",
+          "size": "$glyph_size",
+          "layer": 5,
+          "color": "$warna_glyph",
+          "variables": [
+            {
+              "requires": "$default_state",
+              "$warna_glyph": [ 1.0, 1.0, 1.0 ]
+            },
+            {
+              "requires": "$hover_state",
+              "$warna_glyph": [ 0.81, 0.98, 1.00 ]
+            }
+          ],
+          "alpha": "$content_alpha",
+
+          "$glyph_bindings|default": [],
+          "bindings": "$glyph_bindings"
+        }
+      },
+      {
+        "tab_button_text": {
+          "type": "label",
+          "font_type": "PoppinsMedium",
+          "anchor_from": "$button_label_anchor_from",
+          "anchor_to": "$button_label_anchor_to",
+          "font_scale_factor": 1.2,
+          "text_alignment": "center",
+          "size": [ "100% - 25px", "default" ],
+          "max_size": [ "100% - 25px", "20px" ],
+          "offset": "$button_label_offset",
+          "text": "$button_text",
+          "layer": 5,
+          "color": "$text_color",
+          "alpha": "$content_alpha",
+
+          "$button_text_binding_type|default": "none",
+          "$button_text_grid_collection_name|default": "",
+          "$button_text_binding_condition|default": "none",
+
+          "bindings": [
+            {
+              "binding_type": "$button_text_binding_type",
+              "binding_condition": "$button_text_binding_condition",
+              "binding_collection_name": "$button_text_grid_collection_name",
+              "binding_name": "$button_text",
+              "binding_name_override": "$button_text"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,467 @@
+ {
+    "namespace": "zxyn_main_core",
+
+    "button_disebelah_event": {
+      "type": "panel",
+      "color": "green",
+      "size": [ "100% - 120px", 35 ],
+      "offset": [ 0, 15 ],
+      "anchor_from": "top_left",
+      "anchor_to": "top_left",
+      "controls": [
+        {
+          "stack": {
+            "type": "stack_panel",
+            "orientation": "horizontal",
+            "size": [ "100%", "100%" ],
+            "controls": [
+              {
+                "a": { "type": "panel", "size": [ "fill", "100%"] }
+              },
+              {
+                "panel_tombol": {
+                  "type": "panel",
+                  "size": [ 37 , "100%" ],
+                  "controls": [
+               /*     {
+                      "neko_market_button_c@zxyn.neko_market_button_c": {}
+                    } */
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+
+    "core_toggle_2@core_toggle": {
+      "$toggle_group_default_selected": "",
+      "$toggle_name": "",
+      "$radio_toggle_group": false,
+      "$light_toggle_default_text_color": [ 1.0, 1.0, 1.0 ],
+      "$light_toggle_hover_text_color": [ 0.00, 0.75, 0.90 ],
+      "$light_toggle_checked_default_text_color": [ 0.00, 0.75, 0.90 ],
+      "$light_toggle_checked_hover_text_color": [ 1.0, 1.0, 1.0 ],
+      "size": [ "100% - 2px", "100%"],
+      "$icon_offset": [ 1.5, 0 ],
+      "$button_type_panel": "test_toggle.sub_neko",
+      "$default_texture": "textures/neko/button_icon/a",
+      "$hover_texture": "textures/neko/button_icon/a",
+      "$pressed_texture": "textures/neko/button_icon/b",
+      "$pressed_no_hover_texture": "textures/neko/button_icon/a",
+      "$icon_texture": "",
+      "$button_text_default": "","$button_text_hover": "","$button_text_pressed": ""
+   },
+
+    "core_toggle@test_toggle.yaemiko": {
+      "$light_toggle_default_text_color": [ 1.0, 1.0, 1.0 ],
+      "$light_toggle_hover_text_color": [ 0.25, 0.26, 0.34 ],
+      "$light_toggle_checked_default_text_color": [ 0.25, 0.26, 0.34 ],
+      "$light_toggle_checked_hover_text_color": [ 0.25, 0.26, 0.34 ],
+      "size": [ "100% - 2px", "100%"],
+      "$icon_offset": [ 1.5, 0 ],
+      "$button_type_panel": "test_toggle.sub_neko",
+      "$default_texture": "",
+      "$hover_texture": "textures/neko/button_icon/a",
+      "$pressed_texture": "textures/neko/button_icon/a",
+      "$pressed_no_hover_texture": "textures/neko/button_icon/a",
+      "$toggle_group_default_selected": "$apa_coba",
+      "$radio_toggle_group": true,
+      "$default_border_visible": true,
+      "$hover_border_visible": true,
+      "$toggle_name": "navigation_tab",
+      "$icon_texture": "",
+      
+      "$button_text_default": "","$button_text_hover": "","$button_text_pressed": ""
+   },
+
+    "content_button_panel_2@neko_c.bg_2": {
+      "alpha": 0,
+      "size": [ 30, "100%" ]
+    },
+
+    "button_panel_uwu": {
+      "type": "panel",
+      "size": [ "100%", 32 ],
+      "controls": "$uwu",
+      "$uwu|default": []
+    },
+
+    "right_side": {
+      "type": "panel",
+      "size": [ "110px", "100% - 5px" ],
+      "anchor_from": "right_middle",
+      "anchor_to": "right_middle",
+      "controls": [
+        {
+          "left_side_childern": {
+            "type": "stack_panel",
+            "orientation": "vertical",
+            "size": [ "100%", "100%" ],
+            "controls": [
+              {
+                "panel_a": {
+                  "type": "panel",
+                  "size": [ "100%", "50%" ],
+                  "controls": [
+                    {
+                      "sub_a": {
+                        "type": "stack_panel",
+                        "size": [ "100%", "100%c" ],
+                        "anchor_from": "top_right",
+                        "anchor_to": "top_right",
+                        "controls": [
+                        ]
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "panel_b": {
+                  "type": "panel",
+                  "size": [ "100%", "fill" ],
+                  "controls": [
+                    {
+                      "sub_b": {
+                        "type": "stack_panel",
+                        "size": [ "100%", "100%c" ],
+                        "anchor_from": "bottom_right",
+                        "anchor_to": "bottom_right",
+                        "controls": [
+                          {
+                            "button_panel_uwu@zxyn_main_core.button_panel_uwu": {
+                              "size": [ "100%", "100%c" ],
+                              "$uwu": [
+                                {
+                                  "1@zxyn_main_core.xbox_information": {
+                                    "size": [ "100% - 3.5px", 35 ],
+                                    "anchor_from": "center",
+                                    "anchor_to": "center",
+                                    "$warning_text_title": "BUG REPORT",
+                                    "$warning_text_desc": "If you find a bug, please report it to the creator :("
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "button_panel_uwu@zxyn_main_core.button_panel_uwu": {"size": [ "100%", 30 ], "$uwu": [ {"start_button@zxyn.start_button": {}}]}
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+  
+    "left_side": {
+      "type": "panel",
+      "size": [ "120px", "100% - 5px" ],
+      "anchor_from": "left_middle",
+      "anchor_to": "left_middle",
+      "controls": [
+        {
+          "left_side_childern": {
+            "type": "stack_panel",
+            "orientation": "vertical",
+            "size": [ "100%", "100%c" ],
+            "controls": [
+              {
+                "button_panel_uwu@zxyn_main_core.button_panel_uwu": { "$uwu": [ { "neko_settings_button@zxyn.neko_settings_button": {}}]}
+              },
+              {
+                "button_panel_uwu@zxyn_main_core.button_panel_uwu": { "$uwu": [ { "neko_market_button@zxyn.neko_market_button": {}}]}
+              }, 
+              {
+                "button_panel_uwu@zxyn_main_core.button_panel_uwu": { "$uwu": [ { "neko_achievements_button@zxyn.neko_achievements_button": {}}]}
+              },
+              {
+                "button_panel_uwu@zxyn_main_core.button_panel_uwu": { "$uwu": [ { "neko_dressing_room_button@zxyn.neko_dressing_room_button": {}}]}
+              }
+            ]
+          }
+        }
+      ]
+    },
+
+    "xbox_information@neko_c.bg_2": {
+      "$warning_text_title|default": "UwU.Insert Text",
+      "$warning_text_desc|default": "UwU.Insert Text",
+      "alpha": 0.75,
+      "size": [ "100%", 30 ],
+      "controls": [
+        {
+          "isi_stack": {
+            "type": "stack_panel",
+            "size": [ "100%", "100%"],
+            "controls": [
+              {
+                "header": {
+                "type": "panel",
+                 "size": [ "100%", 15 ],
+                  "controls": [
+                    {
+                      "sub_header": {
+                        "type": "stack_panel",
+                        "orientation": "horizontal",
+                        "size": [ "100%", "100%"],
+                        "controls": [
+                          {
+                            "panel_label": {
+                              "type": "panel",
+                              "size": [ "fill", "100%" ],
+                              "anchor_from": "left_middle",
+                              "anchor_to": "left_middle",
+                              "controls": [
+                                {
+                                  "warning_text": {
+                                    "type": "label",
+                                    "anchor_from": "right_middle",
+                                    "anchor_to": "right_middle",
+                                    "text_alignment": "left",
+                                    "offset": [ 0, -1.1 ],
+                                    "size": [ "100% - 5px", "default" ],
+                                    "text": "$warning_text_title",
+                                    "font_scale_factor": 0.8,
+                                    "color": "white",
+                                    "font_type": "EudoxusSans-Bold"
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              },
+              { "spacert": { "type": "panel", "size": [1, 1 ]}},
+              {
+                "isi": {
+                  "type": "panel",
+                  "size": [ "100%", "fill" ],
+                  "controls": [
+                    {
+                      "warning_text": {
+                        "type": "label",
+                        "anchor_from": "top_right",
+                        "anchor_to": "top_right",
+                        "text_alignment": "left",
+                        "size": [ "100% - 5px", "default"],
+                        "font_scale_factor": 0.65,
+                        "font_type": "EudoxusSans-Medium",
+                        "text": "$warning_text_desc",
+                        "color": "white"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+
+  "neko_header_button_panel": { "type": "panel", "size": [ 23.5, "100%" ]},
+  "title_image": { "type": "image","layer": 13,"size": [ "100%", "100% - 5px" ],"texture": "textures/ui/title"},
+
+  "neko_header_panel@neko_c.bg_2": {
+    "alpha": 0.75,
+    "size": [ "100%", 23.5 ],
+    "controls": [
+      {
+        "stack": {
+          "type": "stack_panel",
+          "orientation": "horizontal",
+          "size": [ "100%", "100%" ],
+          "controls": [
+            {
+              "gamertag_panel": {
+                "type": "panel",
+                "size": [ "30%", "100%" ],
+                "controls": [
+                  {
+                    "gamertag_panel": { "type": "panel", "anchor_from": "top_left", "anchor_to": "top_left", "size": [ 120, "100%" ], "controls": [ {"account_button@loli.account_button": {}}]}
+                  }
+                ]
+              }
+            },
+            { "logo_panel": { "type": "panel", "size": [ "fill" , "100%" ], "controls": [ { "title_image@zxyn_main_core.title_image": {}}]}},
+            {
+              "button_panel": {
+                "type": "panel",
+                "size": [ "30%", "100%" ],
+                "controls": [
+                  {
+                    "button": {
+                      "type": "stack_panel",
+                      "orientation": "horizontal",
+                      "size": [ "100%c", "100%" ],
+                      "anchor_from": "top_right",
+                      "anchor_to": "top_right",
+                      "controls": [
+                        { "neko_header_2@zxyn_main_core.neko_header_button_panel": { "controls": [ { "header_notification_button@zxyn.header_notification_button": {}}]}},
+                        { "neko_header_3@zxyn_main_core.neko_header_button_panel": { "controls": [ { "header_realm_invite_button@zxyn.header_realm_invite_button": {}}]}},
+                        { "neko_header_1@zxyn_main_core.neko_header_button_panel": { "controls": [ { "header_quit_button@zxyn.header_quit_button": {}}]}},
+                        { "jarak": { "type": "panel", "size": [ 5.2, 5.2 ]}}
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "neko_x": {
+    "type": "panel",
+    "size": [ "100% - 150px", 20 ],
+    "offset": [ 10.5 , -3 ],
+    "anchor_to": "bottom_left",
+    "anchor_from": "bottom_left",
+    "controls": [
+      {
+        "a": {
+          "type": "stack_panel",
+          "orientation": "horizontal",
+          "size": [ "100%",  "100%" ],
+          "controls": [
+            {
+              "xbox": {
+                "type": "panel",
+                "size": [ "135px", "100%"],
+                "controls": [
+                  {
+                    "xbox_panel@zxyn_main_ui.xbox_panel": {}
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+    
+  "neko_main_ui": {
+    "type": "panel",
+    "size": [ "100%", "fill" ],
+    "controls": [ 
+      {
+        "neko_x@zxyn_main_core.neko_x": {}
+      },
+      {
+        "panel_skin": {
+          "type": "panel",
+          "size": [ "100%", "100%" ],
+          "controls": [
+                {
+                  "skin_panel": {
+                  "layer": 5,
+                  "type": "panel",
+                  "anchor_to": "center",
+                  "anchor_from": "center",
+                  "size": [ "45% + 35px" , "50% + 30px" ],
+                  "offset": [ 0 , "-2%" ],
+                  "controls": [{ "viewer_panel@start.skin_viewer_panel": {} }]
+                }
+              }
+            ]
+          }
+        }, 
+        {
+          "xbox_and_mc@zxyn_main_core.xbox_and_mc": {
+          "$neko_uwu_from|default": [ "-4.5%", -3 ],
+          "$neko_uwu_to|default": [ 3, -3 ],
+          "animation_reset_name": "screen_animation_reset",
+          "anims": [ "@anim_test.neko_push_offset","@anim_test.neko_pop_offset","@anim_test.neko_entrance_push_offset","@anim_test.neko_entrance_pop_offset"]
+        }
+      },
+      {
+        "right_side@zxyn_main_core.right_side": {
+          "$neko_uwu_from|default": [ "4.5%", 0 ],
+          "$neko_uwu_to|default": [ -3, 0 ],
+          "animation_reset_name": "screen_animation_reset",
+          "anims": [ "@anim_test.neko_push_offset","@anim_test.neko_pop_offset","@anim_test.neko_entrance_push_offset","@anim_test.neko_entrance_pop_offset"]
+        }
+      },
+      {
+        "left_side@zxyn_main_core.left_side": {
+          "$neko_uwu_from|default": [ "-4.5%", 0 ],
+          "$neko_uwu_to|default": [ 3, 0 ],
+          "animation_reset_name": "screen_animation_reset",
+          "anims": [ "@anim_test.neko_push_offset","@anim_test.neko_pop_offset","@anim_test.neko_entrance_push_offset","@anim_test.neko_entrance_pop_offset"]
+        }
+      },
+      {
+        "core_panel@zxyn_main_ui.core_panel": {}
+      }
+    ]
+  },
+
+  "neko_main_version": {
+    "type": "panel",
+    "size": [ "100%", "20px" ],
+    "controls": [
+      {
+        "stack": {
+          "type": "stack_panel",
+          "orientation": "horizontal",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "controls": [
+            {
+              "neko_image_and_label@loli.neko_image_and_label": {
+                "size": [ 55, "100%" ],
+                "$use_normal_ico_and_text": true,
+                "$neko_label_ial": "NekoUI v15.1",
+                "$neko_label_ver_ial": "©NekoUI 2024"
+              }
+            },
+            { "1": {"type": "panel", "size": [ 5, 5]}},
+            {
+              "neko_image_and_label@loli.neko_image_and_label": {
+                "size": [ 65, "100%" ],
+                "$use_mc_version": true,
+                "$neko_ial": [ "25%", 25 ]
+              }
+            },
+            { "1": {"type": "panel", "size": [ 5, 5]}},
+            {
+              "neko": {
+                "type": "panel",
+                "size": [ "68px", "100%" ],
+                "controls": [
+                  {"neko_header_sign_in_button@zxyn.neko_header_sign_in_button": {"bindings": [{ "binding_name": "#sign_in_visible", "binding_name_override": "#visible" }]}},
+                  {"neko_header_feedback_button@zxyn.neko_header_feedback_button": {"bindings": [{ "binding_name":"#feedback_visible", "binding_name_override": "#visible" }]}}
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "neko_main_panel": {
+    "type": "stack_panel",
+    "size": [ "100%", "100%" ],
+    "controls": [
+      { "neko_header_panel@zxyn_main_core.neko_header_panel": {}},
+      { "neko_main_ui@zxyn_main_core.neko_main_ui": {}},
+   //   { "neko_main_version@zxyn_main_core.neko_main_version": {}}
+    ]
+  }
+}

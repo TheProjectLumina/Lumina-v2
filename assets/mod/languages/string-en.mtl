@@ -1,0 +1,84 @@
+# Language: English
+
+# 🌟NOTES🌟
+# • Adding ** before and after a
+# string will make it bold,
+# ## for italic and __ for underline
+#
+# Okay:
+# ## - italic
+# __ - underline
+# ** - bold
+# This is a bit 🤏 buggy.
+# And only works for dialog_title,
+# dialog_version, and dialog_extra_message
+#
+# Also, use '□' as a line separator,
+# cuz I got tired fixing the bug when using '\n'
+
+# Infinite Time Dialog
+dialog_title: **Welcome to Lumina v2**
+dialog_version: Version: **1.20.80**
+dialog_extra_message: Made by ToolDroid
+
+# Initialize
+dialog_loading: ##Initializing...##
+dialog_starting: ##Starting...##
+dialog_success: **Shinku no tsuki**
+dialog_close: Close
+
+# Easter Egg
+easter_back_label: **<**
+
+# Toast Messages
+toast_easter: You are %s click/s away from activiting an easter egg
+toast_easter_activated: Easter egg activated!
+toast_press_close_dialog: Press back key again to close dialog
+toast_press_close_back: Press back key again to go back
+toast_press_forbidden_premium_started: Action is forbidden because premium is starting.
+toast_copied: Copied Succesfully!
+
+# Version
+version_checking: Checking for Taco Client updates.
+version_checking_unsuccessful: Check unsuccesful. Check your internet connection.
+version_latest: You are using the latest version!
+version_found: New version found!
+version_found_message: This version supports Minecraft: %s.□To Update: Go to Taco Client's Official Website.
+version_developer_message: □%s
+version_update_now: Update Now!
+version_update_later: Later
+version_copy_download_link: Copy Download Link
+url_link_malformed: A new version was found but the download url is malformed. Contact the developer if this occurs for a couple of hours.
+
+# YouTube
+yt_label: YouTube
+yt_desc: Lumina is on YT
+yt_btn_label: Subscribe
+yt_btn_url: null
+yt_ic_url: social_1.png
+yt_ic_use_icon_tint: true
+
+# Telegram
+tg_label: Discord
+tg_desc: Join Lumina discord
+tg_btn_label: Join Now!
+tg_btn_url: null
+tg_ic_url: social_2.png
+tg_ic_use_icon_tint: true
+
+# ReClient
+rc_label: ToolDroid
+rc_desc: The maker of this dialog 👀.
+rc_btn_label: Visit Channel
+rc_btn_url: null
+rc_ic_url: null
+rc_ic_use_icon_tint: false
+
+# Buttons
+btn_update: Update Now
+btn_open: Visit
+btn_subscribe: Subscribe
+btn_join: Join
+
+# Credits
+credits_label: Translated by %s

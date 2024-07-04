@@ -1,0 +1,70 @@
+{
+	"namespace": "permissions",
+
+	//---------------------------------------------------------------------------
+	// SCREEN
+	//---------------------------------------------------------------------------
+
+	"permissions_screen@common.base_screen": {
+		"button_mappings": [
+			{
+				"from_button_id": "button.menu_cancel",
+				"to_button_id": "button.menu_exit",
+				"mapping_type": "global"
+			},
+			{
+				"from_button_id": "button.menu_exit",
+				"to_button_id": "button.menu_exit",
+				"mapping_type": "global"
+			}
+		],
+
+		"$screen_content": "permissions.permissions_screen_content",
+		"$screen_bg_content": ""
+	},
+
+	//---------------------------------------------------------------------------
+	// CONTENT
+	//---------------------------------------------------------------------------
+
+	"permissions_screen_content@neko_c.bg_2": {
+		"alpha": 0.85,
+		"controls": [
+			{
+				"permissions_screen_content": {
+					"type": "stack_panel",
+					"size": [ "100%", "100%" ],
+					"orientation": "vertical",
+					"anchor_to": "top_middle",
+					"anchor_from": "top_middle",
+					"controls": [
+						{ "top_bar_panel@permissions.top_bar_panel": {} },
+						{ "content_panel@permissions.content_panel": {} }
+					]
+				}
+			}
+		]
+    },
+
+	"top_bar_panel@neko_c.bg_2": {
+		"alpha": 0.75,
+		"size": [ "100%", 25 ],
+		"controls": [
+			{
+				"common_back_button@neko_c.common_back_button": {
+					"offset": [ 10, 0 ],
+					"size": [ 60, "100%" ],
+					"anchor_to": "left_middle",
+					"anchor_from": "left_middle",
+					"bindings": [
+						{
+							"binding_name": "(not #is_using_gamepad)",
+							"binding_name_override": "#visible"
+						}
+					]
+				}
+			},
+			{ "title_label@permissions.title_label": { "font_type": "MinecraftTen", "font_scale_factor": 1.1 } }
+		]
+	}
+}

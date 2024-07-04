@@ -1,0 +1,141 @@
+//* --------------------------------------------------------------------- *//
+//* ----------------          ADD SERVER                ----------------- *//
+//* --------------------------------------------------------------------- *//
+
+neko_add_server_header.tile=Tambah Server
+
+//* --------------------------------------------------------------------- *//
+//* ----------------          PLAY UI                   ----------------- *//
+//* --------------------------------------------------------------------- *//
+
+neko_button_play_s.import_world= Import Dunia
+neko_button_play_s_tab.servers= Server
+
+//* --------------------------------------------------------------------- *//
+//* ----------------          SETTINGS UI               ----------------- *//
+//* --------------------------------------------------------------------- *//
+
+// Graphics & Video
+
+neko_settings_slider.brightness_desc=Direkomendasikan menggunakan brightness= 80 - 100%
+neko_settings_slider.fps_desc=Direkomendasikan menggunakan Frame Rate= Unlimited
+neko_settings_slider.msaa_desc=Direkomendasikan menggunakan Anti-Aliasing= 2 - 4 ( Semakin tinggi Anti-Aliasing, kamu tidak akan menemukan pixellated pada texture )
+neko_settings_slider.render_desc=Direkomendasikan menggunakan Render Distance= 8 - 10 ( Semakin tinggi Render Distance, kamu dapat melihat dunia lebih jauh )
+
+// Gameplay
+neko_settings_slider.hud_opacity_desc=Semakin rendah opasitas dari HUD maka kamu tidak dapat melihat Hotbar.
+neko_settings_slider.fov_desc=Semakin tinggi sudut dapat membuat kamu mual ( Tapi untuk PVP disarankan menggunakan POV 110 )
+
+//* --------------------------------------------------------------------- *//
+//* ----------------          MAIN UI                   ----------------- *//
+//* --------------------------------------------------------------------- *//
+
+neko_button.show_player_skin=Tampilkan skin Player
+neko_title_text_button.start=MAIN
+neko_desc_text_button.start=DUNIA & SERVER
+
+neko_title_text_button.settings=Pengaturan
+neko_desc_text_button.settings=Grafis | Video | Suara
+
+neko_title_text_button.marketplace=Marketplace
+neko_desc_text_button.marketplace=Temukan Addon & Resource Packs menarik disini
+
+neko_title_text_button.achievements=Prestasi
+neko_desc_text_button.achievements=Prestasi yang sudah kamu capai
+
+neko_title_text_button.dressing_room=Ruang Ganti
+neko_desc_text_button.dressing_room=Ganti skin kamu disini
+
+neko_title_text_button.realms_invitation=Undangan Realm
+neko_desc_text_button.realms_invitation=Undangan Realm kamu akan muncul disini
+
+neko_title_text_button.feedback=Feedback
+neko_desc_text_button.feedback=Kirim masukan kamu ke Mojang
+
+neko_title_text_button.sign=Login XBOX
+neko_desc_text_button.sign=Login XBOX untuk bermain di SERVER & Realms!
+
+//* --------------------------------------------------------------------- *//
+
+neko.main_ui.title_warning.text=Warning
+neko.main_ui.desc_warning.text=Kamu belum login Xbox
+
+neko.world.header_title.y.text=PLAY
+neko.world.header_desc.y.text=World terakhir yang kamu mainkan
+
+neko.world.header_title.n.text=Kamu belum mempunyai Dunia nih:(
+neko.world.header_desc.n.text=Kamu dapat membuat Dunia dengan menekan tombol "Buat Dunia Baru"
+
+// HUD //
+map.position=§bX:§f %s, §bY:§f %s, §bZ:§f %s
+
+// PAUSE
+zxyn_pause.ui.invite_to_game=Invite Ke Permainan
+zxyn_pause.ui.screenshot=Screenshot
+zxyn_pause.ui.title_pause=Pause
+
+// CHAT
+zxyn_chat.ui.previous=Sebelumnya
+zxyn_chat.ui.next=Selanjutnya
+zxyn_chat.ui.skip=Auto Complete
+zxyn_chat.ui.mute_all=Mute Chat
+
+// PLAY SCREEN
+servers.third_party=Server Pihak Ke-tiga
+playscreen.create_new_world=Buat Dunia baru
+createWorldScreen.experimtalSettings=Pengaturan Experimental
+
+// WORLD SETTINGS
+toggle.game_rule.text=Pengaturan Lanjutan
+
+neko.c.type_world.gamemode=Mode Permainan :
+neko.c.type_world.personal_gamemode=Mode Permainan Personal :
+neko.c.type_world.world_type=Tipe Dunia :
+neko.c.type_world.difficulty=Kesulitan :
+
+// MAIN SCREEN
+menu.neko_quit_button=Keluar
+xbox.sign_text_true=KAMU SUDAH LOGIN XBOX
+xbox.sign_text_false=KAMU BELUM LOGIN XBOX
+
+// SETTINGS
+
+world_settings.header.game_settings=Pengaturan Dunia
+
+settings.header.account= Akun
+settings.header.quick_settings=Pengaturan Cepat
+settings.header.graphics_and_gameplay=Grafis & Gameplay
+settings.header.controls_settings=Pengaturan Kontrol
+
+settings.header.graphics.text=Grafis
+settings.header.gameplay.text=Gameplay
+settings.header.video.text=Video
+settings.header.quick_settings.text=Pengaturan Cepat
+settings.header.keyboard_and_mouse.text=Keyboard & Mouse
+settings.header.controller.text=Pengontrol
+settings.header.touch.text=Sentuh
+settings.header.creator.text=Kreator
+settings.header.audio.text=Audio
+settings.header.language.text=Bahasa
+settings.header.account_section=Akun
+settings.header.accessibility_section=Aksesibilitas
+settings.header.general_tab_section=Umum
+
+yuki.general.text=Umum
+toggle.graphics.text=Grafis & Video
+toggle.controls_settings.text=Pengaturan Kontrol
+toggle.advanced_settings.text=Pengaturan Lanjutan
+
+yuki.advanced_settings.text=Pengaturan Lanjutan
+yuki.resource_packs.text=Sumber daya
+
+neko.c.camera_perspective.text=Perspektif Kamera :
+neko.c.ui_profile.text=UI Profile :
+
+neko.c.note.title=Catatan :
+neko.c.rule_1=1. Dilarang memodifikasi NekoUI dalam bentuk apapun!
+neko.c.rule_2=2. Dilarang mengganti Link download NekoUI!
+neko.c.rule_3=3. Dilarang Re-Upload NekoUI ke link apapun yang terdapat MONETISASI ( download NEKO UI Itu gampang, langsung mediafire. )
+neko.c.rule_4=4. Dilarang menggunakan file JSON NekoUI!
+neko.c.rule_5=5. Nemu bug? report ke creator
+neko.c.rule_6=Jika kamu ingin memodifikasi NekoUI / Menggunakan NekoUI sebagai base Resource Packs kamu, kamu bisa dm @Han's404 di discord.

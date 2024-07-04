@@ -1,0 +1,33 @@
+# Main Color Light
+
+seed: #ff3c10ff
+primary: #ff002d9f
+onPrimary: #FFFFFF
+primaryContainer: #ff3c10ff
+onPrimaryContainer: #ff002d9f
+secondary: #ff634a60
+onSecondary: #FFFFFF
+secondaryContainer: #ffc5b4e5
+onSecondaryContainer: #051F1F
+tertiary: #4B607C
+onTertiary: #FFFFFF
+tertiaryContainer: #D3E4FF
+onTertiaryContainer: #041C35
+error: #BA1A1A
+errorContainer: #FFDAD6
+onError: #FFFFFF
+onErrorContainer: #410002
+background: #FAFDFC
+onBackground: #191C1C
+surface: #FAFDFC
+onSurface: #191C1C
+surfaceVariant: #ffe1dae5
+onSurfaceVariant: #3F4948
+outline: #6F7979
+inverseOnSurface: #fff0eff1
+inverseSurface: #2D3131
+inversePrimary: #ff6b00dd
+shadow: #000000
+surfaceTint: #ff001f6a
+outlineVariant: #ffc3bec9
+scrim: #000000

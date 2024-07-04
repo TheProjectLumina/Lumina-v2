@@ -1,0 +1,83 @@
+{
+  "name": "Ghost",
+  "help_id": "ghost",
+  "android_icon": "ic_kitsu",
+  "shortcut_color": "shortcut_green",
+
+  "items": [
+    {
+      "type": "toggle",
+      "path": "pick_custom_distance/enabled",
+      "label": "ExtendedReach",
+      "icon": "ic_alpha_r_box_outline_black_24dp",
+      "items": [
+        {
+          "type": "slider",
+          "path": "pick_custom_distance/distance",
+          "label": "text_distance",
+          "range_float": [4, 4096]
+       },
+       {
+      "type": "toggle",
+      "path": "server/far_bypass/enabled",
+      "label": "Reach Fix"
+       },
+       {
+        "type": "slider",
+          "path": "hitbox_expand/mob_value",
+          "label": "Reach Mobs",
+          "range_float": [2, 20]
+        },
+        {
+          "type": "slider",
+          "path": "hitbox_expand/player_value",
+          "label": "Reach Players",
+          "range_float": [2, 20]
+        }
+      ]
+    },
+    {
+      "type": "toggle",
+      "path": "hitbox_expand/enabled",
+      "label": "ExtendedHitbox",
+      "icon": "ic_sword_black_24dp",
+      "items": [
+        {
+          "type": "slider",
+          "path": "hitbox_expand/player_value",
+          "label": "X",
+          "range_float": [3, 30]
+        },
+        {
+          "type": "slider",
+          "path": "hitbox_expand/player_value",
+          "label": "Y",
+          "range_float": [3, 30]
+        },
+        {
+          "type": "slider",
+          "path": "hitbox_expand/player_value",
+          "label": "Z",
+          "range_float": [3, 30]
+        },
+        {
+         "type": "slider",
+          "path": "pick_custom_distance/distance",
+          "label": "More Range",
+          "range_float": [3, 8]
+          },
+          {
+          "type": "toggle",
+      "path": "server/far_bypass/enabled",
+      "label": "Display Hit Frame"
+       }
+     ]
+   },
+     {
+      "type": "toggle",
+      "path": "movement/no_clip/enabled",
+      "label": "NoClip",
+      "has_shortcut": false
+           }
+        ]
+     }

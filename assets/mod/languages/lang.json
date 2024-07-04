@@ -1,0 +1,32 @@
+{
+	"languages": [
+		{
+			"code": "auto",
+			"lang": "Auto",
+			"translator": null,
+			"icon": "🌐",
+			"ref_link": null
+		},
+		{
+			"code": "en",
+			"lang": "English",
+			"translator": "ToolDroid",
+			"icon": "🇺🇲",
+			"ref_link": null
+		},
+		{
+			"code": "fil",
+			"lang": "Filipino",
+			"translator": "ToolDroid",
+			"icon": "🇵🇭",
+			"ref_link": null
+		},
+		{
+			"code": "vn",
+			"lang": "Vietnamese",
+			"translator": "MineTool VN",
+			"icon": "🇻🇳",
+			"ref_link": null
+		}
+	]
+}

@@ -1,0 +1,80 @@
+
+{
+  "namespace": "bg_animations", 
+  "core": {"type": "image","fill": true, "bilinear": true},
+  "bg_main@core": { "texture": "neko/common_background/bg_main"},
+  "bg_play@core": { "texture": "neko/common_background/bg_playscreen"},
+  "bg_settings@core": { "texture": "neko/common_background/bg_settings"},
+
+  "blur_a": {"type": "image","alpha": "@alpha_uwu", "texture": "ui/neko/uwu/blur", "fill": true, "bilinear": true},
+  "blur_b": {"type": "image","alpha": "@alpha_uwu_2", "texture": "ui/neko/uwu/blur", "fill": true, "bilinear": true},
+  "blur_c": {"type": "image","alpha": "@alpha_uwu_2", "texture": "ui/neko/uwu/notice", "fill": true, "bilinear": true},
+
+  "core_bg": {
+    "type": "panel",
+    "controls": [
+      {
+        "panel_a": {
+          "type": "panel",
+          "bindings": [
+            {
+              "binding_type": "view",
+              "source_control_name": "yaemiko",
+              "source_property_name": "#toggle_state",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "core@neko_c.bg_2": {
+                "fill": true,
+                "alpha": 0.8
+              }
+            },
+            {
+              "bg_main@bg_main": { "alpha": 0 }
+            }
+          ]
+        }
+      },
+      {
+        "panel_b": {
+          "type": "panel",
+          "bindings": [
+            {
+              "binding_type": "view",
+              "source_control_name": "venti",
+              "source_property_name": "#toggle_state",
+              "target_property_name": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "bg_main@bg_main": {}
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  
+  /*///// ANIMATION TEMPLATE /////*/
+  "anim_base": {
+    "anim_type": "offset",
+    "easing": "linear",
+    "duration": "$duration_per_frame",
+    "from": "$anm_offset",
+    "to": "$anm_offset"
+  }, 
+  
+  /*///// CONTENT /////*/
+  "img": {
+    "type": "image", 
+    "bilinear": true,
+    "fill": true, 
+    "size": [ "100%", "100%" ], 
+    "texture": "('ui/neko/uwu/' + $img + '-min' )" //"('ui/neko/uwu/' + $img + '-min' )"
+  }, 
+  
+  /*///// STACK PANEL /////*/

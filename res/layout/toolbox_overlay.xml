@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:theme="@style/AppTheme.AccentPrimary" android:id="@id/linear1" android:background="#10ffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animation="@anim/abc_slide_in_top"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:background="@drawable/colorbg" android:layout_width="582.0dip" android:layout_height="345.0dip" android:layout_centerInParent="true">
+        <androidx.recyclerview.widget.RecyclerView android:gravity="center_horizontal" android:layout_gravity="bottom|center|left" android:id="@id/categories" android:background="@drawable/colorbg2" android:paddingBottom="7.0dip" android:layout_width="180.0dip" android:layout_height="270.0dip" android:layout_marginTop="20.0dip" />
+        <androidx.recyclerview.widget.RecyclerView android:layout_gravity="bottom|center|right" android:id="@id/options" android:paddingLeft="8.0dip" android:paddingRight="4.0dip" android:paddingBottom="4.0dip" android:layout_width="400.0dip" android:layout_height="270.0dip" android:layout_marginTop="20.0dip" />
+        <RelativeLayout android:layout_gravity="right" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="13.0dip" android:layout_marginRight="13.0dip">
+            <ImageView android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/cross-circle_24" android:layout_centerInParent="true" app:tint="#ffffffff" />
+        </RelativeLayout>
+        <TextView android:textAppearance="@style/TextAppearance.AppCompat.Body1" android:gravity="center" android:layout_gravity="center|top" android:id="@id/remaining_time_text" android:background="@drawable/colorbg" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="16.0dip" android:drawablePadding="8.0dip" android:translationX="160.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+        <LinearLayout android:gravity="center" android:layout_gravity="left" android:orientation="horizontal" android:id="@id/cat" android:background="@drawable/colorbg" android:layout_width="190.0dip" android:layout_height="50.0dip" android:layout_margin="10.0dip" android:translationX="300.0dip" android:translationY="2.0dip">
+            <ImageView android:id="@id/settings" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:src="@drawable/settings-sliders_24" app:tint="#ffffffff" />
+            <ImageView android:id="@id/help" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:src="@drawable/browser_24" app:tint="#ffffffff" />
+            <ImageView android:id="@id/discord" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:src="@drawable/discord_24" app:tint="#ffffffff" />
+            <ImageView android:id="@id/lumina_dialog" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:src="@drawable/circle-book-open_24" android:tint="#ffffffff" android:onClick="start" app:tint="#ffffffff" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="left" android:orientation="horizontal" android:id="@id/cat" android:background="@drawable/colorbg" android:layout_width="250.0dip" android:layout_height="50.0dip" android:layout_margin="10.0dip" android:translationX="5.0dip" android:translationY="2.0dip">
+            <ImageView android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_margin="2.0dip" android:src="@drawable/moon-stars_24" android:scaleType="center" android:scaleX="0.8" android:scaleY="0.8" app:tint="#ffffffff" />
+            <MCLIENTGRADIENT android:textSize="20.0sp" android:gravity="center_vertical" android:layout_gravity="left" android:layout_width="150.0dip" android:layout_height="30.0dip" android:layout_margin="3.0dip" android:text="L U M I N A" android:shadowColor="#80000000" android:shadowDx="2.0" android:shadowDy="2.0" android:shadowRadius="2.0" android:translationY="10.0dip" android:fontFamily="@drawable/a" android:textAlignment="center" />
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

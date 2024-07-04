@@ -1,0 +1,235 @@
+{
+  "namespace": "zxyn_main_ui",
+
+
+  "image_uv_animation": {
+    "anim_type": "uv",
+    "duration": 2,
+    "activated": false,
+    "from": "$neko_a",
+    "to": "$neko_a"
+  },
+  
+  "anjim": {
+  "type": "image",
+  "fill": true,
+  "uv_size": [ 500, 200 ],
+  "uv": "@zxyn_main_ui.first_animation",
+  "layer": 31,
+  "texture": "zxyn-core/mainui/uwu_4"
+  },
+
+  "first_animation@zxyn_main_ui.image_uv_animation": { "$neko_a": [ 0, 0] , "next": "@zxyn_main_ui.a_00" },
+    "a_00@zxyn_main_ui.image_uv_animation": { "$neko_a": [ 0, 200], "next": "@zxyn_main_ui.a_01" },
+    "a_01@zxyn_main_ui.image_uv_animation": { "$neko_a": [ 0, 400], "next": "@zxyn_main_ui.a_02" },
+    "a_02@zxyn_main_ui.image_uv_animation": { "$neko_a": [ 0, 600], "next": "@zxyn_main_ui.first_animation" },
+    "a_03@zxyn_main_ui.image_uv_animation": { "$neko_a": [ 0, 800], "next": "@zxyn_main_ui.first_animation" },
+
+  "panel_event": {
+      "type": "panel",
+      "anchor_from": "top_right",
+      "anchor_to": "top_right",
+      "size": [ "100%", 40 ],
+      "controls": [
+        {
+          "panel_event_2": {
+            "type": "stack_panel",
+            "size": [ "100%", "100%" ],
+            "orientation": "vertical",
+            "controls": [
+              {
+                "panel_nya": {
+                  "type": "panel",
+                  "size": [ "100%", 40 ],
+                  "controls": [
+                    {
+                      "anjim@zxyn_main_ui.anjim": {}
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+  },
+  
+  "neko_panel_1": { "type": "panel","size": [ "100%", 28.5 ]},
+  "neko_panel_2": { "type": "panel","size": [ "100%", 32 ]},
+
+  "alpha_0": {
+    "anim_type": "alpha",
+    "duration": 0.5,
+    "from": 1,
+    "to": 0,
+    "next": "@zxyn_main_ui.nunggu"
+  },
+
+  "alpha_1": {
+    "anim_type": "alpha",
+    "duration": 1,
+    "from": 0,
+    "to": 1,
+    "next": "@zxyn_main_ui.alpha_0"
+  },
+
+  "nunggu": {
+    "anim_type": "wait",
+    "duration": 30,
+    "next": "@zxyn_main_ui.alpha_1"
+  },
+
+  "content_button_panel": {
+    "type": "panel",
+    "size": [ 25, "100%" ]
+  },
+
+  "xbox_panel@neko_c.bg_2": {
+    "layer": 2,
+    "alpha": 1,
+    "size": [  "100% - 5px" , "100% - 3px" ],
+
+    "$label_sign_offset|default": [ 0, -1.1 ],
+    "$gaya_font|default": "EudoxusSans-Bold",
+    "$ukuran_font|default": 0.6,
+
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "$warna_text": [ 1.0, 1.0, 1.0 ], //HITAM
+
+    "$panel_img_sign_size": [ 18 , "100%" ],
+
+    "$panel_text_sign_size": [ "fill" , "100%" ],
+    "$panel_text__not_sign_size": [ "fill" , "100%" ],
+
+    "controls": [
+      {
+        "xbox_sign_in": {
+          "type": "stack_panel",
+          "orientation": "horizontal",
+          "size": [ "100%" , "100%" ],
+          "controls": [
+            {
+              "panel_img_sign": {
+                "type": "panel",
+                "size": "$panel_img_sign_size",
+                "controls": [
+                  {
+                    "image": {
+                      "type": "image",
+                      "layer": 11,
+                      "color": "white",
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "size": [ 15, 15 ],
+                      "texture": "textures/neko/main_icon/xbox_b",
+                      "bindings": [
+                        {
+                          "binding_name": "#sign_in_visible",
+                          "binding_name_override": "#visible" 
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "image": {
+                      "type": "image",
+                      "color": "white",
+                      "layer": 11,
+                      "anchor_from": "center",
+                      "anchor_to": "center",
+                      "size": [ 15, 15 ],
+                      "texture": "textures/neko/main_icon/xbox_a",
+                      "bindings": [
+                        {
+                          "binding_name": "( not #sign_in_visible )",
+                          "binding_name_override": "#visible" 
+                        }
+                      ]
+                    }
+                  }
+                ] 
+                /// Kode ini dibuat oleh Han's ( A.k.a Zxyn )
+              }
+            },
+            {
+              "spasi": {
+                "type": "panel",
+                "size": [ 5, 5 ]
+              }
+            },
+            {
+              "panel_text_sign": {
+                "type": "panel",
+                "size": "$panel_text_sign_size",
+                "controls": [
+                  {
+                    "label": {
+                      "type": "label",
+                      "layer": 11,
+                      "offset": "$label_sign_offset",
+                      "size": [ "100%", "default" ],
+                      "alpha": 1,  //"@zxyn_main_ui.alpha_0",
+                      "font_scale_factor": "$ukuran_font",
+                      "font_type": "$gaya_font",
+                      "anchor_from": "left_middle",
+                      "anchor_to": "left_middle",
+                      "color": "$warna_text",
+                      "text": "xbox.sign_text_true",
+                      "bindings": [
+                        {
+                          "binding_name": "( not #sign_in_visible )",
+                          "binding_name_override": "#visible" 
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "label": {
+                      "type": "label",
+                      "layer": 11,
+                      "offset": "$label_sign_offset",
+                      "size": [ "100%", "default" ],
+                      "font_scale_factor": "$ukuran_font",
+                      "font_type": "$gaya_font",
+                      "anchor_from": "left_middle",
+                      "anchor_to": "left_middle",
+                      "color": "$warna_text",
+                      "text": "xbox.sign_text_false",
+                      "bindings": [
+                        {
+                          "binding_name": "#sign_in_visible",
+                          "binding_name_override": "#visible" 
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "zxyn_uwu_ui": {
+    "type": "panel",
+    "size": [ "100%", "fill" ],
+    "controls": [
+      {
+        "1st_main_ui@zxyn_main_core.1st_main_ui": {}
+      }
+    ]
+  },
+
+  "zxyn_ui_never_die": {
+    "type": "stack_panel",
+    "size": [ "100%", "100%" ],
+    "controls": [
+      {
+        "zxyn_uwu_ui@zxyn_main_ui.zxyn_uwu_ui": {}
+      }
+    ]
+  }
+}

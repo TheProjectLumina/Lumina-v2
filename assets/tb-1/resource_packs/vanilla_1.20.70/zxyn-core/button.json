@@ -1,0 +1,68 @@
+/*File made by @Farhan.
+//(c) Jangan gunakan code ini tanpa izin!*/
+
+{
+  "namespace": "x_button",
+
+  "create_new_button_panel@common_buttons.new_ui_binding_button_label": {
+    "layer": 10,
+    "$anchor|default": "middle",
+    "font_type": "MinecraftTen",
+    "font_scale_factor": 1.2,
+    "offset": [ 0 , -1.1 ] //  X , Y
+  },
+  
+  "custom_pause_button@common_buttons.light_text_button": {
+    "size": [ "100%", "100%" ],
+    "$default_button_texture|default": "textures/neko/borderless/core/button_borderless_dark",
+    "$hover_button_texture|default": "textures/neko/borderless/core/button_borderless_lighthover",
+    "$pressed_button_texture|default": "textures/neko/borderless/core/button_borderless_lightpressed",
+    "$locked_button_texture|default": "",
+    "$button_type_panel": "x_button_panel.pause_screen_panel",
+    "$border_visible": false,
+    "$warna_icon_default": [ 1.0, 1.0, 1.0 ],
+    "$warna_icon_saatdihover": [ 1.0, 1.0, 1.0 ],
+    "$warna_icon_saatditekan": [ 1.0, 1.0, 1.0  ],
+    "$warna_icon_saatdikunci": [ 1.00, 0.11, 0.11 ],
+    
+    "$default_text_color|default": [ 1.0, 1.0, 1.0 ],
+    "$hover_text_color|default": [ 0.53, 0.84, 1.00 ],
+    "$pressed_text_color|default": [ 0.72, 0.90, 1.00 ],
+    "$locked_text_color|default": [ 1.00, 0.11, 0.11 ]
+  },  
+
+  "settings_button_pause@x_button.custom_pause_button": {
+    "$glyph_size": [ 15, 15 ],
+    "$glyph_texture": "textures/neko/main_icon/pause_screen_icon/settings",
+    "$pressed_button_name": "button.menu_settings",
+    "$button_text": "menu.settings"
+  },
+
+  "achievements_button_pause@x_button.custom_pause_button": {
+    "$glyph_size": [ 15, 15 ],
+    "$glyph_texture": "textures/neko/main_icon/achievements",
+    "$pressed_button_name": "button.menu_achievements",
+    "$button_text": "menu.achievements"
+  },
+
+  "store_button_pause@x_button.custom_pause_button": {
+    "$glyph_size": [ 15, 15 ],
+    "$glyph_texture": "textures/neko/main_icon/store_icon",
+    "$pressed_button_name": "button.menu_store",
+    "$button_text": "Belanja"
+  },
+
+  "profile_button_pause@x_button.custom_pause_button": {
+    "$glyph_size": [ 15, 15 ],
+    "$glyph_texture": "textures/neko/main_icon/profile_icon",
+    "$pressed_button_name": "button.to_profile_or_skins_screen",
+    "$button_text": "profileScreen.header"
+  },
+
+  "screenshot_pause@x_button.custom_pause_button": {
+    "$glyph_size": [ 15, 15 ],
+    "$glyph_texture": "textures/ui/camera-yo",
+    "$pressed_button_name": "button.screenshot",
+    "$button_text": "Screenshot"
+  }
+}

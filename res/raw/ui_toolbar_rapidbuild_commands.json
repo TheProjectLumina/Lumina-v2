@@ -1,0 +1,36 @@
+{
+  "show_if": {
+    "and": [
+      "rapid_build/enabled",
+      "rapid_build/command_mode"
+    ]
+  },
+
+  "items": [
+    {
+      "type": "toggle",
+      "path": "killaura/enabled",
+      "value": 1,
+      "icon": "sword_24"
+    },
+    {
+      "type": "toggle",
+      "path": "killaura/tp_enabled",
+      "value": 2,
+      "icon": "dice-d6_24"
+    },
+    {
+      "type": "toggle",
+      "path": "xray/player_esp",
+      "value": 3,
+      "icon": "eye_24"
+    },
+
+    {
+      "type": "toggle",
+      "path": "pick_custom_distance/enabled",
+      "value": 4,
+      "icon": "tap_24"
+    }
+  ]
+}

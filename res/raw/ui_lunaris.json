@@ -1,0 +1,17 @@
+{
+    "name": "Lunascript",
+    "help_id": "luna",
+    "android_icon": "dice-d20_24",
+    "shortcut_color": "shortcut_red",
+  
+    "items": [
+     
+{
+    "type": "toggle",
+    "path": "rapid_build/enabled",
+    "label": "PvP Shortcuts (Beta)",
+    "icon": "ic_apps_box_black_24dp",
+    "has_shortcut": "true"
+   }
+]
+}

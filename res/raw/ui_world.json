@@ -1,0 +1,73 @@
+{
+  "name": "category_world",
+  "help_id": "world",
+  "android_icon": "dice-four_24",
+  "shortcut_color": "shortcut_green",
+
+  "items": [
+    {
+      "type": "toggle",
+      "path": "autobuild/no_fall/enabled",
+      "label": "Scaffold",
+      "icon": "ic_arrow_bottom_right_bold_outline_black_24dp"
+    },
+    {
+      "type": "toggle",
+      "path": "movement/air_jump/enabled",
+      "label": "Tower",
+      "icon": "ic_alpha_t_box_outline_black_24dp"
+    },
+    {
+      "type": "toggle",
+      "path": "pick_custom_distance/enabled",
+      "label": "BlockReach",
+      "has_shortcut": false,
+      "items": [
+        {
+          "type": "slider",
+          "path": "pick_custom_distance/distance",
+          "label": "text_distance",
+          "range_float": [8, 4096]
+        }
+      ]
+    },
+    {
+      "type": "toggle",
+      "path": "fullbright/enabled",
+      "label": "s_render_fullbright",
+      "icon": "ic_brightness_black_24dp"
+    },
+    {
+      "type": "toggle",
+      "path": "hitbox_expand/enabled",
+      "label": "Fucker",
+      "icon": "ic_circle_double_black_24dp",
+      "items": [
+        {
+        "type": "toggle",
+      "path": "hitbox_expand/enabled",
+      "label": "Attack Bed [Lifeboat]"
+    },
+    {
+          "type": "slider",
+          "path": "hitbox_expand/player_value",
+          "label": "Range",
+          "range_float": [3, 10]
+        }
+      ]
+    },
+    {
+       "type": "toggle",
+      "path": "server/no_packet/enabled",
+      "label": "FakeLag",
+      "icon": "ic_ghost_black_24dp"
+    },
+    {
+      "type": "toggle",
+      "path": "force_achievements/enabled",
+      "label": "ForceAchievements",
+      "has_shortcut": false
+      }
+    ]
+  }
+ 
