@@ -28,11 +28,6 @@
         },
         {
           "type": "toggle",
-          "path": "server/killaura_bypass/enabled",
-          "label": "Bypass"
-        },
-        {
-          "type": "toggle",
           "path": "xray/player_esp",
           "label": "Hitboxes"
         },
