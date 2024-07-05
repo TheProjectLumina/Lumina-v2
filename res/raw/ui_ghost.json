@@ -16,14 +16,14 @@
           "path": "pick_custom_distance/distance",
           "label": "text_distance",
           "range_float": [4, 4096]
-       },
-       {
-      "type": "toggle",
-      "path": "server/far_bypass/enabled",
-      "label": "Reach Fix"
-       },
-       {
-        "type": "slider",
+        },
+        {
+          "type": "toggle",
+          "path": "server/far_bypass/enabled",
+          "label": "Reach Fix"
+        },
+        {
+          "type": "slider",
           "path": "hitbox_expand/mob_value",
           "label": "Reach Mobs",
           "range_float": [2, 20]
@@ -61,23 +61,17 @@
           "range_float": [3, 30]
         },
         {
-         "type": "slider",
+          "type": "slider",
           "path": "pick_custom_distance/distance",
           "label": "More Range",
           "range_float": [3, 8]
-          },
-          {
+        },
+        {
           "type": "toggle",
-      "path": "server/far_bypass/enabled",
-      "label": "Display Hit Frame"
-       }
-     ]
-   },
-     {
-      "type": "toggle",
-      "path": "movement/no_clip/enabled",
-      "label": "NoClip",
-      "has_shortcut": false
-           }
-        ]
-     }
+          "path": "server/far_bypass/enabled",
+          "label": "Display Hit Frame"
+        }
+      ]
+    }
+  ]
+}
