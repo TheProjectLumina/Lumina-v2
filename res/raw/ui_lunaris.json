@@ -12,6 +12,43 @@
     "label": "PvP Shortcuts (Beta)",
     "icon": "ic_apps_box_black_24dp",
     "has_shortcut": "true"
-   }
+   },
+   {
+    "type": "toggle",
+    "path": "server/fake_lagging/enabled",
+    "label": "Fake Lag (Server)",
+    "has_shortcut": false
+  },
+  {
+    "type": "toggle",
+    "path": "crits/enabled",
+    "label": "Criticals",
+    "has_shortcut": false
+  },
+  {
+    "type": "toggle",
+    "path": "server/killaura_bypass/enabled",
+    "label": "KillAura (Disabler)",
+    "has_shortcut": false
+  },
+  {
+    "type": "toggle",
+    "path": "autobuild/no_fall/pitch",
+    "label": "Scaffload (Disabler)",
+    "has_shortcut": false
+  },
+  {
+    "type": "toggle",
+    "path": "movement/anti_knockback_bypass/enabled",
+    "label": "Anti Knockback Bypass",
+    "has_shortcut": false
+  },
+  {
+    "type": "toggle",
+    "path": "killaura/get_action",
+    "label": "Killaura FIX",
+    "has_shortcut": false
+  }
+
 ]
 }
