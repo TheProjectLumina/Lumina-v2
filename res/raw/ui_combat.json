@@ -1,145 +1,137 @@
 {
-  "name": "category_combat",
-  "help_id": "combat",
-  "android_icon": "sword_24",
-  "shortcut_color": "shortcut_red",
+    "name": "category_combat",
+    "help_id": "combat",
+    "android_icon": "sword_24",
+    "shortcut_color": "shortcut_red",
 
-  "items": [
-   {
-      "type": "toggle",
-      "path": "killaura/enabled",
-      "label": "s_combat_killaura",
-      "icon": "ic_sword_cross_black_24dp",
-      "items": [
-        {
-          "type": "toggle",
-          "path": "killaura/tp_enabled",
-          "label": "TP-Aura"
+    "items": [{
+            "type": "toggle",
+            "path": "killaura/enabled",
+            "label": "s_combat_killaura",
+            "icon": "ic_sword_cross_black_24dp",
+            "items": [{
+                    "type": "toggle",
+                    "path": "killaura/tp_enabled",
+                    "label": "TP-Aura"
+                },
+                {
+                    "type": "toggle",
+                    "path": "killaura/attack_mobs",
+                    "label": "s_combat_killaura_attack_mobs"
+                },
+                {
+                    "type": "toggle",
+                    "path": "killaura/attack_players",
+                    "label": "s_combat_killaura_attack_player"
+                },
+                {
+                    "type": "toggle",
+                    "path": "xray/player_esp",
+                    "label": "Hitboxes"
+                },
+                {
+                    "type": "slider",
+                    "path": "killaura/frequency",
+                    "label": "s_combat_killaura_interval",
+                    "values": [20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 12, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+                }
+            ]
         },
         {
-          "type": "toggle",
-          "path": "killaura/attack_mobs",
-          "label": "s_combat_killaura_attack_mobs"
+            "type": "toggle",
+            "path": "server/far_bypass/enabled",
+            "label": "s_world_far_bypass",
+            "icon": "ic_alpha_r_box_outline_black_24dp",
+            "items": [{
+                    "type": "toggle",
+                    "path": "pick_custom_distance/enabled",
+                    "label": "s_world_pick_distance"
+                },
+                {
+                    "type": "slider",
+                    "path": "pick_custom_distance/distance",
+                    "label": "text_distance",
+                    "range_float": [1, 100]
+                },
+                {
+                    "type": "toggle",
+                    "path": "hitbox_expand/enabled",
+                    "label": "Click"
+                },
+                {
+                    "type": "slider",
+                    "path": "hitbox_expand/player_value",
+                    "label": "Accuracy Ratio",
+                    "range_float": [1, 100]
+                }
+            ]
         },
         {
-          "type": "toggle",
-          "path": "killaura/attack_players",
-          "label": "s_combat_killaura_attack_player"
+            "type": "toggle",
+            "path": "movement/anti_knockback/enabled",
+            "label": "s_combat_anti_knockback",
+            "icon": "ic_file_download_black_24dp"
         },
         {
-          "type": "toggle",
-          "path": "xray/player_esp",
-          "label": "Hitboxes"
+            "type": "toggle",
+            "path": "auto_bow/enabled",
+            "label": "s_combat_auto_bow",
+            "icon": "ic_bullseye_arrow_black_24dp"
         },
         {
-          "type": "slider",
-          "path": "killaura/frequency",
-          "label": "s_combat_killaura_interval",
-          "values": [20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 12, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
-        }
-      ]
-    },
-    {
-      "type": "toggle",
-      "path": "server/far_bypass/enabled",
-      "label": "s_world_far_bypass",
-      "icon": "ic_alpha_r_box_outline_black_24dp",
-      "items": [
-        {
-          "type": "toggle",
-          "path": "pick_custom_distance/enabled",
-          "label": "s_world_pick_distance"
+            "type": "action",
+            "path": "tp_player",
+            "label": "s_combat_tp_to_player",
+            "has_shortcut": false
         },
         {
-          "type": "slider",
-          "path": "pick_custom_distance/distance",
-          "label": "text_distance",
-          "range_float": [1, 100]
-    },
-    {
-           "type": "toggle",
+            "type": "toggle",
             "path": "hitbox_expand/enabled",
-            "label": "Click"
-         },
-          {
-          "type": "slider",
-          "path": "hitbox_expand/player_value",
-          "label": "Accuracy Ratio",
-          "range_float": [1, 100]
-        }
-      ]
-    },
-    {
-      "type": "toggle",
-      "path": "movement/anti_knockback/enabled",
-      "label": "s_combat_anti_knockback",
-      "icon": "ic_file_download_black_24dp"
-    },
-    {
-      "type": "toggle",
-      "path": "auto_bow/enabled",
-      "label": "s_combat_auto_bow",
-      "icon": "ic_bullseye_arrow_black_24dp"
-    },
-    {
-      "type": "action",
-      "path": "tp_player",
-      "label": "s_combat_tp_to_player",
-      "has_shortcut": false
-    },
-    {
-      "type": "toggle",
-      "path": "hitbox_expand/enabled",
-      "label": "s_combat_hitbox_expand",
-      "icon": "ic_sword_black_24dp",
-      "items": [
-        {
-          "type": "slider",
-          "path": "hitbox_expand/mob_value",
-          "label": "s_combat_hitbox_expand_mob",
-          "range_float": [1, 8]
+            "label": "s_combat_hitbox_expand",
+            "icon": "ic_sword_black_24dp",
+            "items": [{
+                    "type": "slider",
+                    "path": "hitbox_expand/mob_value",
+                    "label": "s_combat_hitbox_expand_mob",
+                    "range_float": [1, 8]
+                },
+                {
+                    "type": "slider",
+                    "path": "hitbox_expand/player_value",
+                    "label": "s_combat_hitbox_expand_player",
+                    "range_float": [1, 8]
+                }
+            ]
         },
         {
-          "type": "slider",
-          "path": "hitbox_expand/player_value",
-          "label": "s_combat_hitbox_expand_player",
-          "range_float": [1, 8]
-        }
-      ]
-    },
-    {
-      "type": "toggle",
-      "path": "pick_custom_distance/enabled",
-      "label": "Reach",
-      "icon": "ic_alpha_r_box_outline_black_24dp",
-      "items": [
+            "type": "toggle",
+            "path": "pick_custom_distance/enabled",
+            "label": "Reach",
+            "icon": "ic_alpha_r_box_outline_black_24dp",
+            "items": [{
+                "type": "slider",
+                "path": "pick_custom_distance/distance",
+                "label": "text_distance",
+                "range_float": [1, 4096]
+            }]
+        },
         {
-          "type": "slider",
-          "path": "pick_custom_distance/distance",
-          "label": "text_distance",
-          "range_float": [1, 4096]
-         }
-       ]
-     },
-         {
-      "type": "toggle",
-      "path": "switcher/enabled",
-      "label": "s_combat_switcher",
-      "icon": "ic_swap_horizontal_variant_black_24dp",
-      "items": [
+            "type": "toggle",
+            "path": "switcher/enabled",
+            "label": "s_combat_switcher",
+            "icon": "ic_swap_horizontal_variant_black_24dp",
+            "items": [{
+                "type": "slider",
+                "path": "switcher/slot_count",
+                "label": "s_combat_switcher_slot_count",
+                "range_float": [1, 9]
+            }]
+        },
         {
-          "type": "slider",
-          "path": "switcher/slot_count",
-          "label": "s_combat_switcher_slot_count",
-          "range_float": [1, 9]
+            "type": "toggle",
+            "path": "auto_armor/enabled",
+            "label": "s_combat_auto_armor",
+            "has_shortcut": false
         }
-      ]
-    },
-    {
-      "type": "toggle",
-      "path": "auto_armor/enabled",
-      "label": "s_combat_auto_armor",
-      "has_shortcut": false
-    }
-  ]
+    ]
 }
