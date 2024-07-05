@@ -34,7 +34,7 @@
         {
             "type": "toggle",
             "path": "autobuild/no_fall/pitch",
-            "label": "Scaffload (Disabler - Broken)",
+            "label": "Scaffload (Disabler)",
             "has_shortcut": false
         },
         {
