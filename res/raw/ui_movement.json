@@ -3,7 +3,6 @@
   "help_id": "universal-access_24",
   "android_icon": "universal-access_24",
   "shortcut_color": "shortcut_yellow",
-
   "items": [
     {
       "type": "toggle",
@@ -13,27 +12,8 @@
     },
     {
       "type": "toggle",
-      "path": "movement/no_clip/enabled",
-      "label": "s_movement_no_clip",
-      "icon": "ic_square_off_outline_black_24dp"
-    },
-    {
-      "type": "toggle",
-      "path": "movement/phase/enabled",
-      "label": "s_movement_phase",
-      "icon": "ic_border_left_variant_black_24dp",
-      "items": [
-         {
-      "type": "toggle",
-      "path": "tap_teleport/enabled",
-      "label": "Hive Tp"
-        }
-       ]
-      },
-        {
-      "type": "toggle",
       "path": "movement/air_jump/enabled",
-      "label": "s_movement_air_jump",
+      "label": "Air Jump(Malfunction)",
       "icon": "ic_cloud_upload_black_24dp"
     },
     {
@@ -108,12 +88,11 @@
       "has_shortcut": false,
       "items": [
         {
-       "type": "toggle",
-      "path": "effects/slow_falling/enabled",
-      "label": "s_movement_slow_falling"
-          }
-        ]
-       }
+          "type": "toggle",
+          "path": "effects/slow_falling/enabled",
+          "label": "s_movement_slow_falling"
+        }
       ]
     }
-   
+  ]
+}
