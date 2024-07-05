@@ -3,71 +3,58 @@
   "help_id": "world",
   "android_icon": "dice-four_24",
   "shortcut_color": "shortcut_green",
-
   "items": [
     {
       "type": "toggle",
       "path": "autobuild/no_fall/enabled",
-      "label": "Scaffold",
+      "label": "s_world_bridge_builder",
       "icon": "ic_arrow_bottom_right_bold_outline_black_24dp"
     },
     {
       "type": "toggle",
-      "path": "movement/air_jump/enabled",
-      "label": "Tower",
-      "icon": "ic_alpha_t_box_outline_black_24dp"
-    },
-    {
-      "type": "toggle",
-      "path": "pick_custom_distance/enabled",
-      "label": "BlockReach",
-      "has_shortcut": false,
+      "path": "autobuild/fast_destroy/enabled",
+      "label": "s_world_fast_destroy",
+      "icon": "ic_texture_box_black_24dp",
       "items": [
         {
           "type": "slider",
-          "path": "pick_custom_distance/distance",
-          "label": "text_distance",
-          "range_float": [8, 4096]
+          "path": "autobuild/fast_destroy/size",
+          "label": "Size",
+          "values": [3, 5, 7, 10, 20, 30, 40, 50]
         }
       ]
     },
     {
       "type": "toggle",
-      "path": "fullbright/enabled",
-      "label": "s_render_fullbright",
-      "icon": "ic_brightness_black_24dp"
-    },
-    {
-      "type": "toggle",
-      "path": "hitbox_expand/enabled",
-      "label": "Fucker",
-      "icon": "ic_circle_double_black_24dp",
+      "path": "effects/haste/enabled",
+      "label": "s_world_haste_effect",
+      "icon": "ic_pickaxe_black_24dp",
       "items": [
         {
-        "type": "toggle",
-      "path": "hitbox_expand/enabled",
-      "label": "Attack Bed [Lifeboat]"
-    },
-    {
           "type": "slider",
-          "path": "hitbox_expand/player_value",
-          "label": "Range",
-          "range_float": [3, 10]
+          "path": "effects/haste/amplifier",
+          "label": "effect_amplifier",
+          "values": [1, 2, 5, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 500]
         }
       ]
     },
     {
-       "type": "toggle",
-      "path": "server/no_packet/enabled",
-      "label": "FakeLag",
-      "icon": "ic_ghost_black_24dp"
-    },
-    {
       "type": "toggle",
-      "path": "force_achievements/enabled",
-      "label": "ForceAchievements",
+      "path": "movement/no_clip/enabled",
+      "label": "NoClip",
       "has_shortcut": false
-      }
-    ]
-  }
- 
+    },
+    {
+      "type": "toggle",
+      "path": "movement/phase/enabled",
+      "label": "s_movement_phase",
+      "icon": "ic_border_left_variant_black_24dp"
+    },
+    {
+      "type": "toggle",
+      "path": "anti_lag/enabled",
+      "label": "Anti Lag (Alpha)",
+      "has_shortcut": false
+    }
+  ]
+}
