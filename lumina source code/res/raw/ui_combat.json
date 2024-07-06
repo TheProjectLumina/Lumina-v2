@@ -93,13 +93,13 @@
                     "type": "slider",
                     "path": "hitbox_expand/mob_value",
                     "label": "s_combat_hitbox_expand_mob",
-                    "range_float": [1, 8]
+                    "range_float": [1, 10]
                 },
                 {
                     "type": "slider",
                     "path": "hitbox_expand/player_value",
                     "label": "s_combat_hitbox_expand_player",
-                    "range_float": [1, 8]
+                    "range_float": [1, 10]
                 }
             ]
         },
