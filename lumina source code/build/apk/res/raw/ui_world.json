@@ -1,0 +1,60 @@
+{
+  "name": "category_world",
+  "help_id": "world",
+  "android_icon": "dice-four_24",
+  "shortcut_color": "shortcut_green",
+  "items": [
+    {
+      "type": "toggle",
+      "path": "autobuild/no_fall/enabled",
+      "label": "s_world_bridge_builder",
+      "icon": "ic_arrow_bottom_right_bold_outline_black_24dp"
+    },
+    {
+      "type": "toggle",
+      "path": "autobuild/fast_destroy/enabled",
+      "label": "s_world_fast_destroy",
+      "icon": "ic_texture_box_black_24dp",
+      "items": [
+        {
+          "type": "slider",
+          "path": "autobuild/fast_destroy/size",
+          "label": "Size",
+          "values": [3, 5, 7, 10, 20, 30, 40, 50]
+        }
+      ]
+    },
+    {
+      "type": "toggle",
+      "path": "effects/haste/enabled",
+      "label": "s_world_haste_effect",
+      "icon": "ic_pickaxe_black_24dp",
+      "items": [
+        {
+          "type": "slider",
+          "path": "effects/haste/amplifier",
+          "label": "effect_amplifier",
+          "values": [1, 2, 5, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 500]
+        }
+      ]
+    },
+    {
+      "type": "toggle",
+      "path": "movement/no_clip/enabled",
+      "label": "NoClip",
+      "has_shortcut": false
+    },
+    {
+      "type": "toggle",
+      "path": "movement/phase/enabled",
+      "label": "s_movement_phase",
+      "icon": "ic_border_left_variant_black_24dp"
+    },
+    {
+      "type": "toggle",
+      "path": "anti_lag/enabled",
+      "label": "Anti Lag (Alpha)",
+      "has_shortcut": false
+    }
+  ]
+}

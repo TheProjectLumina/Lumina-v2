@@ -2501,7 +2501,6 @@
     <public type="raw" name="ui_chat" id="0x7f0f0003" />
     <public type="raw" name="ui_combat" id="0x7f0f0004" />
     <public type="raw" name="ui_movement" id="0x7f0f0005" />
-    <public type="raw" name="ui_render" id="0x7f0f0006" />
     <public type="raw" name="ui_toolbar_rapidbuild_commands" id="0x7f0f0007" />
     <public type="raw" name="ui_toolbar_rapidbuild_normal" id="0x7f0f0008" />
     <public type="raw" name="ui_world" id="0x7f0f0009" />

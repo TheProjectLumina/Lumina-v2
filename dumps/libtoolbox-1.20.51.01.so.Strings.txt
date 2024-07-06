@@ -1,0 +1,4 @@
+Offset	Size	Entropy	Status	Name
+00000000	000ad000	6.65420	packed	PT_LOAD(0)
+000ac000	000030a0	2.90460	not packed	PT_LOAD(1)
+000af0a0	000008f8	3.00396	not packed	

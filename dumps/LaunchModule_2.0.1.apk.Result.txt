@@ -1,0 +1,52 @@
+APK
+    Virtual machine: JVM
+    Language: BASIC
+    Language: Kotlin
+    Library: Basic4Android
+    Sign tool: APK Signature Scheme(v2)
+    Archive record[lib/arm64-v8a/libtoolbox-1.20.51.01.so]: ELF64
+        Operation system: Android(5.0)[AARCH64, 64-bit, DYN]
+        Compiler: GCC(4.9.x 20150123 (prerelease))
+        Compiler: Android clang(9.0.8)
+        Language: C/C++
+        Tool: Android SDK(API 21(Android 5.0))
+        Tool: Android NDK(r21(6113669))
+    Archive record[lib/arm64-v8a/libtoolbox-1.20.80.05.so]: ELF64
+        Operation system: Android(5.0)[AARCH64, 64-bit, DYN]
+        Compiler: GCC(4.9.x 20150123 (prerelease))
+        Compiler: Android clang(9.0.8)
+        Language: C/C++
+        Tool: Android SDK(API 21(Android 5.0))
+        Tool: Android NDK(r21(6113669))
+    Archive record[lib/arm64-v8a/libyurai.so]: ELF64
+        Operation system: Android(5.0)[AARCH64, 64-bit, DYN]
+        Linker: LDD(14.0.6)
+        Compiler: Android clang(14.0.6)
+        Language: C/C++
+        Tool: Android NDK(r25b(8937393))
+        Tool: Android SDK(API 21(Android 5.0))
+    Archive record[lib/arm64-v8a/libtoolbox-1.20.81.01.so]: ELF64
+        Operation system: Android(5.0)[AARCH64, 64-bit, DYN]
+        Compiler: Android clang(9.0.8)
+        Compiler: GCC(4.9.x 20150123 (prerelease))
+        Language: C/C++
+        Tool: Android SDK(API 21(Android 5.0))
+        Tool: Android NDK(r21(6113669))
+    Archive record[lib/armeabi-v7a/libgnustl_shared.so]: ELF32
+        Operation system: Unix(0)[ARM, 32-bit, DYN]
+        Linker: gold(1.11)
+        Compiler: GCC(4.9.x 20150123 (prerelease))
+        Language: C/C++
+    Archive record[classes.dex]: DEX
+        Operation system: Android(4.0.1-4.0.2)
+        Compiler: dexlib2
+        Language: Dalvik
+        Tool: Android SDK(API 14)
+        Protector: Proguard
+    Archive record[lib/armeabi-v7a/libyurai.so]: ELF32
+        Operation system: Android(4.4-4.4.4)[ARM, 32-bit, DYN]
+        Linker: LDD(14.0.6)
+        Compiler: Android clang(14.0.6)
+        Language: C/C++
+        Tool: Android NDK(r25b(8937393))
+        Tool: Android SDK(API 19(Android 4.4-4.4.4))

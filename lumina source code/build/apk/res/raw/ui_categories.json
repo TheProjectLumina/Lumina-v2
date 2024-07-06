@@ -1,0 +1,4 @@
+{
+  "categories": ["movement", "world", "visual", "misc", "ghost", "inv", "combat", "chat", "lunaris"],
+  "toolbars": ["rapidbuild_normal", "rapidbuild_commands", "lunatic"]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Misc",
+  "help_id": "misc",
+  "android_icon": "module_24",
+  "shortcut_color": "shortcut_indigo",
+
+  "items": [
+    {
+       "type": "toggle",
+      "path": "server/no_packet/enabled",
+      "label": "s_movement_blink",
+      "icon": "ic_ghost_black_24dp"
+    },
+    {
+       "type": "toggle",
+      "path": "freecam/enabled",
+      "label": "FreeCam",
+      "icon": "ic_cctv_black_24dp"
+    },
+    {
+      "type": "toggle",
+      "path": "cheststealer/enabled",
+      "label": "ChestStealer",
+      "icon": "ic_transfer_black_24dp"
+    },
+    {
+       "type": "toggle",
+      "path": "nbt_editor/enabled",
+      "label": "NBT",
+      "has_shortcut": false
+      }
+   ]
+}

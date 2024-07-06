@@ -1,0 +1,36 @@
+File name: /home/lodingglue/files/github/luminape/lumina source code/lib/arm64-v8a/libtoolbox-1.20.51.01.so
+Size: 719256(702.40 kB)
+MD5: 89149ab54e3773f5f6c250cd21fbfc18
+SHA1: d0c7f7aae744722794eb024006547a4ba36d8373
+Entropy: 6.61632(packed)
+File type: ELF64
+Operation system: Android
+Architecture: AARCH64
+Mode: 64-bit
+Type: DYN
+Endianness: LE
+Entry point(Address): 84f0
+Entry point(Offset): 84f0
+Entry point(Relative address): 84f0
+Entry point(Bytes): f30f1ef8fd7b01a9fd4300915305009073822191e00313aa12170094fd7b41a9200000d0220500b0
+Entry point(Signature): f30f1ef8fd7b01a9fd4300915305009073822191e00313aa12170094fd7b41a9200000d0220500b0
+Entry point(Signature)(Rel): f30f1ef8fd7b01a9fd4300915305009073822191e00313aa12170094fd7b41a9200000d0220500b0
+ident_mag: 464c457f
+ident_class: 02
+ident_data: 01
+ident_version: 01
+ident_osabi: 00
+ident_abiversion: 00
+type: 0003
+machine: 00b7
+version: 00000001
+entry: 00000000000084f0
+phoff: 0000000000000040
+shoff: 00000000000af298
+flags: 00000000
+ehsize: 0040
+phentsize: 0038
+phnum: 0008
+shentsize: 0040
+shnum: 001c
+shstrndx: 001b

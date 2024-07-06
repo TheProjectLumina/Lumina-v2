@@ -1,0 +1,19 @@
+{
+  "name": "Inventory",
+  "help_id": "inv",
+  "android_icon": "square-plus_24",
+  "shortcut_color": "shortcut_blue",
+  "items": [
+    {
+      "type": "action",
+      "path": "lumina_on_top",
+      "label": "Only local worlds"
+    },
+    {
+      "type": "action",
+      "path": "enchant",
+      "label": "s_world_enchant",
+      "icon": "ic_auto_fix_black_24dp"
+    }
+  ]
+}

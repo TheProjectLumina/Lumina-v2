@@ -1,0 +1,2308 @@
+Offset	Size	Type	String
+00001441	0e	A	__cxa_finalize
+00001450	0c	A	__cxa_atexit
+0000145d	11	A	__cxa_guard_abort
+0000146f	13	A	__cxa_guard_acquire
+00001483	13	A	__cxa_guard_release
+00001497	14	A	__gxx_personality_v0
+000014ac	10	A	__stack_chk_fail
+000014bd	06	A	dladdr
+000014c4	06	A	dlopen
+000014cb	05	A	dlsym
+000014d1	18	A	_ZNSt11logic_errorC2EPKc
+000014ea	17	A	_ZNSt12length_errorD1Ev
+00001502	1c	A	_ZNSt6__ndk112__next_primeEm
+0000151f	24	A	_ZNSt6__ndk115recursive_mutex4lockEv
+00001544	26	A	_ZNSt6__ndk115recursive_mutex6unlockEv
+0000156b	21	A	_ZNSt6__ndk115recursive_mutexC1Ev
+0000158d	21	A	_ZNSt6__ndk115recursive_mutexD1Ev
+000015af	25	A	_ZTVN10__cxxabiv117__class_type_infoE
+000015d5	28	A	_ZTVN10__cxxabiv120__si_class_type_infoE
+000015fe	14	A	_ZTVSt12length_error
+00001613	06	A	_ZdlPv
+0000161a	05	A	_Znwm
+00001620	18	A	__cxa_allocate_exception
+00001639	14	A	__cxa_free_exception
+0000164e	0b	A	__cxa_throw
+0000165a	06	A	memcpy
+00001661	06	A	strchr
+00001668	06	A	strlen
+0000166f	17	A	_ZNKSt9exception4whatEv
+00001687	17	A	_ZNSt12out_of_rangeD1Ev
+0000169f	33	A	_ZNSt6__ndk119__shared_weak_count14__release_weakEv
+000016d3	13	A	_ZNSt9exceptionD2Ev
+000016e7	0f	A	_ZSt9terminatev
+000016f7	14	A	_ZTVSt12out_of_range
+0000170c	11	A	__cxa_begin_catch
+0000171e	12	A	__cxa_pure_virtual
+00001731	06	A	memcmp
+00001738	07	A	memmove
+00001740	28	A	_ZNKSt6__ndk16locale9use_facetERNS0_2idE
+00001769	1f	A	_ZNKSt6__ndk18ios_base6getlocEv
+00001789	19	A	_ZNSt6__ndk15ctypeIcE2idE
+000017a3	17	A	_ZNSt6__ndk16localeC1Ev
+000017bb	17	A	_ZNSt6__ndk16localeD1Ev
+000017d3	4b	A	_ZNSt6__ndk17num_putIcNS_19ostreambuf_iteratorIcNS_11char_traitsIcEEEEE2idE
+0000181f	3a	A	_ZNSt6__ndk18ios_base33__set_badbit_and_consider_rethrowEv
+0000185a	1d	A	_ZNSt6__ndk18ios_base4initEPv
+00001878	1d	A	_ZNSt6__ndk18ios_base5clearEj
+00001896	19	A	_ZNSt6__ndk18ios_baseD2Ev
+000018b0	19	A	_ZSt18uncaught_exceptionv
+000018ca	13	A	__android_log_print
+000018de	0f	A	__cxa_end_catch
+000018ee	06	A	memset
+000018f5	08	A	mprotect
+000018fe	07	A	sysconf
+00001906	27	A	_ZNSt6__ndk16chrono12steady_clock3nowEv
+0000192e	19	A	_ZNSt6__ndk15mutex4lockEv
+00001948	1b	A	_ZNSt6__ndk15mutex6unlockEv
+00001964	16	A	_ZNSt6__ndk15mutexD1Ev
+0000197b	06	A	memchr
+00001982	06	A	atan2f
+00001989	05	A	atanf
+0000198f	05	A	fmodf
+00001995	07	A	sincosf
+0000199d	07	A	inflate
+000019a5	0a	A	inflateEnd
+000019b0	0c	A	inflateInit_
+000019c2	13	A	AInputEvent_getType
+000019d6	13	A	AKeyEvent_getAction
+000019ea	14	A	AKeyEvent_getKeyCode
+000019ff	16	A	AKeyEvent_getMetaState
+00001a16	0a	A	JNI_OnLoad
+00001a21	2e	A	_ZNSt6__ndk118condition_variable10notify_allEv
+00001a50	44	A	_ZNSt6__ndk118condition_variable4waitERNS_11unique_lockINS_5mutexEEE
+00001a95	24	A	_ZNSt6__ndk118condition_variableD1Ev
+00001aba	05	A	clone
+00001ac0	11	A	eglGetProcAddress
+00001ad2	19	A	ANativeWindow_fromSurface
+00001aec	15	A	ANativeWindow_release
+00001b02	18	A	AndroidBitmap_lockPixels
+00001b1b	1a	A	AndroidBitmap_unlockPixels
+00001b36	16	A	eglCreateWindowSurface
+00001b4d	11	A	eglDestroySurface
+00001b5f	0d	A	eglGetDisplay
+00001b6d	11	A	yurai_delete_hook
+00001b7f	0a	A	yurai_hook
+00001b8a	16	A	AAssetManager_fromJava
+00001ba1	06	A	fclose
+00001ba8	05	A	fopen
+00001bae	05	A	fread
+00001bb4	06	A	fwrite
+00001bbb	0c	A	gettimeofday
+00001bc8	11	A	libjnigraphics.so
+00001bda	09	A	libEGL.so
+00001be4	06	A	munmap
+00001beb	1a	A	_ZNSt13runtime_errorC1EPKc
+00001c06	18	A	_ZNSt13runtime_errorD1Ev
+00001c24	06	A	fscanf
+00001c30	06	A	malloc
+00001c37	07	A	realloc
+00001c3f	0c	A	__strlen_chk
+00001c4c	06	A	calloc
+00001c5d	07	A	fprintf
+00001c65	06	A	strcmp
+00001c6c	06	A	sscanf
+00001c73	07	A	strncmp
+00001c7b	06	A	fflush
+00001c82	0f	A	__vsnprintf_chk
+00001c92	0f	A	dl_iterate_phdr
+00001ca2	15	A	pthread_rwlock_rdlock
+00001cb8	15	A	pthread_rwlock_unlock
+00001cce	15	A	pthread_rwlock_wrlock
+00001ce4	4b	A	_ZNSt6__ndk17num_getIcNS_19istreambuf_iteratorIcNS_11char_traitsIcEEEEE2idE
+00001d30	3b	A	_ZNSt6__ndk18ios_base34__set_failbit_and_consider_rethrowEv
+00001d6c	0d	A	__cxa_rethrow
+00001d7a	0c	A	__memcpy_chk
+00001d87	0a	A	localeconv
+00001d92	09	A	vsnprintf
+00001d9c	06	A	_ZdaPv
+00001da3	05	A	_Znam
+00001da9	0c	A	__strchr_chk
+00001db6	0e	A	__vsprintf_chk
+00001dc5	07	A	strpbrk
+00001dcd	11	A	libminecraftpe.so
+00001ddf	0d	A	libandroid.so
+00001ded	09	A	liblog.so
+00001df7	07	A	libz.so
+00001dff	0b	A	libyurai.so
+00001e0b	07	A	__errno
+00001e13	08	A	__open_2
+00001e1c	0a	A	__read_chk
+00001e27	07	A	libc.so
+00001e2f	12	A	pthread_key_delete
+00001e42	12	A	pthread_key_create
+00001e55	14	A	pthread_mutex_unlock
+00001e6a	12	A	pthread_mutex_lock
+00001e7d	0e	A	pthread_create
+00001e8c	13	A	pthread_setspecific
+00001ea0	13	A	pthread_getspecific
+00001eb4	0c	A	pthread_once
+00001ec1	08	A	libdl.so
+00001eca	07	A	libm.so
+00001ed2	10	A	libc++_shared.so
+00001ee3	18	A	libtoolbox-1.20.51.01.so
+00001efc	07	A	TOOLBOX
+0000a8a8	05	A	hzS5
+0000bd14	05	A	hzS5
+0000e749	05	A	zSh
+0000ebc4	05	A	L@8)
+0000ebcf	05	A	Jk}
+0000ed00	05	A	jrSi
+0000ed25	06	A	80.J}
+0000efb6	06	A	Jk}
+0000efc8	05	A	L@8)
+0000efd3	05	A	Jk}
+0000f1ae	06	A	Jk}
+0000f1c0	05	A	L@8)
+0000f1cb	05	A	Jk}
+0000f45a	06	A	JJ}
+0000f477	05	A	JJ}
+0000f596	05	A	*H@
+0000f849	05	A	zSh
+0000fc36	06	A	"@ !
+0000fc53	06	A	  (
+00010402	06	A	"@ !
+0001041f	06	A	  (
+0001088a	06	A	Jk}
+0001089c	05	A	L@8)
+000108a7	05	A	Jk}
+000115cd	06	A	80.J}
+000116f9	06	A	80.J}
+0001187d	06	A	80.J}
+00011a09	06	A	80.J}
+00011b99	06	A	80.J}
+00011d25	06	A	80.J}
+00011eb5	06	A	80.J}
+000126c1	08	A	QD-YE-B
+000126f6	0a	A	%B8'c80
+00012701	0b	A	8!A83b84
+00012725	0b	A	85!(#B('
+00012746	05	A	&I}`
+000128db	06	A	Th&E)(
+00012923	05	A	4h&S)
+00012ba7	05	A	=B(&
+00012bb2	0a	A	)c('B(0
+00012bd5	07	A	G-c(1
+00012bdd	0b	A	(2B(%c(&
+00012bfe	05	A	&I}`
+00012c5c	05	A	hBC9
+00012c9c	06	A	H{ShB
+00012d1b	05	A	7hBA9
+00012d38	05	A	hBA9H
+00012e58	05	A	h@)
+00012ef5	08	A	QD-YE-!
+00012f2d	0b	A	($!('B(0
+00012f41	08	A	AG-c(1r
+00012f50	18	A	!(3B(4c(5!($B('c(%
+00012f7a	05	A	&I}`
+00013156	05	A	C)U'@
+00013219	07	A	(&!(3
+00013232	07	A	+B(&f
+0001323a	06	A	+c(&
+0001324d	07	A	($!(%
+00013255	0b	A	F-B(&c('
+00013265	07	A	($!(%
+0001326e	0b	A	&B(&c('*
+00013282	05	A	&I}`
+000132e4	05	A	h#q9H
+0001331c	08	A	@9 a9!
+00013555	0f	A	($!(%B(&c('
+00013585	0f	A	(0!(1B(2c(3
+00013595	0f	A	($!(%B(&c('
+000135b2	05	A	&I}`
+00014075	08	A	@9(@9(
+00014085	08	A	@9(@9(
+00014095	08	A	@9(@9(
+000140a5	08	A	 @9( @9(
+000140b5	08	A	$@9($@9(
+000140c5	08	A	(@9((@9(
+000140d5	08	A	,@9(,@9(
+000140e5	08	A	0@9(0@9(
+000140f5	08	A	4@9(4@9(
+00014105	08	A	8@9(8@9(
+00014113	05	A	9(<@9
+0001414f	0b	A	8#"nc nc`
+00014160	10	A	dT%OeT.OdD%oeD.o
+00014185	09	A	!nDT+Oc
+00014193	05	A	nDD+o
+000141a1	07	A	dN%`N
+000141a9	07	A	"nb!n
+000141b1	05	A	$n#@
+000141b7	05	A	nAT!O
+000141c0	0a	A	AD!obT(O5
+00014b36	05	A	A9J9G
+00014b3f	09	A	qJ!@9D@z
+00015748	07	A	H @9J,A
+00015d89	08	A	a@9)!@9?
+00015d93	05	A	qD@z
+000160c9	08	A	I@9)!@9?
+000160d3	05	A	qD@z
+000166ee	06	A	"@ !
+0001670b	06	A	  (
+00016baa	07	A	"@ !e
+00016bc7	06	A	  (
+00017186	0a	A	.! @ 
+0001719b	05	A	*B#
+000171d3	06	A	T ! a
+00017214	05	A	J!W
+00017233	05	A	N+( 
+000172f5	0f	A	($!(%B(&c('
+00017325	0f	A	(0!(1B(2c(3
+00017335	0f	A	($!(%B(&c('
+00017352	05	A	&(}`
+000174a8	05	A	La@9_
+000174ec	05	A	-`@9
+00017538	05	A	Ka@9K
+00017597	05	A	THa@9
+00017741	05	A	a@9Ia
+00017799	05	A	a@9Ia
+00017820	05	A	($@)*
+00017af8	05	A	($@)*
+00017f89	08	A	@9(@9(
+00017f99	08	A	@9(@9(
+00017fa9	08	A	@9(@9(
+00017fb9	08	A	 @9( @9(
+00017fc9	08	A	$@9($@9(
+00017fd9	08	A	(@9((@9(
+00017fe9	08	A	,@9(,@9(
+00017ff9	08	A	0@9(0@9(
+00018009	08	A	4@9(4@9(
+00018019	08	A	8@9(8@9(
+00018027	05	A	9(<@9
+000180e1	07	A	5@).A@)
+00018752	06	A	" 9 
+0001876e	06	A	"@9 
+00018792	06	A	"`9 
+0001885d	07	A	'@)*/@)
+00018916	06	A	" 9 
+00018942	06	A	"@9 
+00018982	06	A	"`9 
+00018aa1	07	A	C@).G@)
+00018b79	07	A	?@)0G@)
+00018c55	07	A	?@)0G@)
+00018d2d	07	A	C@).G@)
+00018e05	07	A	?@)0G@)
+00018feb	05	A	K--@)
+0001921d	08	A	QD-YE-B
+00019252	0a	A	%B8'c80
+0001925d	0b	A	8!A83b84
+00019281	0b	A	85!(#B('
+000192a2	05	A	&I}`
+00019350	05	A	-9@))
+0001958e	06	A	"c('
+00019599	07	A	(!a(3
+000195bd	0b	A	(5!($c('
+000195de	05	A	&(}`
+00019de2	05	A	@9i@
+0001a07e	05	A	@9j&D
+0001a984	05	A	y39
+0001a9d7	06	A	Ti*@)k
+0001ad4e	06	A	"@ !
+0001ad6b	06	A	  (
+0001b690	05	A	ibA9J
+0001bc0b	05	A	7h{S
+0001bc1b	05	A	8i;x
+0001bc40	05	A	)yS
+0001c0b9	08	A	@9(@9(
+0001c0c9	08	A	@9(@9(
+0001c0d9	08	A	@9(@9(
+0001c0e9	08	A	 @9( @9(
+0001c0f9	08	A	$@9($@9(
+0001c109	08	A	(@9((@9(
+0001c119	08	A	,@9(,@9(
+0001c129	08	A	0@9(0@9(
+0001c139	08	A	4@9(4@9(
+0001c149	08	A	8@9(8@9(
+0001c157	05	A	9(<@9
+0001c193	0b	A	8#"nc nc`
+0001c1a4	10	A	dT%OeT.OdD%oeD.o
+0001c1c9	09	A	!nDT+Oc
+0001c1d7	05	A	nDD+o
+0001c1e5	07	A	dN%`N
+0001c1ed	07	A	"nb!n
+0001c1f5	05	A	$n#@
+0001c1fb	05	A	nAT!O
+0001c204	0a	A	AD!obT(O5
+0001c52c	05	A	?k78h
+0001c829	05	A	zSh
+0001c86d	05	A	zSh
+0001cbd2	06	A	" ( 
+0001cc99	07	A	("!("
+0001cca5	0b	A	)$!)!@) 
+0001ce23	06	A	T ! a
+0001cef6	07	A	B99#C9H
+0001d456	06	A	#b("
+0001d467	05	A	R@ !
+0001d48e	06	A	#B(#
+0001d49c	06	A	H  iA
+0001d4c9	05	A	8"jf
+0001d7ac	08	A	E(#a8"
+0001d7d4	05	A	e8!@
+0001de4d	07	A	a@9)!@9
+0001de5b	05	A	qD@z
+0001df70	08	A	G(#a8"
+0001df9c	05	A	e8!@
+0001e75f	0b	A	N@8 a8!i
+0001e776	07	A	!B(#B
+0001e781	08	A	"!"-
+0001e791	07	A	)-a9.
+0001e7a9	07	A	9-a).
+0001e7bc	08	A	@9-!).
+0001e7d0	08	A	@)-!9.
+0001e936	06	A	'!(#
+0001e9c5	0b	A	($!(%b(&
+0001ea4d	0b	A	(#!($B(%
+0001eadd	0b	A	(%A(!b($
+0001eb65	0b	A	(#!($B(%
+0001ebe8	05	A	 8 C
+0001ebee	06	A	@-B($
+0001ebfa	07	A	'!(#}
+0001ec9e	05	A	I9B%@
+0001ecde	06	A	a!@b
+0001f5d8	05	A	+ih8J
+0001f656	06	A	""(#
+0001f67a	06	A	'B(#
+0001f681	07	A	($!(#
+0001f8b1	08	A	@9(@9(
+0001f8c1	08	A	@9(@9(
+0001f8d1	08	A	@9(@9(
+0001f8e1	08	A	 @9( @9(
+0001f8f1	08	A	$@9($@9(
+0001f901	08	A	(@9((@9(
+0001f911	08	A	,@9(,@9(
+0001f921	08	A	0@9(0@9(
+0001f931	08	A	4@9(4@9(
+0001f941	08	A	8@9(8@9(
+0001f94f	05	A	9(<@9
+00020475	05	A	) hf
+000206c4	05	A	h"@9h
+0002079b	05	A	h"@9
+00020906	06	A	'( 
+00020ad9	08	A	@9(@9(
+00020ae9	08	A	@9(@9(
+00020af9	08	A	@9(@9(
+00020b09	08	A	 @9( @9(
+00020b19	08	A	$@9($@9(
+00020b29	08	A	(@9((@9(
+00020b39	08	A	,@9(,@9(
+00020b49	08	A	0@9(0@9(
+00020b59	08	A	4@9(4@9(
+00020b69	08	A	8@9(8@9(
+00020b77	05	A	9(<@9
+00020e7c	05	A	hzS4
+0002105e	05	A	V9#)@
+000210ba	05	A	@9)A
+00021247	05	A	r 8 
+0002125a	07	A	(J9#C
+00021265	0b	A	+B(# ) 
+00021292	06	A	.@8 
+0002129a	06	A	!@8 
+0002141d	07	A	+ ) 
+00021425	07	A	9!I9#
+00021436	07	A	)!("!
+00021e25	08	A	@9(@9(
+00021e35	08	A	@9(@9(
+00021e45	08	A	@9(@9(
+00021e55	08	A	 @9( @9(
+00021e65	08	A	$@9($@9(
+00021e75	08	A	(@9((@9(
+00021e85	08	A	,@9(,@9(
+00021e95	08	A	0@9(0@9(
+00021ea5	08	A	4@9(4@9(
+00021eb5	08	A	8@9(8@9(
+00021ec3	05	A	9(<@9
+00021eff	0b	A	8#"nc nc`
+00021f10	10	A	dT%OeT.OdD%oeD.o
+00021f35	09	A	!nDT+Oc
+00021f43	05	A	nDD+o
+00021f51	07	A	dN%`N
+00021f59	07	A	"nb!n
+00021f61	05	A	$n#@
+00021f67	05	A	nAT!O
+00021f70	0a	A	AD!obT(O5
+000220e9	07	A	!!(!
+00022125	07	A	8! (-
+000222ee	05	A	 wK
+00022309	08	A	QD-YE-
+00022318	08	A	B8'c80
+00022341	0c	A	]G-B83c84g
+00022350	09	A	B(2c(6v
+00022361	05	A	8%aZ
+00022379	05	A	QE-uZ
+0002239d	07	A	A-!(2
+000223c2	06	A	7!(0
+000223e1	07	A	(1!("
+00022402	05	A	&I}`
+000224de	05	A	A-w.@
+000224eb	09	A	r#)#c($
+000224f6	06	A	'c($
+00022517	05	A	=c('
+00022529	07	A	NC-B@!
+0002253e	05	A	"xK
+0002256d	07	A	81A8!
+000225ab	05	A	= 8 
+00022606	06	A	8B(1
+00022619	06	A	*#yjK
+00022631	0b	A	(7c(8A(!
+00022641	08	A	(%`( (
+00022656	05	A	&(}`
+00022745	06	A	QE-I}`
+00022c3d	07	A	   L 
+00022d3e	06	A	` )`
+00022e8e	07	A	"A8#!
+00022f24	08	A	k) J)!
+0002315b	05	A	=!@!
+000231bd	0b	A	ZG-B8'c80
+000231c9	07	A	81 8 
+000231d7	09	A	=B82c83
+000231ec	08	A	B(7c(8
+0002320e	05	A	&(}`
+0002321e	05	A	A-q@
+00023272	06	A	:!(3
+000232a1	07	A	(1!("
+000232c2	05	A	&(}`
+0002340a	05	A	&I}`
+000234b2	05	A	A-d@
+000234ca	06	A	 a(!
+000234ea	07	A	'  "-
+0002350a	07	A	 B(#b
+00023515	08	A	0'  "-
+00023556	07	A	 @( `
+00023566	06	A	  ( 
+000237e7	06	A	9hb@9
+00023852	0b	A	'!" (  
+00023886	0c	A	'!" ( `
+000238b5	07	A	#c$
+000238d5	06	A	8$d@
+000238dc	05	A	!8##
+000238e6	06	A	!B8$
+000238f6	07	A	 a(!C
+000238fe	07	A	"!(#!
+00023909	07	A	!A!
+00023b0e	0a	A	8Z+;Z+<
+00023b24	09	A	=; 9:a
+00023b7a	0b	A	;(>gBC-2
+00023b86	0e	A	;eB-m2D-j.E-
+00023bae	06	A	;9<
+00023bba	0e	A	09;=():*:
+00023c5d	07	A	+.v+6
+00023c82	0e	A	A-p*0q)1!)!
+00023ca1	07	A	+#+/
+00023cb1	0b	A	*%t+:R*-
+00023ce2	05	A	&(}`
+00023cea	05	A	&j}`
+00023cfa	05	A	&.}`
+00023d99	08	A	@9(@9(
+00023da9	08	A	@9(@9(
+00023db9	08	A	@9(@9(
+00023dc9	08	A	 @9( @9(
+00023dd9	08	A	$@9($@9(
+00023de9	08	A	(@9((@9(
+00023df9	08	A	,@9(,@9(
+00023e09	08	A	0@9(0@9(
+00023e19	08	A	4@9(4@9(
+00023e29	08	A	8@9(8@9(
+00023e37	05	A	9(<@9
+00023f71	05	A	w2k1
+000242b0	05	A	hB@9h
+00024916	07	A	 .!8*#
+00024922	07	A	0~B(#B
+0002492a	08	A	!@ +~
+00024968	06	A	h8(xU
+00024a4b	06	A	=  (*
+00024a57	09	A	=!(+   
+00025012	06	A	!! 
+00025166	06	A	'@( 
+000251d9	07	A	(/ 9(
+0002570c	05	A	+ih8J
+00025718	05	A	v"@)x
+00025727	06	A	h^@)x
+00025757	06	A	v"@)x
+00025767	06	A	v^@)x
+00025773	06	A	h^@)x
+000257ad	0b	A	("!("b("
+0002588e	06	A	!! 
+000259e2	06	A	'@( 
+00025a55	07	A	(/ 9(
+0002607a	06	A	!! 
+000261ce	06	A	'@( 
+00026241	07	A	(/ 9(
+00026883	05	A	=!("
+000268a1	07	A	QD-YE-
+000268d6	0a	A	6B('c(0
+000268e1	0b	A	(!A(3b(4
+00026905	0b	A	(5!(#B('
+00026926	05	A	&I}`
+0002723e	05	A	A9k9G
+00027247	09	A	qk!@9d@z
+00027286	05	A	@9K@
+00027ac1	08	A	@9(@9(
+00027ad1	08	A	@9(@9(
+00027ae1	08	A	@9(@9(
+00027af1	08	A	 @9( @9(
+00027b01	08	A	$@9($@9(
+00027b11	08	A	(@9((@9(
+00027b21	08	A	,@9(,@9(
+00027b31	08	A	0@9(0@9(
+00027b41	08	A	4@9(4@9(
+00027b51	08	A	8@9(8@9(
+00027b5f	05	A	9(<@9
+00027b9b	0b	A	8#"nc nc`
+00027bac	10	A	dT%OeT.OdD%oeD.o
+00027bd1	09	A	!nDT+Oc
+00027bdf	05	A	nDD+o
+00027bed	07	A	dN%`N
+00027bf5	07	A	"nb!n
+00027bfd	05	A	$n#@
+00027c03	05	A	nAT!O
+00027c0c	0a	A	AD!obT(O5
+00027d3a	06	A	( ) 
+000289ac	05	A	h*y)i
+000289ce	05	A	{)iB^
+000289ec	05	A	|^~)v
+00028df3	05	A	Tm:@)
+00028e9c	05	A	+1@))
+00028ec2	06	A	   "
+00028ed2	06	A	'  "
+00029013	0a	A	5h$@)J,@)l
+00029087	0a	A	zd@)SX@)x
+00029127	0a	A	x @)S\@)y
+00029378	05	A	)+@)k
+000296c6	06	A	   "
+000296d6	06	A	'  "
+000297cf	05	A	K5A)
+00029929	08	A	QD-YE-B
+0002995e	0a	A	%B8'c80
+00029969	0b	A	8!A83b84
+0002998d	0b	A	85!(#B('
+000299ae	05	A	&I}`
+00029af6	06	A	"c('
+00029b01	07	A	(!a(3
+00029b25	0b	A	(5!($c('
+00029b46	05	A	&(}`
+00029d5c	05	A	+ih8J
+0002a5ae	05	A	8(C[
+0002a971	05	A	"A9h"
+0002aa19	05	A	"A9h"
+0002ae8d	05	A	"A9h"
+0002af35	05	A	"A9h"
+0002ba61	05	A	"A9h"
+0002bb09	05	A	"A9h"
+0002bf7d	05	A	"A9h"
+0002c025	05	A	"A9h"
+0002c21b	05	A	<h&C)
+0002c7c3	09	A	N N N
+0002caa9	0c	A	()+((L()$
+0002cadf	05	A	=`9!
+0002cb12	06	A	&&("
+0002cb2d	07	A	:%0*#
+0002cb35	07	A	($#:#
+0002cb3d	07	A	(&B("
+0002cb45	0b	A	( F*2g*3
+0002cb59	07	A	($c(#
+0002cbdd	07	A	9,!@!
+0002cbe6	06	A	""#
+0002cc53	05	A	_B8!
+0002cc71	06	A	8#`"A
+0002cc78	08	A	Q*''('
+0002cc89	0b	A	#'#B#
+0002cc9e	06	A	*c(*
+0002cca9	0b	A	AB-B(*c()
+0002ccb5	0b	A	()@ (b@!
+0002cde6	0a	A	C-TD-\F-
+0002ce3a	07	A	7;9
+0002ce42	07	A	"Z;;
+0002ce6a	07	A	'J9++
+0002ce86	07	A	'9;;
+0002ce96	06	A	4s:)
+0002ce9e	06	A	4R:+
+0002cebd	0b	A	9/1:;;9+
+0002cf02	06	A	')9/
+0002cf0e	06	A	$k9/
+0002cf1a	07	A	$;/o
+0002cf26	07	A	$Z;/O
+0002cf86	07	A	1R92*
+0002cf8e	06	A	$9>
+0002cf9a	07	A	%H9(*
+0002cfa2	07	A	,9)9)
+0002cfb6	06	A	;J)/
+0002cfbe	0e	A	%))+Q+1!(5
+0002cfea	06	A	%s*:
+0002d011	07	A	8&c8%
+0002d02a	07	A	#R*:E
+0002d05f	05	A	R++
+0002d065	0b	A	+0)4$A!
+0002d08a	05	A	&+}`
+0002d0be	05	A	&A}`
+0002d0ee	05	A	&,}`
+0002d4e1	08	A	a@9)!@9?
+0002d4eb	05	A	qD@z
+0002d760	09	A	! nB na
+0002e920	05	A	hbI9i
+000306e4	07	A	ojo8c|@
+000306f7	05	A	Tejo8
+0003079b	05	A	Tejd8
+000332c0	05	A	K@8)
+00033d59	08	A	 @9)Wu9
+00033ec1	05	A	Su9?Q
+000341e5	08	A	@9(@9(
+000341f5	08	A	@9(@9(
+00034205	08	A	@9(@9(
+00034215	08	A	 @9( @9(
+00034225	08	A	$@9($@9(
+00034235	08	A	(@9((@9(
+00034245	08	A	,@9(,@9(
+00034255	08	A	0@9(0@9(
+00034265	08	A	4@9(4@9(
+00034275	08	A	8@9(8@9(
+00034283	05	A	9(<@9
+000342bf	0b	A	8#"nc nc`
+000342d0	10	A	dT%OeT.OdD%oeD.o
+000342f5	09	A	!nDT+Oc
+00034303	05	A	nDD+o
+00034311	07	A	dN%`N
+00034319	07	A	"nb!n
+00034321	05	A	$n#@
+00034327	05	A	nAT!O
+00034330	0a	A	AD!obT(O5
+00038714	07	A	D!@9cyd
+00038f6a	06	A	"B!
+00039931	08	A	N  N!
+0003993a	06	A	(o dn
+00039a16	06	A	!^#"
+00039a1d	08	A	*K*j
+00039a2f	05	A	qc+
+00039a50	07	A	[})}
+00039a6a	06	A	,!8"
+00039a8e	06	A	"B*
+00039a97	09	A	R!*c*
+00039aa1	08	A	*L8  
+00039aaa	05	A	'x@
+00039ab2	08	A	KM(#
+00039abe	06	A	 .($
+00039ad5	07	A	) @!-
+00039b05	06	A	) b'
+00039e36	05	A	K9)%G
+0003b534	05	A	+ih8J
+0003bd1a	06	A	"@ !
+0003bd37	06	A	  (
+0003ced1	08	A	@9(@9(
+0003cee1	08	A	@9(@9(
+0003cef1	08	A	@9(@9(
+0003cf01	08	A	 @9( @9(
+0003cf11	08	A	$@9($@9(
+0003cf21	08	A	(@9((@9(
+0003cf31	08	A	,@9(,@9(
+0003cf41	08	A	0@9(0@9(
+0003cf51	08	A	4@9(4@9(
+0003cf61	08	A	8@9(8@9(
+0003cf6f	05	A	9(<@9
+0003cfab	0b	A	8#"nc nc`
+0003cfbc	10	A	dT%OeT.OdD%oeD.o
+0003cfe1	09	A	!nDT+Oc
+0003cfef	05	A	nDD+o
+0003cffd	07	A	dN%`N
+0003d005	07	A	"nb!n
+0003d00d	05	A	$n#@
+0003d013	05	A	nAT!O
+0003d01c	0a	A	AD!obT(O5
+0003d37f	05	A	R 8 
+0003d392	06	A	!o9 
+0003d433	05	A	RBH-
+0003d43a	07	A	'BX.B
+0003d44a	06	A	 BH-
+0003d78f	05	A	R @!
+0003d86a	06	A	"@! 
+0003e220	06	A	) @)j2
+0003e336	07	A	"@ !E
+0003e353	06	A	  (
+0003e715	08	A	@9(@9(
+0003e725	08	A	@9(@9(
+0003e735	08	A	@9(@9(
+0003e745	08	A	 @9( @9(
+0003e755	08	A	$@9($@9(
+0003e765	08	A	(@9((@9(
+0003e775	08	A	,@9(,@9(
+0003e785	08	A	0@9(0@9(
+0003e795	08	A	4@9(4@9(
+0003e7a5	08	A	8@9(8@9(
+0003e7b3	05	A	9(<@9
+0003e928	06	A	) @)j2
+0003ea42	07	A	"@ !E
+0003ea5f	06	A	  (
+0003f6a0	05	A	hB@9h
+0003f9f8	05	A	?i(8h
+0003fadc	05	A	)xS
+0003fb58	05	A	?i(8h
+0003fc04	05	A	)xS
+000404c0	05	A	hbB9h
+00040577	08	A	5hbB9iR@
+000405af	06	A	4hbB9h
+0004074c	05	A	hB@9i
+000408b7	06	A	7hbB9(
+000408d8	05	A	hbB9(
+00040c8c	05	A	hzS5
+00040dc9	08	A	@9(@9(
+00040dd9	08	A	@9(@9(
+00040de9	08	A	@9(@9(
+00040df9	08	A	 @9( @9(
+00040e09	08	A	$@9($@9(
+00040e19	08	A	(@9((@9(
+00040e29	08	A	,@9(,@9(
+00040e39	08	A	0@9(0@9(
+00040e49	08	A	4@9(4@9(
+00040e59	08	A	8@9(8@9(
+00040e67	05	A	9(<@9
+00040f3b	0b	A	8#"nc nc`
+00040f4c	10	A	dT%OeT.OdD%oeD.o
+00040f71	09	A	!nDT+Oc
+00040f7f	05	A	nDD+o
+00040f8d	07	A	dN%`N
+00040f95	07	A	"nb!n
+00040f9d	05	A	$n#@
+00040fa3	05	A	nAT!O
+00040fac	0a	A	AD!obT(O5
+000410b0	06	A	*!@)iU
+000411db	06	A	Qij(8i
+000411ef	06	A	Tjjh8I
+00041269	05	A	@8k}
+0004128f	06	A	Rhjh8?
+00041b50	05	A	+@8J
+00041c5f	05	A	TK@8
+00041ee3	05	A	R?!5k
+00041f48	05	A	?=@qa
+00041f7b	06	A	S()3K
+00042993	05	A	KJ]S
+000429a7	05	A	*hy,x
+00042f51	05	A	}S?
+000439fb	08	A	T ~S@Y`
+00043a04	06	A	"~)$^
+00043ced	05	A	|S^
+00043d13	07	A	Sc|S1^
+00043d24	07	A	~SyYy
+00043d68	05	A	Wa)Y
+00043d6e	06	A	JZm@)
+00043da5	05	A	|Sv\
+00043daf	07	A	Sx|S^
+00043dbb	07	A	S~S&_
+00043dc7	05	A	S%S
+00043e2e	06	A	JXiA)
+00043e3b	05	A	JE]B)
+00044070	06	A	3~S^
+00044081	05	A	~Se\
+00044136	06	A	J~S
+00044143	05	A	STS
+0004414f	07	A	S&SE_
+0004415d	05	A	~S _
+00044254	05	A	Kik8)
+00044280	0c	A	Lil8Mim8Jin8
+00044293	05	A	3N3
+00044323	06	A	3#3i
+00044842	05	A	'arH
+00044868	07	A	A!.b^H
+00044894	06	A	@ .aZ
+000448f3	09	A	T+ih8Lih8
+00044b0c	08	A	oio8nin8
+00044bce	06	A	@9-@9
+00044be7	05	A	=/@9
+00044bf3	05	A	=0 @9
+00044bff	05	A	=1$@9
+00044c0b	05	A	= (@9
+00044c1b	05	A	=",@9
+00044c2b	05	A	=#0@9
+00044c3b	05	A	=$4@9
+00044c4b	05	A	=%8@9
+00044c5b	05	A	=&<@9
+00044db0	05	A	*ih8J
+00044ead	07	A	j|8)ik8
+00044ebb	05	A	JIi<8
+00044edc	05	A	*i{8H
+00044ee3	05	A	J(i;8
+00044f39	07	A	j|8)ik8
+000456b9	05	A	CC)1>
+00045841	05	A	GE)0`
+00045d9d	05	A	?L)A
+000462f9	05	A	CS)qW
+00046919	05	A	C[)QI
+00048791	08	A	hl8kmSk
+000487bf	06	A	T)uS)
+000487e7	06	A	T)uS)
+00048d30	08	A	Hki8jki8
+00048d3f	09	A	Jkk)8hj)8
+00049767	0a	A	*{jh8<ih8J
+0004977e	06	A	A)iS
+0004c120	08	A	+ih8Lih8
+0004c12b	05	A	JKi(8
+0004c1b7	07	A	NA!.`
+0004c1db	05	A	N  .
+0004c363	07	A	SIa3J
+0004c36b	07	A	Sja3k
+0004c376	06	A	'!ja8
+0004c443	06	A	9B!.A
+0004cbcc	05	A	jyhx)
+0004cd75	05	A	jm8
+0004d4d8	05	A	,kj8k
+0004d83e	05	A	@9@
+0004d874	05	A	+@8J
+0004db37	05	A	T k78
+0004dbc3	07	A	QkySk1
+0004dc43	07	A	QkySk1
+0004dd0f	05	A	QkyS
+0004de2b	05	A	QkyS
+0004de6b	07	A	QJySH1
+0004dfb4	05	A	,@8k
+0004e134	05	A	@@qh
+0004e1ab	07	A	_A@q*5
+0004e4b4	09	A	@ na!n`
+0004e4e8	05	A	,@8M
+0004e540	05	A	+@8J
+0004e560	06	A	)ih8(
+0004e9f8	05	A	L@8k
+0004eb60	05	A	L@8k
+0004ebd1	07	A	hj8Qhn8
+0004eeb4	05	A	Jkh8)
+0004f06d	05	A	jy8
+0004f253	05	A	(k78
+0004f36b	07	A	QJySH1
+0004f3ab	07	A	Q)yS+1
+0004f3eb	07	A	QJySH1
+0004f42b	07	A	Q)yS+1
+0004f46b	07	A	QJySH1
+0004f4c5	05	A	[@9?i
+0004f4ef	06	A	Riih8.
+0004f5c3	07	A	QkySi1
+0004f712	05	A	@9@
+0004f748	05	A	+@8J
+0004fdcc	05	A	L@8k
+000501ee	05	A	@9@
+00050224	05	A	+@8J
+00052c59	18	A	LmTm\mdmlmtm
+000535a6	05	A	@9L@
+000538a0	05	A	Lii8k
+000538e3	05	A	T,@8
+00053924	05	A	 %@x
+00053956	05	A	@9m@
+0005443c	05	A	Lii8k
+00054622	05	A	@9m@
+000546ce	05	A	@9m@
+000547aa	05	A	@9m@
+00054802	05	A	@9m@
+0005488c	05	A	mMB8J
+0005493a	05	A	@9m@
+00054978	05	A	LMB8,
+000549c6	05	A	@9m@
+00054a0e	05	A	@9m@
+00054aa5	06	A	@8l@
+00054ad8	05	A	KjH
+00054b0e	05	A	@9m@
+00054b98	06	A	mMB8J}
+00054c0a	05	A	@9m@
+00054c5a	05	A	@9m@
+00054cae	05	A	@9m@
+00054cec	05	A	KMB8+
+00054d36	05	A	@9m@
+00054d92	05	A	@9m@
+00054dda	05	A	@9m@
+00054e68	05	A	lMB8,
+00054f1c	06	A	mMB8J}
+00054f8e	05	A	@9m@
+00054fcc	05	A	KMB8+
+0005501e	05	A	@9m@
+00055102	05	A	@9m@
+00055140	05	A	LMB8,
+0005518e	05	A	@9m@
+000551de	05	A	@9L@
+0005522e	05	A	@9m@
+00055268	06	A	LMB8)}
+00055605	06	A	@8d@
+000557a0	05	A	@j1
+000559e0	05	A	#zox!
+00055b81	06	A	@8#@
+0005609e	05	A	*(@
+0005621a	05	A	@9L@
+000562a6	05	A	*H@
+000567e1	05	A	@8if
+00056831	05	A	@8ib
+00056950	05	A	+ih8J
+00056a5d	18	A	LZmT[m\\md]ml^mt_m
+00056d63	06	A	T*@8
+0005705a	05	A	*(@
+000572cb	05	A	7H{S
+000574a0	05	A	+ih8J
+00057b49	05	A	c@9(
+000581ea	05	A	*h&B
+00058b3b	06	A	T*@8K
+00058b5f	06	A	T*@8K
+00058b7b	06	A	T*@8K
+00058ba8	05	A	K@8
+00058be7	06	A	TI@8)
+00058c28	08	A	Mil8nil8
+00058e31	05	A	@8?4
+00058f98	05	A	J{hx)
+00059193	05	A	h{S
+000591f3	05	A	h{S
+00059253	05	A	h{S
+0005937f	05	A	h{S
+0005939b	05	A	h{S
+000593b7	05	A	h{S
+000593d3	05	A	h{S
+00059433	05	A	h{S
+00059ac7	05	A	TH{S
+0005afdf	08	A	TIc@9K+B
+0005b3b1	05	A	c@9(
+0005b669	05	A	c@9(
+0005b8e3	05	A	h"C9
+0005b97a	05	A	*(@
+0005ba2b	05	A	Th"C9
+0005ba44	05	A	h"C9H
+0005bacc	05	A	+yhxJ
+0005bf4f	06	A	*h"C9(
+0005c0af	05	A	Rh"C9
+0005c379	05	A	c@9(
+0005cb3e	05	A	*h&B
+0005d345	08	A	ii8Lii8)
+0005d6af	05	A	TH@8
+0005d6d3	05	A	TH@8
+0005d6ef	05	A	TH@8
+0005d71c	05	A	h@8
+0005d75b	05	A	Th@8
+0005d7b0	08	A	Mil8nil8
+0005da60	05	A	J{hx)
+0005dc5b	05	A	h{S
+0005dcbb	05	A	h{S
+0005dd1b	05	A	h{S
+0005de47	05	A	h{S
+0005de63	05	A	h{S
+0005de7f	05	A	h{S
+0005de9b	05	A	h{S
+0005defb	05	A	h{S
+0005e3b8	05	A	k68}
+0005e7c6	05	A	*(@
+0005f57f	08	A	TIc@9K+B
+0005f951	05	A	c@9(
+0005fc09	05	A	c@9(
+00061428	05	A	hBA9)
+00061ac8	05	A	h"A9)
+000625f8	05	A	)yS
+00062654	06	A	i)8i&
+0006522f	05	A	4( @9
+000652bb	06	A	4( @9
+000654d9	05	A	zSh
+0006557f	06	A	T*@8
+00065e3e	05	A	*h@
+00065ed4	05	A	+ih8J
+00065f56	05	A	@y)|@
+000660a2	05	A	*@4
+00066366	07	A	@y) @9
+00066593	06	A	y) @9(
+0006659f	06	A	y($@9)
+00066873	05	A	T@}S
+000668bc	05	A	Lii8k
+000668df	05	A	T }S
+000669be	05	A	G6vF@
+0006704d	05	A	zSh
+000670c4	05	A	Lii8k
+00067110	05	A	Lii8k
+00067184	05	A	Lii8k
+000676ca	05	A	@9(@
+000679c0	05	A	+ih8J
+00067a20	05	A	+ih8J
+00067a84	05	A	+ih8J
+00067af4	05	A	+ih8J
+00067b0f	06	A	7h"@9
+00067b27	06	A	7h"@9e
+00067b3b	06	A	7h"@9
+00067b8b	06	A	h"@9
+00067be7	06	A	7h"@9
+00067bff	06	A	6h"@94
+00067c20	05	A	Lii8k
+00067c3f	06	A	h"@9
+00067c6b	07	A	h"@9
+00067c77	07	A	h"@9
+00067cb3	06	A	Th"@9
+00067d0f	06	A	Th"@9
+00067db3	06	A	h"@9
+00067e3c	05	A	h"@9*
+00067ed7	06	A	7h"@9
+00068015	05	A	 @9
+00068111	05	A	 @9
+00068121	05	A	 @9
+00069b0d	05	A	 @9
+00069f7c	06	A	h"@9
+0006a179	05	A	 @9
+0006a61d	05	A	 @9
+0006a710	06	A	h"@9
+0006ae9d	05	A	 @9
+0006af1b	05	A	Th"@9
+0006aff1	05	A	jh8?)
+0006b074	06	A	jji8_)
+0006b105	05	A	jh8?)
+0006b2fa	05	A	@y)
+0006b332	05	A	@y)
+0006b36a	05	A	@y)
+0006b3a2	05	A	@y)
+0006b700	05	A	)@8?
+0006b81b	06	A	TI@8+
+0006b96b	05	A	T*@8
+0006bccf	07	A	T(!@9
+0006bd57	07	A	(!@9
+0006d383	05	A	7H{S
+0006d694	05	A	+ih8J
+0006da7f	05	A	7H{S
+0006e007	05	A	(xS
+0006e0c8	05	A	*kh8)
+0006e6df	05	A	7H{S
+0006e80c	05	A	+yhxJ
+0006e961	05	A	C@9h1
+0006eba7	05	A	7({S
+0006ec58	05	A	hbA9h
+0006ede5	05	A	C@9H
+0006ee78	05	A	)yS
+0006f00c	06	A	i)8i"
+0006f84c	05	A	hbA9(
+0006f944	05	A	)yS
+0006f990	06	A	i)8i"
+0006fc6c	05	A	IyS
+0006fd95	05	A	zSwb
+000701e7	05	A	6hbA9
+0007030f	08	A	ibA9)y
+0007043c	05	A	+ih8J
+00070534	06	A	hbA9h
+00070584	06	A	hbA9(
+00070770	05	A	hbA9H
+000707f0	05	A	)yS
+00070814	05	A	hbA9h
+000709b4	05	A	hbA9H
+00070c00	06	A	i)8i
+000712bb	05	A	hbA9
+000714a0	05	A	)yS
+000714dc	06	A	i)8i
+00071730	05	A	IyS
+00071933	05	A	hbA9
+00071c07	05	A	7i"A9
+00071c3e	05	A	@9j&C
+00071c7c	07	A	hbB9i*J
+00071d1b	05	A	7h"A9
+00071d52	05	A	@9i*C
+00071e36	05	A	@9i*C
+00071e5a	05	A	B9)y
+00071f0a	05	A	@9i*C
+00071fa0	05	A	+ih8J
+000721de	05	A	A9i*G
+00072354	05	A	)yS
+00072738	06	A	i)8i
+00072eaa	05	A	@9j&C
+00072fb0	05	A	)yS
+00073044	06	A	i)8i
+000730f4	05	A	h"A9`
+00073107	05	A	h"A9
+00073287	05	A	7h"A9
+000732be	05	A	@9i*C
+00073398	05	A	IyS
+00074439	05	A	#A9hc
+000744d1	05	A	#A9hc
+000746cb	05	A	7h"A9
+00074744	05	A	h"A9h
+000771ca	0c	A	EoBTAOeTAO&@
+000771da	06	A	EoB N
+000771fb	05	A	T0<N
+00077248	05	A	h&@)J
+0007803f	05	A	9hj{8
+0007804b	09	A	*hj;8hjw8
+00078056	06	A	*hj78
+000788b0	09	A	! NB Na
+000789b7	05	A	TVki8
+000789f3	05	A	5(@8
+00079f6b	05	A	5!
+0007a0b7	06	A	`qj
+0007a0c7	05	A	(7q
+0007a15a	05	A	*H}@
+0007a5c3	06	A	`qj
+0007a5d3	05	A	(7q
+0007a646	05	A	*Z%(
+0007bdf6	06	A	nA N
+0007cb90	09	A	! NB Na
+0007e0ca	05	A	*(@
+0007e318	05	A	(ih8
+0007e37c	05	A	(ih8
+0007eef4	05	A	che8b
+0007f570	0a	A	JNI_OnLoad
+0007f57b	11	A	libminecraftpe.so
+0007f58d	19	A	internal/premium_unlocked
+0007f5a7	0c	A	basic_string
+0007f5b4	43	A	allocator<T>::allocate(size_t n) 'n' exceeds maximum supported size
+0007f620	05	A	t4(5
+0007f75e	07	A	M/1M
+0007f76b	06	A	vector
+0007f830	10	A	St12length_error
+0007f841	0f	A	St11logic_error
+0007f851	0c	A	St9exception
+0007f886	05	A	XMQ=
+0007f8c2	05	A	)p_eK
+0007f9a9	06	A	UG$(2
+0007fa0f	08	A	PifV29
+0007fa3f	08	A	6\V29
+0007fa48	17	A	map::at:  key not found
+0007fca5	07	A	eRR04}v
+0007fd5a	05	A	W\\$
+0007fe0f	1e	A	NSt6__ndk117bad_function_callE
+0007fe2e	10	A	St12out_of_range
+0007fee9	05	A	.-+
+0007fef9	06	A	|]}
+0007ff3f	05	A	>Nhrx
+0007ff48	05	A	Nhrx*
+00080126	05	A	nPx
+00080246	05	A	p7u'
+0008030c	06	A	GG*xd6
+0008032d	05	A	*7:J>
+000803e0	05	A	P^@Ho
+00080414	06	A	^hzI
+0008045a	06	A	yT`*
+00080463	06	A	='~(#0
+000804dd	06	A	p~%1f1
+0008052d	05	A	^I`F}
+0008055d	06	A	>X<%
+00080570	05	A	t"rj
+000807a1	07	A	^bfjni`
+0008082f	05	A	(3`ib
+0008085f	05	A	(3`ib
+000808e4	05	A	#8L#-
+00080916	06	A	!BTj.6
+00080a12	05	A	!,Y{
+00080b17	05	A	kB:Y
+00080cd3	05	A	@;-w
+00080cf9	05	A	&D=6
+00080d2f	0e	A	cToolbox Gamer
+00080dac	05	A	Rr%TV
+00080db3	05	A	s|St
+00080fa0	08	A	333?333?
+00080fc0	0e	A	rapid_build_v2
+00080fcf	06	A	repeat
+00080fda	07	A	enabled
+00080fe2	0b	A	sticky_mode
+00080fee	0e	A	lock_direction
+00080ffd	0d	A	minecraft:air
+0008100c	06	A	render
+00081013	07	A	tracers
+0008101b	05	A	width
+00081021	09	A	mob_color
+0008102b	0c	A	player_color
+00081093	09	A	vN'vth@
+000810c8	05	A	/>L_[
+0008119a	05	A	O{P_I
+00081259	07	A	yQ[n#2
+000812b2	07	A	bs`I/
+000812c0	08	A	UwZpC6U1
+0008132d	06	A	E$Uvvd
+00081350	05	A	&T@\?
+00081381	05	A	^N9]
+000813fe	06	A	plT?F
+00081427	05	A	p:paj
+0008161a	06	A	q;<{]
+00081703	06	A	ZGG!
+00081739	05	A	nw
+0008175d	05	A	j*HbG
+000817a3	07	A	qv@.w"
+00081883	05	A	bnNeV
+00081933	06	A	'SE$\
+000819f9	06	A	mBzw^m
+00081a81	05	A	Al
+00081ac1	06	A	8{Tt
+00081b61	07	A	:4X._5
+00081bec	05	A	7pO.1
+00081d89	05	A	pn&aj
+00081db9	05	A	Xwf,F
+00081dd2	06	A	d/OE
+00081e2d	05	A	{Psf
+00081e8f	06	A	e!FB`A
+00081ed6	07	A	6+1fn,
+00081ff6	05	A	~xH#
+00082055	05	A	}D#
+00082071	06	A	T@9VT
+000820b9	07	A	Blm9T
+000820cf	05	A	z'~WQ
+00082153	08	A	tzGSwo3y
+00082168	05	A	It972
+00082216	05	A	<8pY
+0008230f	06	A	9b)-7
+0008262b	07	A	iMdE7%T
+00082669	05	A	CRZAd
+000826bc	05	A	u~Bt
+00082731	05	A	b[G_
+0008278e	05	A	&|tA
+000827ce	05	A	M(jF
+0008298f	05	A	STXj_
+00082ab0	05	A	L:H$Z
+00082b19	05	A	Racm
+00082b33	06	A	}o@l7s
+00082c7a	05	A	=XAT
+00082e56	05	A	T H}
+00082ec2	05	A	3z57/
+00082f30	07	A	%4?\S8
+00082f83	05	A	1cZK
+000830a7	06	A	GjG?V
+000830c9	06	A	OWQT 5
+00083162	05	A	-\2D
+00083172	05	A	}a/j 
+000831db	05	A	/jy,J
+000831fc	0a	A	}aPnZy$c
+00083207	05	A	O1-
+000832a5	08	A	,Yv.P;EH
+0008335d	05	A	&"{XS
+0008341d	05	A	 g&l
+00083501	05	A	{!@2
+00083580	06	A	I'"Z[
+0008359a	05	A	+.l
+000835d3	05	A	.jO U
+0008362c	07	A	s}3PJEi
+0008366d	06	A	KYm6p
+00083697	06	A	[PL1;
+00083704	05	A	oN9xV
+00083936	05	A	.cy*
+0008398a	06	A	<v;|#
+000839e9	05	A	u8KeR
+00083a4f	07	A	$=T}1Wf
+00083bb5	05	A	p'h
+00083bf4	06	A	!H#m
+00083c0a	05	A	o/F/(
+00083cef	05	A	>OX6
+00083da1	05	A	;KC(
+00083dda	05	A	0ua
+00083e2e	06	A	Nx8`_
+00083ee5	05	A	E!'k]
+00083f1f	05	A	^t$/
+00083f2f	05	A	0[YDb
+00083f5f	05	A	CTu6
+00083fe6	05	A	ic8|B
+00084038	06	A	eIb^!h
+000840aa	06	A	fWW5s
+000840d7	05	A	k?_
+000841a3	06	A	J*~F.
+000841b3	05	A	t(cad
+00084295	05	A	,~oXP
+0008429c	06	A	OUilNr
+000842fa	06	A	CCewv4
+00084315	07	A	u-yv):
+000843f1	08	A	`3'8D-*Q
+00084413	05	A	)Dnt
+00084532	05	A	9<7~w
+00084545	05	A	![/7J
+00084676	06	A	dH##4q
+000846c8	06	A	u*ncK@
+00084738	05	A	Imf[4
+000847b4	08	A	LzdmE}h
+000847c0	05	A	1fnz[
+000847cd	05	A	,LI
+0008488c	05	A	o'bxo
+00084a3d	08	A	*Z{6D.2
+00084a62	05	A	_=]C"
+00084b00	07	A	\#<b{%!
+00084b2f	06	A	W`:5sL
+00084b5c	05	A	yOj%8
+00084c28	06	A	!ob|d
+00084c67	06	A	j0NYH
+00084deb	05	A	!MG
+00084e01	05	A	P$f/V
+00084ec2	05	A	?f2Cn
+00084f72	05	A	S<|V:
+00084f8a	05	A	cXIX
+00084fbe	06	A	)Uj=E
+00084fd3	05	A	Kfo>_
+00084fe9	05	A	1.2.7
+00084ff5	0b	A	SF$internal
+0008505d	08	A	whAOA_i
+00085073	05	A	^Fto1
+00085079	05	A	?itA
+00085131	05	A	vKhu
+00085141	05	A	g>o
+0008515e	06	A	74:!
+00085179	05	A	al%}
+0008528c	0d	A	AX0~3XlQ ;s_
+000852b1	06	A	5C1
+0008531a	06	A	!Kp_0
+00085435	05	A	q3\
+00085577	05	A	m%a+
+00085699	07	A	&Vr/k)
+000856a6	06	A	(J=d]
+000856bb	05	A	hKzjv
+00085701	05	A	gF\s
+00085751	05	A	?ESzn
+00085866	05	A	p/=
+000858d0	05	A	T;+-+
+000858e6	05	A	q"NOW
+0008592a	08	A	#FNR5S
+00085997	05	A	JR
+000859ec	05	A	btE4J
+000859f6	05	A	S#XZp
+00085a1d	05	A	[@80
+00085a3d	05	A	O@Xh~
+00085a7b	05	A	r)we
+00085a94	05	A	M.],W
+00085aab	05	A	r)we
+00085af8	08	A	.N6"h:R@
+00085b28	0a	A	B/XEGi&2`|
+00085b35	07	A	!Gf.c&'
+00085bca	06	A	ZD]x|$
+00085c01	06	A	Rx)+[-
+00085c33	05	A	x:w?
+00085c8a	06	A	nrPMg
+00085cba	06	A	nrPMg
+00085d1c	05	A	]x[4P
+00085e86	06	A	/dku)
+00085f75	05	A	&.$<
+000860a2	07	A	c@n9
+000860d2	07	A	W*i"Xuy
+00086113	07	A	6 ?s-s8
+0008615e	05	A	s(5?
+00086182	06	A	>~WC9
+000861b9	07	A	K)B=W
+000861d5	06	A	>-"~
+000861e9	07	A	K)B=W
+000862fa	05	A	{<xDv
+000863fd	07	A	+NH$?@
+00086455	05	A	Rb5=
+0008645b	05	A	(T|e:
+00086468	05	A	:]X)l
+00086498	05	A	>7G
+000864bc	05	A	iE!9:
+00086574	05	A	;gCL-
+00086592	05	A	Luj
+0008662d	05	A	`g:e
+0008672e	06	A	W&M/S
+000867b5	05	A	(1rVd
+000867f4	06	A	3&TdX
+000868e2	05	A	m[IM
+000868ea	05	A	{]X8
+00086965	05	A	 2YF
+00086a06	06	A	iq/?pF
+00086ae4	05	A	B,f9-
+00086c4a	06	A	eQ+9(*
+00086c51	05	A	f:u
+00086cc2	06	A	ju^HXX
+00086cc9	05	A	GSLbb
+00086ccf	13	A	U[eglCreateContext
+00086ce3	20	A	unordered_map::at: key not found
+00086d04	0c	A	EnchantUtils
+00086d11	34	A	EnchantUtils::determineActivation returned %i for %i
+00086d72	05	A	s^}x;
+00086df4	05	A	109$S
+00086e66	06	A	z1Ne
+00086eae	08	A	enH.{a9Q
+00086eb8	05	A	&#NYB
+00086f68	05	A	wAo#
+00086f78	06	A	m'P8S
+00086f9a	06	A	0s
+00087022	05	A	1"|"
+0008708f	05	A	P9}Bz
+000870e4	05	A	w:oQo
+000870fa	05	A	UCiM
+000871b3	07	A	{@)^zim
+000871fd	05	A	}$|%
+00087220	07	A	<If-ux}
+0008722d	05	A	}$|%
+000872d6	07	A	CJ6X<t
+0008734c	05	A	*5R<m
+0008738f	05	A	tGR[
+000873cc	08	A	 @Q7PFG
+000873d7	05	A	sI~I)
+00087622	05	A	IB5;
+00087663	05	A	R_8
+000876b5	06	A	E5xa
+000876cb	06	A	@]]6C]
+000876e6	05	A	F)xa
+000876f9	05	A	,vQ
+0008784d	05	A	GDDB
+0008795c	05	A	qWji
+00087a72	05	A	{Bud
+00087aa2	0a	A	{Bu2+ccC1
+00087b35	06	A	8KmH:#
+00087b4e	05	A	R+qYT
+00087c41	05	A	'&&ua
+00087c4d	09	A	yw@Ysg8
+00087c79	05	A	-Jc)\
+00087c85	05	A	-ijLb
+00087caf	05	A	r0 \
+00087cdf	05	A	r0 \
+00087db9	06	A	0cHvs
+00087de1	05	A	r%H@&
+00087ea1	05	A	AE7Ae
+00087eac	06	A	$~0  
+00087eff	05	A	\jM1h
+00087f93	05	A	Eg/F
+0008803f	06	A	Ju>6f
+0008806f	05	A	myWas
+0008807f	05	A	aVBQ_
+000881c5	06	A	jfY-
+0008822d	05	A	{4Jof
+00088299	05	A	IbU
+000882c9	05	A	IbU
+00088329	05	A	w;Yl
+00088382	06	A	/CSKe
+000883dc	05	A	&WiVG
+00088405	05	A	%CL!;
+0008848f	08	A	`:V]PD
+000884bf	07	A	`:V]P
+00088504	06	A	"*{.W7
+000885c4	05	A	_y~
+000885fb	07	A	a"q0Wq
+0008869a	05	A	'&;R:
+000886ba	07	A	%C8Igiv
+000886ca	05	A	'&;R:
+00088836	07	A	stguYC
+0008889b	05	A	MHG/
+000888ad	05	A	8\-pj
+000888cb	05	A	MHG/
+000889b6	05	A	]9<
+000889bd	05	A	sn'V
+00088ab5	13	A	AAssetManager_open
+00088ac9	05	A	tb-1/
+00088b6e	05	A	0~&5
+00088c17	07	A	j$/3=
+00088c8f	07	A	'Q,N[
+00088c9e	05	A	caR
+00088cae	07	A	flE"yC
+00088ce0	05	A	bE"yC
+00088dac	05	A	V?7Z9
+00088df9	05	A	Hv
+00088e56	05	A	_dL
+00088eaa	05	A	WlM@
+00088edb	05	A	G$8L
+00088f37	06	A	poUQ#
+00088f67	06	A	poUQ#
+00088f9b	05	A	ETm^}
+00089049	05	A	R$yD
+00089078	06	A	3w|;w*
+00089125	05	A	ck3c]
+00089158	05	A	_a"u
+0008917e	05	A	@Qv
+000891c2	31	A	/data/data/io.mrarm.mctoolbox/files/StartupHM.txt
+00089200	1e	A	Failed to open /proc/self/maps
+0008921f	22	A	%16lx-%16lx %c%c%c%c %Lx %x:%x %Lu
+00089242	11	A	St13runtime_error
+00089254	08	A	rijndael
+00089261	68	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/ciphers/aes/aes.c
+000892ca	0c	A	skey != NULL
+000892d7	0a	A	pt != NULL
+000892e2	0a	A	ct != NULL
+000892ed	0b	A	AES Encrypt
+000892f9	0b	A	AES Decrypt
+00089305	0f	A	keysize != NULL
+00089350	30	A	,4$8'9-6:.6$1#?*XhHpSeA~NrZlESbt\lHQeFbF~TiKwZ
+0008974f	31	A	4$8,9-6'.6$:#?*1hHpXeA~SrZlNSbE\lHtQeFF~TbKwZi
+00089b4e	32	A	$8,4-6'96$:.?*1#HpXhA~SeZlNrSbElHt\eFQ~TbFwZiK
+00089f4d	33	A	8,4$6'9-$:.6*1#?pXhH~SeAlNrZbESHt\lFQeTbF~ZiKw
+0008a36c	05	A	}++V
+0008a3cb	0d	A	=j&&LZ66lA??~
+0008a3f8	08	A	S11b?*
+0008a408	05	A	e##F^
+0008a447	0d	A	t,,X.4-6
+0008a464	05	A	M;;va
+0008a46f	06	A	}{))R>
+0008a490	05	A	`  @
+0008a4ab	05	A	gK99r
+0008a517	05	A	!H88p
+0008a52c	05	A	c!!B0
+0008a55c	05	A	9.W
+0008a590	08	A	f""D~**T
+0008a5ab	06	A	k<(y
+0008a5c4	09	A	V22dN::t
+0008a648	0c	A	o%%Jr..\$8
+0008a6e3	05	A	-"<
+0008a6f8	05	A	x((Pz
+0008a727	05	A	)w--Z
+0008a73b	07	A	m:,cc
+0008a75f	05	A	T00`P
+0008a7cc	0c	A	&&Lj66lZ??~A
+0008a7df	05	A	O44h\
+0008a7f7	09	A	s11bS*?
+0008a807	05	A	R##Fe
+0008a80f	05	A	^0(
+0008a833	05	A	&''Ni
+0008a848	0e	A	,,Xt4.6-nn
+0008a877	05	A	>//^q
+0008a88f	05	A	,  @`
+0008a8ac	06	A	99rKJJ
+0008a92b	05	A	u!!Bc
+0008a96c	06	A	==zGdd
+0008a978	06	A	2+ss
+0008a98f	09	A	""Df**T~
+0008a9c3	09	A	;22dV::tN
+0008a9d8	06	A	$$Hl\\
+0008aa07	07	A	C77nYmm
+0008aa48	0c	A	%%Jo..\r8$
+0008aa6c	06	A	>!KK
+0008aaa4	06	A	55j_WW
+0008aab7	05	A	X:'
+0008ab3c	05	A	,:c
+0008ab6b	05	A	g+V}+
+0008abcc	0c	A	&Lj&6lZ6?~A?
+0008abf8	08	A	1bS1*?
+0008ac48	0d	A	,Xt,4.6-n
+0008ac63	05	A	R;vM;
+0008acac	05	A	9rK9J
+0008acd7	05	A	M3fU3
+0008acf3	05	A	P<xD<
+0008ad5b	05	A	D.9
+0008ad6b	06	A	~=zG=d
+0008ad77	06	A	]2+s
+0008ad90	08	A	"Df"*T~*
+0008adc4	08	A	2dV2:tN:
+0008add8	05	A	$Hl$\
+0008ae08	05	A	7nY7m
+0008ae47	0d	A	x%Jo%.\r.8$
+0008ae6b	06	A	t>!K
+0008ae83	05	A	p>|B>
+0008aea3	06	A	a5j_5W
+0008aef7	05	A	U(Px(
+0008af6a	06	A	ggV}++
+0008afcc	0c	A	Lj&&lZ66~A??
+0008afe0	05	A	h\44Q
+0008aff8	08	A	bS11*?
+0008b010	05	A	0(7
+0008b034	05	A	Ni''
+0008b048	0c	A	Xt,,4.6-
+0008b062	06	A	RRvM;;
+0008b0d6	06	A	MMfU33
+0008b0f2	07	A	PPxD<<%
+0008b12c	06	A	Bc!! 0
+0008b15a	06	A	DD.9
+0008b16a	06	A	~~zG==
+0008b176	06	A	]]2+
+0008b190	09	A	Df""T~**;
+0008b1c4	0a	A	dV22tN::
+0008b246	0f	A	xxJo%%\r..8$W
+0008b26a	06	A	tt>!
+0008b282	07	A	pp|B>>q
+0008b2a2	06	A	aaj_55
+0008b2b8	05	A	:''
+0008b2e4	05	A	<"
+0008b2f6	06	A	UUPx((
+0008b328	05	A	Zw--
+0008c343	05	A	QSeA~
+0008c3b5	05	A	!tX)i
+0008c400	05	A	XhHp
+0008c4db	05	A	NrZl
+0008c4eb	06	A	='9-6d
+0008c517	07	A	aiKwZ
+0008c52a	05	A	"<
+0008c559	05	A	;fD4~
+0008c5ea	06	A	_jbF~T
+0008c653	06	A	11#?*0
+0008c708	06	A	,4$8_@
+0008c738	06	A	t\lHBW
+0008c742	06	A	QPeA~S
+0008c761	05	A	0 Umv
+0008c7eb	07	A	`SbEwd
+0008c8ea	06	A	=9-6'
+0008c8f5	05	A	\h!T[
+0008c8fc	05	A	.6$:g
+0008c918	05	A	KwZi
+0008c929	05	A	"<C
+0008ca95	05	A	jL,
+0008cb07	06	A	>4$8,@
+0008cb37	06	A	p\lHtW
+0008cb44	06	A	A~Se
+0008cbea	07	A	`3SbEd
+0008cbff	06	A	+HpXhE
+0008ccdb	05	A	pZlNr
+0008ccfb	05	A	T6$:.
+0008cd17	05	A	 wZiK
+0008ce9b	06	A	eFQ^
+0008cee5	06	A	U?sy
+0008cf0e	05	A	_@r
+0008cf44	05	A	~SeA
+0008cfb6	05	A	!tI)i
+0008cfe9	07	A	`3QbES
+0008d0fa	06	A	T[$:.6
+0008d118	07	A	ZiKw
+0008d15a	05	A	;f[4~
+0008d1eb	05	A	_TbF~
+0008d29a	06	A	,FQe
+0008d307	05	A	h8,4$
+0008d337	05	A	2Ht\l
+0008d350	08	A	00006666
+0008d3a8	08	A	CCCCDDDD
+0008d3c0	08	A	TTTT{{{{
+0008d3d8	08	A	####====
+0008d40c	08	A	ffff((((
+0008d420	08	A	vvvv[[[[
+0008d42c	08	A	IIIImmmm
+0008d43c	08	A	%%%%rrrr
+0008d470	08	A	]]]]eeee
+0008d480	10	A	llllppppHHHHPPPP
+0008d4a0	10	A	^^^^FFFFWWWW
+0008d504	08	A	,,,,
+0008d53c	08	A	kkkk::::
+0008d54c	0c	A	AAAAOOOOgggg
+0008d588	08	A	tttt""""
+0008d5b0	08	A	uuuu
+0008d5bc	08	A	nnnnGGGG
+0008d5c8	10	A	qqqq))))
+0008d604	0c	A	VVVV>>>>KKKK
+0008d618	08	A	yyyy    
+0008d66c	08	A	YYYY''''
+0008d67c	10	A	____````QQQQ
+0008d6c8	08	A	;;;;MMMM
+0008d6fc	0c	A	aaaa++++
+0008d724	14	A	iiiiccccUUUU!!!!
+0008d766	06	A	"3DUfw
+0008d7aa	06	A	"3DUfw
+0008d7e0	0c	A	
+0008d7ee	06	A	"3DUfw
+0008d80c	0b	A	gcm != NULL
+0008d818	6f	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/encauth/gcm/gcm_add_iv.c
+0008d888	0a	A	IV != NULL
+0008d893	6d	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/encauth/gcm/gcm_done.c
+0008d901	0b	A	tag != NULL
+0008d90d	0e	A	taglen != NULL
+0008d91c	6d	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/encauth/gcm/gcm_init.c
+0008d998	70	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/encauth/gcm/gcm_process.c
+0008da2f	07	A	[sha256
+0008da37	0a	A	md != NULL
+0008da42	6b	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/hashes/sha2/sha256.c
+0008daae	0a	A	in != NULL
+0008dab9	0b	A	out != NULL
+0008dac9	38	A	abcdbcdecdefdefgefghfghighijhijkijkljklmklmnlmnomnopnopq
+0008db02	06	A	SHA256
+0008db09	0a	A	LibTomMath
+0008db14	66	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/math/ltm_desc.c
+0008db7b	09	A	b != NULL
+0008dbcf	0b	A	?456789:;<=
+0008dbf5	06	A	
+0008dc01	1a	A	 !"#$%&'()*+,-./0123
+0008dcd0	0a	A	456789:;<=
+0008dcf5	06	A	
+0008dd01	1a	A	 !"#$%&'()*+,-./0123
+0008dda0	72	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/misc/base64/base64_decode.c
+0008de13	0e	A	outlen != NULL
+0008de22	40	A	ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+0008de63	40	A	ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_
+0008dea4	72	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/misc/base64/base64_encode.c
+0008df17	2d	A	LTC_ARGCHK '%s' failure on line %d of file %s
+0008df46	75	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/misc/crypt/crypt_find_cipher.c
+0008dfbc	73	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/misc/crypt/crypt_find_hash.c
+0008e030	0e	A	cipher != NULL
+0008e03f	79	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/misc/crypt/crypt_register_cipher.c
+0008e0b9	77	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/misc/crypt/crypt_register_hash.c
+0008e131	65	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/misc/zeromem.c
+0008e197	6e	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/modes/cbc/cbc_decrypt.c
+0008e206	0b	A	cbc != NULL
+0008e212	6b	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/modes/cbc/cbc_done.c
+0008e27e	6c	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/modes/cbc/cbc_start.c
+0008e2eb	09	A	P != NULL
+0008e2f5	6b	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/pk/ecc/ltc_ecc_map.c
+0008e361	0f	A	modulus != NULL
+0008e371	0a	A	mp != NULL
+0008e37c	6f	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/pk/ecc/ltc_ecc_mul2add.c
+0008e3ec	09	A	C != NULL
+0008e3f6	0a	A	kA != NULL
+0008e401	0a	A	kB != NULL
+0008e40c	75	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/pk/ecc/ltc_ecc_mulmod_timing.c
+0008e482	09	A	G != NULL
+0008e48c	09	A	R != NULL
+0008e496	7c	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/pk/ecc/ltc_ecc_projective_add_point.c
+0008e513	09	A	Q != NULL
+0008e51d	7c	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/pk/ecc/ltc_ecc_projective_dbl_point.c
+0008e59a	6b	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/pk/rsa/rsa_exptmod.c
+0008e606	6a	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/pk/rsa/rsa_import.c
+0008e671	13	A	ltc_mp.name != NULL
+0008e685	6c	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/pk/rsa/rsa_make_key.c
+0008e6f2	08	A	size > 0
+0008e6fb	6f	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/pk/rsa/rsa_verify_hash.c
+0008e76b	0b	A	sig != NULL
+0008e777	0c	A	stat != NULL
+0008e784	70	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/encauth/gcm/gcm_add_aad.c
+0008e7f5	0d	A	adata != NULL
+0008e83e	05	A	f(
+0008e856	05	A	~8@9
+0008e86e	05	A	41X0
+0008e876	05	A	3$`%
+0008e87e	05	A	&&#h"
+0008e886	05	A	!.*p+
+0008e88e	05	A	(6-x,
+0008e8aa	05	A	R}|
+0008e8b2	05	A	xZz{
+0008e8ba	05	A	mbo$n
+0008e8c2	05	A	jjh,i
+0008e8ca	05	A	cra4`
+0008e8d2	05	A	dzf<g
+0008e8f2	05	A	@B\C
+0008e8fa	05	A	U"WdV
+0008e902	05	A	R*PlQ
+0008e90a	05	A	[2YtX
+0008e912	05	A	\:^|_
+0008ea1a	09	A	N != NULL
+0008ea24	68	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/math/rand_prime.c
+0008ea90	05	U	JT_(j
+0008eab8	84	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/pk/asn1/der/sequence/der_decode_sequence_ex.c
+0008eb3d	0c	A	list != NULL
+0008eb4a	87	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/pk/asn1/der/sequence/der_decode_sequence_multi.c
+0008ebd2	90	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/pk/asn1/der/sequence/der_decode_subject_public_key_info.c
+0008ec63	0a	A	inlen != 0
+0008ec6e	16	A	public_key_len != NULL
+0008ec96	85	A	CTT9/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/pk/asn1/der/sequence/der_length_sequence.c
+0008ed1c	0b	A	num != NULL
+0008ed28	8b	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/pk/asn1/der/short_integer/der_decode_short_integer.c
+0008edb4	8b	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/pk/asn1/der/short_integer/der_length_short_integer.c
+0008ee40	8d	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/pk/asn1/der/teletex_string/der_decode_teletex_string.c
+0008f280	8d	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/pk/asn1/der/teletex_string/der_length_teletex_string.c
+0008f30e	0e	A	octets != NULL
+0008f320	ac	A	+ "$&(*5/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/pk/asn1/der/utctime/der_decode_utctime.c
+0008f3cd	0d	A	inlen != NULL
+0008f3db	7f	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/pk/asn1/der/utctime/der_length_utctime.c
+0008f45b	0f	A	utctime != NULL
+0008f46b	80	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/pk/asn1/der/utf8/der_decode_utf8_string.c
+0008f4ec	80	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/pk/asn1/der/utf8/der_length_utf8_string.c
+0008f56d	0f	A	msghash != NULL
+0008f57d	73	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/pk/pkcs1/pkcs_1_pss_decode.c
+0008f5f1	0b	A	res != NULL
+0008f5fd	68	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/pk/rsa/rsa_free.c
+0008f666	65	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/misc/mem_neq.c
+0008f7e0	7e	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/pk/asn1/der/bit/der_decode_bit_string.c
+0008f85f	82	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/pk/asn1/der/bit/der_decode_raw_bit_string.c
+0008f8e2	7e	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/pk/asn1/der/bit/der_length_bit_string.c
+0008f961	7f	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/pk/asn1/der/boolean/der_decode_boolean.c
+0008f9e1	7f	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/pk/asn1/der/boolean/der_length_boolean.c
+0008fa62	09	A	PY:kr}D".
+0008fa75	7e	A	c/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/pk/asn1/der/choice/der_decode_choice.c
+0008faf4	8f	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/pk/asn1/der/generalizedtime/der_decode_generalizedtime.c
+0008fb84	8f	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/pk/asn1/der/generalizedtime/der_length_generalizedtime.c
+0008fc14	0d	A	gtime != NULL
+0008fc22	7e	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/pk/asn1/der/ia5/der_decode_ia5_string.c
+0008ffd4	7e	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/pk/asn1/der/ia5/der_length_ia5_string.c
+00090053	7f	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/pk/asn1/der/integer/der_decode_integer.c
+000900d3	7f	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/pk/asn1/der/integer/der_length_integer.c
+00090153	93	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/pk/asn1/der/object_identifier/der_decode_object_identifier.c
+000901e7	0d	A	words != NULL
+000901f5	93	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/pk/asn1/der/object_identifier/der_length_object_identifier.c
+00090289	82	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/pk/asn1/der/octet/der_decode_octet_string.c
+0009030c	82	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/pk/asn1/der/octet/der_length_octet_string.c
+0009038f	91	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/pk/asn1/der/printable_string/der_decode_printable_string.c
+00090674	91	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/pk/asn1/der/printable_string/der_length_printable_string.c
+00090706	0c	A	seed != NULL
+00090713	6d	A	/d/android/toolbox/toolbox10-android-rel/src/native_1.20.51.01_64/src/dep/tomcrypt/src/pk/pkcs1/pkcs_1_mgf1.c
+00090781	0c	A	mask != NULL
+0009078e	0b	A	glGetString
+0009079a	0d	A	OpenGL ES-CM 
+000907a8	0d	A	OpenGL ES-CL 
+000907b6	0a	A	OpenGL ES 
+000907c1	05	A	%d.%d
+000907c7	0f	A	glActiveTexture
+000907d7	0e	A	glAttachShader
+000907e6	14	A	glBindAttribLocation
+000907fb	0c	A	glBindBuffer
+00090808	11	A	glBindFramebuffer
+0009081a	12	A	glBindRenderbuffer
+0009082d	0d	A	glBindTexture
+0009083b	0c	A	glBlendColor
+00090848	0f	A	glBlendEquation
+00090858	17	A	glBlendEquationSeparate
+00090870	0b	A	glBlendFunc
+0009087c	13	A	glBlendFuncSeparate
+00090890	0c	A	glBufferData
+0009089d	0f	A	glBufferSubData
+000908ad	18	A	glCheckFramebufferStatus
+000908c6	07	A	glClear
+000908ce	0c	A	glClearColor
+000908db	0d	A	glClearDepthf
+000908e9	0e	A	glClearStencil
+000908f8	0b	A	glColorMask
+00090904	0f	A	glCompileShader
+00090914	16	A	glCompressedTexImage2D
+0009092b	19	A	glCompressedTexSubImage2D
+00090945	10	A	glCopyTexImage2D
+00090956	13	A	glCopyTexSubImage2D
+0009096a	0f	A	glCreateProgram
+0009097a	0e	A	glCreateShader
+00090989	0a	A	glCullFace
+00090994	0f	A	glDeleteBuffers
+000909a4	14	A	glDeleteFramebuffers
+000909b9	0f	A	glDeleteProgram
+000909c9	15	A	glDeleteRenderbuffers
+000909df	0e	A	glDeleteShader
+000909ee	10	A	glDeleteTextures
+000909ff	0b	A	glDepthFunc
+00090a0b	0b	A	glDepthMask
+00090a17	0d	A	glDepthRangef
+00090a25	0e	A	glDetachShader
+00090a34	09	A	glDisable
+00090a3e	1a	A	glDisableVertexAttribArray
+00090a59	0c	A	glDrawArrays
+00090a66	0e	A	glDrawElements
+00090a75	08	A	glEnable
+00090a7e	19	A	glEnableVertexAttribArray
+00090a98	08	A	glFinish
+00090aa1	07	A	glFlush
+00090aa9	19	A	glFramebufferRenderbuffer
+00090ac3	16	A	glFramebufferTexture2D
+00090ada	0b	A	glFrontFace
+00090ae6	0c	A	glGenBuffers
+00090af3	10	A	glGenerateMipmap
+00090b04	11	A	glGenFramebuffers
+00090b16	12	A	glGenRenderbuffers
+00090b29	0d	A	glGenTextures
+00090b37	11	A	glGetActiveAttrib
+00090b49	12	A	glGetActiveUniform
+00090b5c	14	A	glGetAttachedShaders
+00090b71	13	A	glGetAttribLocation
+00090b85	0d	A	glGetBooleanv
+00090b93	16	A	glGetBufferParameteriv
+00090baa	0a	A	glGetError
+00090bb5	0b	A	glGetFloatv
+00090bc1	25	A	glGetFramebufferAttachmentParameteriv
+00090be7	0d	A	glGetIntegerv
+00090bf5	0e	A	glGetProgramiv
+00090c04	13	A	glGetProgramInfoLog
+00090c18	1c	A	glGetRenderbufferParameteriv
+00090c35	0d	A	glGetShaderiv
+00090c43	12	A	glGetShaderInfoLog
+00090c56	1a	A	glGetShaderPrecisionFormat
+00090c71	11	A	glGetShaderSource
+00090c83	13	A	glGetTexParameterfv
+00090c97	13	A	glGetTexParameteriv
+00090cab	0e	A	glGetUniformfv
+00090cba	0e	A	glGetUniformiv
+00090cc9	14	A	glGetUniformLocation
+00090cde	13	A	glGetVertexAttribfv
+00090cf2	13	A	glGetVertexAttribiv
+00090d06	19	A	glGetVertexAttribPointerv
+00090d20	06	A	glHint
+00090d27	0a	A	glIsBuffer
+00090d32	0b	A	glIsEnabled
+00090d3e	0f	A	glIsFramebuffer
+00090d4e	0b	A	glIsProgram
+00090d5a	10	A	glIsRenderbuffer
+00090d6b	0a	A	glIsShader
+00090d76	0b	A	glIsTexture
+00090d82	0b	A	glLineWidth
+00090d8e	0d	A	glLinkProgram
+00090d9c	0d	A	glPixelStorei
+00090daa	0f	A	glPolygonOffset
+00090dba	0c	A	glReadPixels
+00090dc7	17	A	glReleaseShaderCompiler
+00090ddf	15	A	glRenderbufferStorage
+00090df5	10	A	glSampleCoverage
+00090e06	09	A	glScissor
+00090e10	0e	A	glShaderBinary
+00090e1f	0e	A	glShaderSource
+00090e2e	0d	A	glStencilFunc
+00090e3c	15	A	glStencilFuncSeparate
+00090e52	0d	A	glStencilMask
+00090e60	15	A	glStencilMaskSeparate
+00090e76	0b	A	glStencilOp
+00090e82	13	A	glStencilOpSeparate
+00090e96	0c	A	glTexImage2D
+00090ea3	0f	A	glTexParameterf
+00090eb3	10	A	glTexParameterfv
+00090ec4	0f	A	glTexParameteri
+00090ed4	10	A	glTexParameteriv
+00090ee5	0f	A	glTexSubImage2D
+00090ef5	0b	A	glUniform1f
+00090f01	0c	A	glUniform1fv
+00090f0e	0b	A	glUniform1i
+00090f1a	0c	A	glUniform1iv
+00090f27	0b	A	glUniform2f
+00090f33	0c	A	glUniform2fv
+00090f40	0b	A	glUniform2i
+00090f4c	0c	A	glUniform2iv
+00090f59	0b	A	glUniform3f
+00090f65	0c	A	glUniform3fv
+00090f72	0b	A	glUniform3i
+00090f7e	0c	A	glUniform3iv
+00090f8b	0b	A	glUniform4f
+00090f97	0c	A	glUniform4fv
+00090fa4	0b	A	glUniform4i
+00090fb0	0c	A	glUniform4iv
+00090fbd	12	A	glUniformMatrix2fv
+00090fd0	12	A	glUniformMatrix3fv
+00090fe3	12	A	glUniformMatrix4fv
+00090ff6	0c	A	glUseProgram
+00091003	11	A	glValidateProgram
+00091015	10	A	glVertexAttrib1f
+00091026	11	A	glVertexAttrib1fv
+00091038	10	A	glVertexAttrib2f
+00091049	11	A	glVertexAttrib2fv
+0009105b	10	A	glVertexAttrib3f
+0009106c	11	A	glVertexAttrib3fv
+0009107e	10	A	glVertexAttrib4f
+0009108f	11	A	glVertexAttrib4fv
+000910a1	15	A	glVertexAttribPointer
+000910b7	0a	A	glViewport
+000910c2	0c	A	glReadBuffer
+000910cf	13	A	glDrawRangeElements
+000910e3	0c	A	glTexImage3D
+000910f0	0f	A	glTexSubImage3D
+00091100	13	A	glCopyTexSubImage3D
+00091114	16	A	glCompressedTexImage3D
+0009112b	19	A	glCompressedTexSubImage3D
+00091145	0c	A	glGenQueries
+00091152	0f	A	glDeleteQueries
+00091162	09	A	glIsQuery
+0009116c	0c	A	glBeginQuery
+00091179	0a	A	glEndQuery
+00091184	0c	A	glGetQueryiv
+00091191	13	A	glGetQueryObjectuiv
+000911a5	0d	A	glUnmapBuffer
+000911b3	13	A	glGetBufferPointerv
+000911c7	0d	A	glDrawBuffers
+000911d5	14	A	glUniformMatrix2x3fv
+000911ea	14	A	glUniformMatrix3x2fv
+000911ff	14	A	glUniformMatrix2x4fv
+00091214	14	A	glUniformMatrix4x2fv
+00091229	14	A	glUniformMatrix3x4fv
+0009123e	14	A	glUniformMatrix4x3fv
+00091253	11	A	glBlitFramebuffer
+00091265	20	A	glRenderbufferStorageMultisample
+00091286	19	A	glFramebufferTextureLayer
+000912a0	10	A	glMapBufferRange
+000912b1	18	A	glFlushMappedBufferRange
+000912ca	11	A	glBindVertexArray
+000912dc	14	A	glDeleteVertexArrays
+000912f1	11	A	glGenVertexArrays
+00091303	0f	A	glIsVertexArray
+00091313	0f	A	glGetIntegeri_v
+00091323	18	A	glBeginTransformFeedback
+0009133c	16	A	glEndTransformFeedback
+00091353	11	A	glBindBufferRange
+00091365	10	A	glBindBufferBase
+00091376	1b	A	glTransformFeedbackVaryings
+00091392	1d	A	glGetTransformFeedbackVarying
+000913b0	16	A	glVertexAttribIPointer
+000913c7	14	A	glGetVertexAttribIiv
+000913dc	15	A	glGetVertexAttribIuiv
+000913f2	11	A	glVertexAttribI4i
+00091404	12	A	glVertexAttribI4ui
+00091417	12	A	glVertexAttribI4iv
+0009142a	13	A	glVertexAttribI4uiv
+0009143e	0f	A	glGetUniformuiv
+0009144e	15	A	glGetFragDataLocation
+00091464	0c	A	glUniform1ui
+00091471	0c	A	glUniform2ui
+0009147e	0c	A	glUniform3ui
+0009148b	0c	A	glUniform4ui
+00091498	0d	A	glUniform1uiv
+000914a6	0d	A	glUniform2uiv
+000914b4	0d	A	glUniform3uiv
+000914c2	0d	A	glUniform4uiv
+000914d0	0f	A	glClearBufferiv
+000914e0	10	A	glClearBufferuiv
+000914f1	0f	A	glClearBufferfv
+00091501	0f	A	glClearBufferfi
+00091511	0c	A	glGetStringi
+0009151e	13	A	glCopyBufferSubData
+00091532	13	A	glGetUniformIndices
+00091546	15	A	glGetActiveUniformsiv
+0009155c	16	A	glGetUniformBlockIndex
+00091573	19	A	glGetActiveUniformBlockiv
+0009158d	1b	A	glGetActiveUniformBlockName
+000915a9	15	A	glUniformBlockBinding
+000915bf	15	A	glDrawArraysInstanced
+000915d5	17	A	glDrawElementsInstanced
+000915ed	0b	A	glFenceSync
+000915f9	08	A	glIsSync
+00091602	0c	A	glDeleteSync
+0009160f	10	A	glClientWaitSync
+00091620	0a	A	glWaitSync
+0009162b	0f	A	glGetInteger64v
+0009163b	0b	A	glGetSynciv
+00091647	11	A	glGetInteger64i_v
+00091659	18	A	glGetBufferParameteri64v
+00091672	0d	A	glGenSamplers
+00091680	10	A	glDeleteSamplers
+00091691	0b	A	glIsSampler
+0009169d	0d	A	glBindSampler
+000916ab	13	A	glSamplerParameteri
+000916bf	14	A	glSamplerParameteriv
+000916d4	13	A	glSamplerParameterf
+000916e8	14	A	glSamplerParameterfv
+000916fd	17	A	glGetSamplerParameteriv
+00091715	17	A	glGetSamplerParameterfv
+0009172d	15	A	glVertexAttribDivisor
+00091743	17	A	glBindTransformFeedback
+0009175b	1a	A	glDeleteTransformFeedbacks
+00091776	17	A	glGenTransformFeedbacks
+0009178e	15	A	glIsTransformFeedback
+000917a4	18	A	glPauseTransformFeedback
+000917bd	19	A	glResumeTransformFeedback
+000917d7	12	A	glGetProgramBinary
+000917ea	0f	A	glProgramBinary
+000917fa	13	A	glProgramParameteri
+0009180e	17	A	glInvalidateFramebuffer
+00091826	1a	A	glInvalidateSubFramebuffer
+00091841	0e	A	glTexStorage2D
+00091850	0e	A	glTexStorage3D
+0009185f	15	A	glGetInternalformativ
+00091875	11	A	glDispatchCompute
+00091887	19	A	glDispatchComputeIndirect
+000918a1	14	A	glDrawArraysIndirect
+000918b6	16	A	glDrawElementsIndirect
+000918cd	17	A	glFramebufferParameteri
+000918e5	1b	A	glGetFramebufferParameteriv
+00091901	17	A	glGetProgramInterfaceiv
+00091919	19	A	glGetProgramResourceIndex
+00091933	18	A	glGetProgramResourceName
+0009194c	16	A	glGetProgramResourceiv
+00091963	1c	A	glGetProgramResourceLocation
+00091980	12	A	glUseProgramStages
+00091993	15	A	glActiveShaderProgram
+000919a9	16	A	glCreateShaderProgramv
+000919c0	15	A	glBindProgramPipeline
+000919d6	18	A	glDeleteProgramPipelines
+000919ef	15	A	glGenProgramPipelines
+00091a05	13	A	glIsProgramPipeline
+00091a19	16	A	glGetProgramPipelineiv
+00091a30	12	A	glProgramUniform1i
+00091a43	12	A	glProgramUniform2i
+00091a56	12	A	glProgramUniform3i
+00091a69	12	A	glProgramUniform4i
+00091a7c	13	A	glProgramUniform1ui
+00091a90	13	A	glProgramUniform2ui
+00091aa4	13	A	glProgramUniform3ui
+00091ab8	13	A	glProgramUniform4ui
+00091acc	12	A	glProgramUniform1f
+00091adf	12	A	glProgramUniform2f
+00091af2	12	A	glProgramUniform3f
+00091b05	12	A	glProgramUniform4f
+00091b18	13	A	glProgramUniform1iv
+00091b2c	13	A	glProgramUniform2iv
+00091b40	13	A	glProgramUniform3iv
+00091b54	13	A	glProgramUniform4iv
+00091b68	14	A	glProgramUniform1uiv
+00091b7d	14	A	glProgramUniform2uiv
+00091b92	14	A	glProgramUniform3uiv
+00091ba7	14	A	glProgramUniform4uiv
+00091bbc	13	A	glProgramUniform1fv
+00091bd0	13	A	glProgramUniform2fv
+00091be4	13	A	glProgramUniform3fv
+00091bf8	13	A	glProgramUniform4fv
+00091c0c	19	A	glProgramUniformMatrix2fv
+00091c26	19	A	glProgramUniformMatrix3fv
+00091c40	19	A	glProgramUniformMatrix4fv
+00091c5a	1b	A	glProgramUniformMatrix2x3fv
+00091c76	1b	A	glProgramUniformMatrix3x2fv
+00091c92	1b	A	glProgramUniformMatrix2x4fv
+00091cae	1b	A	glProgramUniformMatrix4x2fv
+00091cca	1b	A	glProgramUniformMatrix3x4fv
+00091ce6	1b	A	glProgramUniformMatrix4x3fv
+00091d02	19	A	glValidateProgramPipeline
+00091d1c	1b	A	glGetProgramPipelineInfoLog
+00091d38	12	A	glBindImageTexture
+00091d4b	0f	A	glGetBooleani_v
+00091d5b	0f	A	glMemoryBarrier
+00091d6b	17	A	glMemoryBarrierByRegion
+00091d83	19	A	glTexStorage2DMultisample
+00091d9d	12	A	glGetMultisamplefv
+00091db0	0d	A	glSampleMaski
+00091dbe	18	A	glGetTexLevelParameteriv
+00091dd7	18	A	glGetTexLevelParameterfv
+00091df0	12	A	glBindVertexBuffer
+00091e03	14	A	glVertexAttribFormat
+00091e18	15	A	glVertexAttribIFormat
+00091e2e	15	A	glVertexAttribBinding
+00091e44	16	A	glVertexBindingDivisor
+00091e5b	0e	A	glBlendBarrier
+00091e6a	12	A	glCopyImageSubData
+00091e7d	15	A	glDebugMessageControl
+00091e93	14	A	glDebugMessageInsert
+00091ea8	16	A	glDebugMessageCallback
+00091ebf	14	A	glGetDebugMessageLog
+00091ed4	10	A	glPushDebugGroup
+00091ee5	0f	A	glPopDebugGroup
+00091ef5	0d	A	glObjectLabel
+00091f03	10	A	glGetObjectLabel
+00091f14	10	A	glObjectPtrLabel
+00091f25	13	A	glGetObjectPtrLabel
+00091f39	0d	A	glGetPointerv
+00091f47	09	A	glEnablei
+00091f51	0a	A	glDisablei
+00091f5c	10	A	glBlendEquationi
+00091f6d	18	A	glBlendEquationSeparatei
+00091f86	0c	A	glBlendFunci
+00091f93	14	A	glBlendFuncSeparatei
+00091fa8	0c	A	glColorMaski
+00091fb5	0c	A	glIsEnabledi
+00091fc2	18	A	glDrawElementsBaseVertex
+00091fdb	1d	A	glDrawRangeElementsBaseVertex
+00091ff9	21	A	glDrawElementsInstancedBaseVertex
+0009201b	14	A	glFramebufferTexture
+00092030	16	A	glPrimitiveBoundingBox
+00092047	18	A	glGetGraphicsResetStatus
+00092060	0d	A	glReadnPixels
+0009206e	0f	A	glGetnUniformfv
+0009207e	0f	A	glGetnUniformiv
+0009208e	10	A	glGetnUniformuiv
+0009209f	12	A	glMinSampleShading
+000920b2	11	A	glPatchParameteri
+000920c4	11	A	glTexParameterIiv
+000920d6	12	A	glTexParameterIuiv
+000920e9	14	A	glGetTexParameterIiv
+000920fe	15	A	glGetTexParameterIuiv
+00092114	15	A	glSamplerParameterIiv
+0009212a	16	A	glSamplerParameterIuiv
+00092141	18	A	glGetSamplerParameterIiv
+0009215a	19	A	glGetSamplerParameterIuiv
+00092174	0b	A	glTexBuffer
+00092180	10	A	glTexBufferRange
+00092191	19	A	glTexStorage3DMultisample
+000921ab	12	A	libunwind: %s - %s
+000921bf	0e	A	_Unwind_Resume
+000921ce	1d	A	_Unwind_Resume() can't return
+000921ec	0d	A	unwind_phase2
+000921fa	62	A	during phase1 personality function said it would stop here, but now in phase2 it did not stop here
+00092473	2c	A	libunwind: Unsupported .eh_frame_hdr version
+000924a1	0b	A	getEncodedP
+000924ad	18	A	unknown pointer encoding
+000924c6	2f	A	DW_EH_PE_textrel pointer encoding not supported
+000924f6	33	A	DW_EH_PE_datarel is invalid with a datarelBase of 0
+0009252a	2f	A	DW_EH_PE_funcrel pointer encoding not supported
+0009255a	2f	A	DW_EH_PE_aligned pointer encoding not supported
+0009258a	0a	A	getULEB128
+00092595	1c	A	truncated uleb128 expression
+000925b2	1c	A	malformed uleb128 expression
+000925cf	0a	A	getSLEB128
+000925da	1c	A	truncated sleb128 expression
+000925f7	0b	A	getRegister
+00092603	1a	A	unsupported arm64 register
+0009261e	0b	A	setRegister
+0009262a	45	A	libunwind: malformed DW_CFA_offset_extended DWARF unwind, reg too big
+00092671	46	A	libunwind: malformed DW_CFA_restore_extended DWARF unwind, reg too big
+000926b9	3f	A	libunwind: malformed DW_CFA_undefined DWARF unwind, reg too big
+000926fa	40	A	libunwind: malformed DW_CFA_same_value DWARF unwind, reg too big
+0009273c	3e	A	libunwind: malformed DW_CFA_register DWARF unwind, reg too big
+0009277c	3f	A	libunwind: malformed DW_CFA_register DWARF unwind, reg2 too big
+000927bd	3d	A	libunwind: malformed DW_CFA_def_cfa DWARF unwind, reg too big
+000927fc	46	A	libunwind: malformed DW_CFA_def_cfa_register DWARF unwind, reg too big
+00092844	40	A	libunwind: malformed DW_CFA_expression DWARF unwind, reg too big
+00092886	48	A	libunwind: malformed DW_CFA_offset_extended_sf DWARF unwind, reg too big
+000928d0	40	A	libunwind: malformed DW_CFA_def_cfa_sf DWARF unwind, reg too big
+00092912	4b	A	libunwind: malformed DW_CFA_val_offset DWARF unwind, reg (%lu) out of range
+00092960	43	A	libunwind: malformed DW_CFA_val_offset_sf DWARF unwind, reg too big
+000929a5	44	A	libunwind: malformed DW_CFA_val_expression DWARF unwind, reg too big
+000929eb	52	A	libunwind: malformed DW_CFA_GNU_negative_offset_extended DWARF unwind, reg too big
+00092a3f	12	A	evaluateExpression
+00092a52	1b	A	DW_OP_fbreg not implemented
+00092a6e	1b	A	DW_OP_piece not implemented
+00092a8a	1e	A	DW_OP_deref_size with bad size
+00092aa9	1c	A	DWARF opcode not implemented
+00092ac6	15	A	getSavedFloatRegister
+00092adc	2f	A	unsupported restore location for float register
+00092b0c	10	A	getSavedRegister
+00092b1d	29	A	unsupported restore location for register
+00092b47	12	A	CIE ID is not zero
+00092b5a	19	A	CIE version is not 1 or 3
+00092b74	11	A	getTableEntrySize
+00092b86	34	A	Can't binary search on variable length encoded data.
+00092bbb	28	A	Unknown DWARF encoding for search table.
+00092cd0	10	A	unknown register
+00092ce1	13	A	FDE has zero length
+00092cf5	13	A	FDE is really a CIE
+00092d14	21	A	^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+00092d36	0a	A	^^^^^^^^^
+00092d4d	44	A	#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^%^'^^^^^^^^)^^^^^^^;^^^^^M^^^^^^f^h
+00092f7a	41	A	A valid JSON document must be either an array or an object value.
+00092fbc	23	A	Exceeded stackLimit in readValue().
+00092fe0	2e	A	Syntax error: value, object or array expected.
+0009300f	24	A	Missing ':' after object member name
+00093034	28	A	Missing ',' or '}' in object declaration
+0009305d	21	A	Missing '}' or object member name
+0009307f	27	A	Missing ',' or ']' in array declaration
+000930a7	12	A	' is not a number.
+000930ba	1f	A	Empty escape sequence in string
+000930da	1d	A	Bad escape sequence in string
+000930f8	43	A	additional six characters expected to parse unicode surrogate pair.
+0009313c	4f	A	expecting another \u token to begin the second half of a unicode surrogate pair
+0009318c	3c	A	Bad unicode escape sequence in string: four digits expected.
+000931c9	42	A	Bad unicode escape sequence in string: hexadecimal digit expected.
+0009320c	12	A	Line %d, Column %d
+0009322a	0c	A	 for detail.
+00093238	26	A	Extra non-whitespace after JSON value.
+0009325f	11	A	keylength >= 2^30
+00093271	10	A	Duplicate key: '
+00093282	1c	A	Unable to parse token length
+0009329f	0f	A	collectComments
+000932af	0d	A	allowComments
+000932bd	0a	A	strictRoot
+000932c8	1c	A	allowDroppedNullPlaceholders
+000932e5	10	A	allowNumericKeys
+000932f6	11	A	allowSingleQuotes
+00093308	0a	A	stackLimit
+00093313	0b	A	failIfExtra
+0009331f	0d	A	rejectDupKeys
+0009332d	12	A	allowSpecialFloats
+00093340	15	A	Error from reader: %s
+00093365	07	A	0&5
+000933f1	32	A	ConstIterator to Iterator should never be allowed.
+00093424	12	A	assert json failed
+00093437	38	A	in Json::Value::setComment(): Comments must start with /
+00093470	31	A	in Json::Value::asCString(): requires stringValue
+000934a7	05	A	false
+000934ad	1e	A	LargestUInt out of Int64 range
+000934cc	19	A	double out of Int64 range
+000934e6	22	A	Value is not convertible to Int64.
+00093509	1e	A	LargestInt out of UInt64 range
+00093528	1a	A	double out of UInt64 range
+00093543	23	A	Value is not convertible to UInt64.
+00093567	2f	A	in Json::Value::clear(): requires complex value
+00093597	2d	A	in Json::Value::resize(): requires arrayValue
+000935c5	3b	A	in Json::Value::operator[](ArrayIndex): requires arrayValue
+00093601	3f	A	in Json::Value::operator[](int index): index cannot be negative
+00093641	40	A	in Json::Value::operator[](ArrayIndex)const: requires arrayValue
+00093682	45	A	in Json::Value::operator[](int index) const: index cannot be negative
+000936c8	38	A	in Json::Value::resolveReference(): requires objectValue
+00093701	40	A	in Json::Value::resolveReference(key, end): requires objectValue
+00093742	48	A	in Json::Value::find(key, end, found): requires objectValue or nullValue
+0009378b	34	A	in Json::Value::removeMember(): requires objectValue
+000937c0	3b	A	in Json::Value::getMemberNames(), value must be objectValue
+000937ff	4e	A	in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
+0009384e	4d	A	in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
+0009389c	57	A	in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
+000938f4	15	A	N4Json12RuntimeErrorE
+0009390a	11	A	N4Json9ExceptionE
+0009391c	13	A	N4Json10LogicErrorE
+00093932	07	A	
+0009393f	14	A	
+0009395f	18	A	5A/
+000939e0	0b	A	indentation
+000939ec	0c	A	commentStyle
+000939f9	17	A	enableYAMLCompatibility
+00093a11	14	A	dropNullPlaceholders
+00093a26	10	A	useSpecialFloats
+00093a37	09	A	precision
+00093a4a	24	A	commentStyle must be 'All' or 'None'
+00093a6f	06	A	%%.%dg
+00093a7a	09	A	-Infinity
+00093a84	08	A	-1e+9999
+00093af8	14	A	437ae92817f9fc85b7e5
+00093b0d	15	A	2be6951adc5b22410a5fd
+00094328	0c	A	/dev/urandom
+0009441e	40	A	0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz+/
+00094482	10	A	 !"#
+00094498	1a	A	$%&'()*+,-./0123456789:;<=
+000ac454	07	A	Android
+000ac4a0	07	A	6113669
+000af0a0	b3	A	Android (5900059 based on r365631c) clang version 9.0.8 (https://android.googlesource.com/toolchain/llvm-project 207d7abc1a2abf3ef8d4301736d6a7ebc224a290) (based on LLVM 9.0.8svn)
+000af154	26	A	GCC: (GNU) 4.9.x 20150123 (prerelease)
+000af17f	0b	A	.init_array
+000af18b	0b	A	.fini_array
+000af197	05	A	.text
+000af1a2	08	A	.comment
+000af1ab	13	A	.note.android.ident
+000af1bf	09	A	.rela.plt
+000af1ce	08	A	.deplibs
+000af1d7	07	A	.dynstr
+000af1df	0d	A	.eh_frame_hdr
+000af1ed	0e	A	.gnu.version_r
+000af1fc	0c	A	.data.rel.ro
+000af209	09	A	.rela.dyn
+000af213	0c	A	.gnu.version
+000af220	07	A	.dynsym
+000af228	09	A	.gnu.hash
+000af232	09	A	.eh_frame
+000af23c	11	A	.gcc_except_table
+000af24e	12	A	.note.gnu.build-id
+000af261	0e	A	.gnu.version_d
+000af270	08	A	.dynamic
+000af279	09	A	.shstrtab
+000af283	07	A	.rodata
+000af28b	05	A	.data
