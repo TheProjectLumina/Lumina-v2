@@ -2510,6 +2510,7 @@
     <public type="raw" name="ui_lunaris" id="0x7f0f000c" />
     <public type="raw" name="ui_misc" id="0x7f0f000d" />
     <public type="raw" name="ui_lunatic" id="0x7f0f000e" />
+    <public type="raw" name="ui_visual" id="0x7f0f000f" />
     <public type="string" name="abc_action_bar_home_description" id="0x7f100000" />
     <public type="string" name="abc_action_bar_up_description" id="0x7f100001" />
     <public type="string" name="abc_action_menu_overflow_description" id="0x7f100002" />

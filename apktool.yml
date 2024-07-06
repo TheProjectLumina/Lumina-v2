@@ -1,5 +1,5 @@
 version: 2.9.3
-apkFileName: Toolbox.v.5.4.58.b.157.minSDK19crk.LVL.Auto.sigKill_src_sign.apk
+apkFileName: LaunchModule_2.0.1.apk
 isFrameworkApk: false
 usesFramework:
   ids:
@@ -13,7 +13,7 @@ packageInfo:
   renameManifestPackage: null
 versionInfo:
   versionCode: 157
-  versionName: 5.4.58
+  versionName: 2.0.1
 resourcesAreCompressed: false
 sharedLibrary: false
 sparseResources: false

@@ -28,24 +28,6 @@
       "path": "nbt_editor/enabled",
       "label": "NBT",
       "has_shortcut": false
-    },
-    {
-      "type": "action",
-      "path": "spawn_exp",
-      "label": "s_world_spawn_exp",
-      "has_shortcut": false
-    },
-    {
-      "type": "toggle",
-      "path": "anti_lag/enabled",
-      "label": "FPSBooster",
-      "has_shortcut": false
-    },
-     {
-      "type": "toggle",
-      "path": "internal/crash",
-      "label": "AntiCrash",
-      "has_shortcut": false
       }
    ]
 }

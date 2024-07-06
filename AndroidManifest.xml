@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="30" android:compileSdkVersionCodename="S" package="io.mrarm.mctoolbox" platformBuildVersionCode="30" platformBuildVersionName="S">
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="34" android:compileSdkVersionCodename="14" package="io.mrarm.mctoolbox" platformBuildVersionCode="34" platformBuildVersionName="14">
     <instrumentation android:name=".RelaunchInstrumentation" android:targetPackage="io.mrarm.mctoolbox"/>
     <queries>
-        <package android:name="com.mojang.minecraftpe."/>
+        <package android:name="com.mojang.minecraftpe"/>
         <package android:name="com.android.vending"/>
         <package android:name="com.amazon.venezia"/>
         <package android:name="com.sec.android.app.samsungapps"/>
@@ -27,7 +27,7 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
-    <application android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:label="LaunchModule" android:preserveLegacyExternalStorage="true" android:requestLegacyExternalStorage="true" android:supportsRtl="true" android:theme="@style/AppTheme" android:usesCleartextTraffic="true">
+    <application android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:label="LaunchModule" android:name="jn.utvwn.crulttafj.hdmjkfexkogopnfdmz" android:preserveLegacyExternalStorage="true" android:requestLegacyExternalStorage="true" android:supportsRtl="true" android:theme="@style/AppTheme" android:usesCleartextTraffic="true">
         <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:exported="true" android:launchMode="singleTask" android:name="io.mrarm.mctoolbox.MinecraftActivity" android:screenOrientation="sensorLandscape" android:theme="@style/Yurai.MinecraftTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
