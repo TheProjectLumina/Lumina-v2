@@ -35,7 +35,7 @@
                     "a": { "type": "panel", "size": [ 65, "100%" ], "controls": [ { "common_back_button@neko_c.common_back_button": {}}]}
                   },
                   {
-                    "b": { "type": "panel", "size": [ 80, "100%" ], "ignored": "($is_on_3p_server or $ignore_search)", "controls": [ { "market_search_button@neko_c.market_search_button": {}}]}
+                    "b": { "type": "panel", "size": [ 80, "100%" ], "ignored": "($is_on_3p_server or $ignore_search)", "controls": [ { "market_search_button@neko_c.market_search_button": { "$neko_font_title": 0.85 }}]}
                   },
                   {
                     "padding3": {

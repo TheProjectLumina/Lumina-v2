@@ -11,6 +11,8 @@
     "texture": "$neko_texture",
     "offset": "$neko_image_offset",
     "color": "$warna_neko",
+    "$warna_neko|default": [],
+    "$ukuran_neko|default": [],
     "size": "$ukuran_neko",
     "anchor_from": "$neko_image_anchor",
     "anchor_to": "$neko_image_anchor",
@@ -22,7 +24,7 @@
     "layer": 1,
     "type": "panel",
     "visible": "$use_neko_panel",
-    "$use_neko_panel|defaualt": true,
+    "$use_neko_panel|default": true,
     "$neko": "common_buttons.neko_neko",
     "size": [ "100%", "20px" ],
     "anchor_from": "bottom_middle",
@@ -74,7 +76,6 @@
     "$button_anchor_from|default": "center",
     "anchor_to": "$button_anchor_to",
     "anchor_from": "$button_anchor_from",
-    "$button_image_fill|default": false,
     "$button_image_color|default": [ 1.0, 1.0, 1.0 ],
     "controls": [
       {
@@ -85,7 +86,6 @@
           "anchor_from": "$image_anchor",
           "anchor_to": "$image_anchor",
           "layer": 1,
-          "fill": "$button_image_fill",
           "color": "$button_image_color"
         }
       },
@@ -160,14 +160,22 @@
     "$default_button_alpha|default": 1,
     "$default_hover_alpha|default": 1,
     "$default_pressed_alpha|default": 1,
+    "$default_locked_alpha|default": 1,
     "$default_button_pressed_offset|default": [ 0, 1 ],
 
     "$ukuran_neko_x|default": [ "100% - 2px", 20 ],
-
+    "$ukuran_neko|default": [],
+    
     "$default_text_color|default": "$light_button_default_text_color",
     "$hover_text_color|default": "$light_button_hover_text_color",
     "$pressed_text_color|default": "$light_button_pressed_text_color",
     "$locked_text_color|default": "$light_button_locked_text_color",
+
+    "$neko_texture_default|default": "",
+    "$neko_texture_hover|default": "",
+    "$neko_texture_pressed|default": "",
+    "$neko_texture_locked|default": "",
+    
 
     // For text bindings
     "$button_text_binding_type|default": "none",
@@ -187,7 +195,6 @@
     "controls": [
       {
         "default@$button_state_panel": {
-          "fill": true,
           "$new_ui_button_texture": "$default_button_texture",
           "$text_color": "$default_text_color",
           "$secondary_text_color": "$light_button_secondary_default_text_color",
@@ -258,7 +265,7 @@
       },
       {
         "neko_pressed@$yuru_camp": {
-          "$neko_texture": "$neko_texture_hover",
+          "$neko_texture": "$neko_texture_pressed",
           "$button_alpha": "$default_pressed_alpha",
           "$pressed_state": true,
           "layer": 27

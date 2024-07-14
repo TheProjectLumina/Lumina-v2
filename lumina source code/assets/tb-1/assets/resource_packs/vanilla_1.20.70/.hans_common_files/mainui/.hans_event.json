@@ -1,0 +1,24 @@
+{
+    "namespace": "hans_event",
+
+    "image_uv_animation": {
+      "anim_type": "uv",
+      "duration": 4,
+      "from": "$neko_a",
+      "to": "$neko_a"
+    },
+      
+    "hans_events": {
+      "type": "image",
+      "fill": true,
+      "uv_size": [ 2000, 1000 ],
+      "uv": "@hans_event.first_animation",
+      "layer": 31,
+      "texture": ".hans_common_files/mainui/uwu_4"
+    },
+    
+    "first_animation@hans_event.image_uv_animation": { "$neko_a": [ 0, 0] , "next": "@hans_event.a_01" },
+      "a_01@hans_event.image_uv_animation": { "$neko_a": [ 0, 1000], "next": "@hans_event.a_02" },
+      "a_02@hans_event.image_uv_animation": { "$neko_a": [ 0, 2000 ], "next": "@hans_event.a_03" },
+      "a_03@hans_event.image_uv_animation": { "$neko_a": [ 0, 3000 ], "next": "@hans_event.first_animation" }
+}

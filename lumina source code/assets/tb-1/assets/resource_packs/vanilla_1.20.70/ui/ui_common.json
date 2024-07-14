@@ -1,6 +1,72 @@
 {
   "namespace": "common",
 
+  "hans_common_panel": {
+    "type": "panel",
+    "$dialog_background|default": "common.dialog_background_opaque",
+    "$show_close_button|default": false,
+    "$close_button_visible_binding_name|default": "#close_button_visible",
+    "$close_button_offset|default": [ 0, 0 ],
+    "$close_button_layer|default": 2,
+    "$use_compact_close_button|default": false,
+    "$show_divider|default": false,
+    "$divider_offset|default": [ "42.5%", "22px" ],
+    "$divider_visible_binding_name|default": "",
+    "$divider_visible_binding_type|default": "none",
+    "$divider_size|default": [ "5px", "100% - 29px" ],
+    "controls": [
+      {
+        "bg_image@$dialog_background": {
+          "layer": 1
+        }
+      },
+      {
+        "dialog_divider@common.dialog_divider": {
+          "visible": "$show_divider",
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": "$divider_offset",
+          "size": "$divider_size",
+          "bindings": [
+            {
+              "binding_name": "$divider_visible_binding_name",
+              "binding_name_override": "#visible",
+              "binding_type": "$divider_visible_binding_type"
+            }
+          ]
+        }
+      },
+      {
+        "close_button_holder": {
+          "type": "panel",
+          "ignored": "(not $show_close_button)",
+          "controls": [
+            {
+              "close@common.close_button": {
+                "layer": "$close_button_layer",
+                "offset": "$close_button_offset",
+                "ignored": "$use_compact_close_button"
+              }
+            },
+            {
+              "compact_close@common.compact_close_button": {
+                "layer": "$close_button_layer",
+                "offset": "$close_button_offset",
+                "ignored": "(not $use_compact_close_button)"
+              }
+            }
+          ],
+          "bindings": [
+            {
+              "binding_name": "$close_button_visible_binding_name",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      }
+    ]
+  },
+
   "scroll_box/box":{
 		"modifications":[
 			{
@@ -26,13 +92,11 @@
 
   "slider_progress": {
     "type": "image",
-    "color": "$slider_background_color",
     "texture": "textures/ui/slider_progress"
   },
 
   "slider_progress_hover": {
     "type": "image",
-    "color": "$slider_background_color_hover",
     "texture": "textures/ui/slider_progress_hover"
   },
   
@@ -472,6 +536,7 @@
             {
               "bg_no_safezone_screen_panel@$screen_bg_content": {
                 "anims": "$background_animations",
+                "animation_reset_name": "screen_animation_reset",
                 "propagate_alpha": true,
                 "disable_anim_fast_forward": true,
                 "layer": 2
@@ -766,6 +831,23 @@
     "anchor_to": "top_left",
     "controls": [
       { "inventory_panel_mod@inventory_panel_mod": {} }
+    ]
+  },
+
+  "hans_inventory_panel_bottom_half_with_label@inventory_panel_bottom_half": {
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "size": [ "100%", 93 ],
+    "controls": [
+      {
+        "inventory_label@section_heading_label": {
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": [ 7, 3 ],
+          "layer": 2,
+          "text": "container.inventory"
+        }
+      }
     ]
   }
 }

@@ -1,0 +1,93 @@
+{
+  "namespace": "smithing_table_2",
+
+  "smithing_table_panel/root_panel": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_back",
+        "value": [
+          { "toolbar_panel@neko_c.toolbar_panel": {}}
+        ]
+      },
+      {
+        "array_name": "controls",
+        "operation": "remove",
+        "where": { "toolbar_anchor@smithing_table_2.toolbar_anchor": {} }
+      },
+      {
+        "array_name": "controls",
+        "operation": "insert_back",
+        "value": [
+          {
+            "hans_common_panel@common.hans_common_panel": {
+              "$dialog_background": "neko_c.hans_common_smithing_table_background"
+            }
+          }
+        ]
+      },
+      {
+        "array_name": "controls",
+        "operation": "remove",
+        "where": {"common_panel@common.common_panel": {}}
+      },
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": { "tombol_extra@crafting.tombol_extra": { 
+          "$enable_drop_one": true, 
+          "$enable_drop_one_stack": true,
+          "$enable_normal_inventory": true, 
+          "$enable_destroy_item": false, 
+          "$enable_quick_loot_smithing": false, 
+          "$enable_quick_loot": false,
+          "$enable_quick_crafting": false,
+          "$enable_quick_loot_furnace": false,
+          "$enable_quick_loot_anvil": false 
+          }
+        }
+      }
+    ]
+  },
+
+  "smithing_table_panel/root_panel/smithing_table_screen_inventory": {
+    "modifications": [
+      {
+        "array_name": "controls", 
+        "operation": "insert_front", 
+        "value": { "inventory_panel_bottom_half_with_label_drop_stack@chest.inventory_panel_bottom_half_with_label_drop_stack": {} }
+      }, 
+      {
+        "array_name": "controls", 
+        "operation": "insert_front", 
+        "value": { "inventory_panel_bottom_half_with_label_drop_one@chest.inventory_panel_bottom_half_with_label_drop_one": {} }
+      }, 
+      {
+        "array_name": "controls", 
+        "operation": "insert_front", 
+        "value": { "hotbar_drop_stack@chest.hotbar_drop_stack": {} }
+      },
+      {
+        "array_name": "controls", 
+        "operation": "insert_front", 
+        "value": { "hotbar_drop_one@chest.hotbar_drop_one": {} }
+      },
+      
+      {
+        "array_name": "controls", 
+        "operation": "insert_front", 
+        "value": { "normal_4@chest.inventory_panel_bottom_half_with_label_none": {} }
+      }
+    ]
+  },
+
+  "smithing_table_panel": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": { "armor_and_heart_render@crafting.armor_and_heart_render": {}}
+      }
+    ]
+  }
+}

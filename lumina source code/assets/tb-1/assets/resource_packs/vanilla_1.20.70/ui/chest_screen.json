@@ -90,6 +90,62 @@
     ]
   },
 
+  "small_chest_panel/root_panel": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_back",
+        "value": [
+          { "toolbar_panel@neko_c.toolbar_panel": {}}
+        ]
+      },
+      {
+        "array_name": "controls",
+        "operation": "insert_back",
+        "value": [
+          {
+            "hans_common_panel@common.hans_common_panel": {
+              "$dialog_background": "neko_c.hans_common_small_chest_background"
+            }
+          }
+        ]
+      },
+      {
+        "array_name": "controls",
+        "operation": "remove",
+        "where": {"common_panel@common.common_panel": {}}
+      }
+    ]
+  },
+
+  "large_chest_panel/root_panel": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_back",
+        "value": [
+          { "toolbar_panel@neko_c.toolbar_panel": { "offset": [ -7, 22 ]}}
+        ]
+      },
+      {
+        "array_name": "controls",
+        "operation": "insert_back",
+        "value": [
+          {
+            "hans_common_panel@common.hans_common_panel": {
+              "$dialog_background": "neko_c.hans_common_large_chest_background"
+            }
+          }
+        ]
+      },
+      {
+        "array_name": "controls",
+        "operation": "remove",
+        "where": {"common_panel@common.common_panel": {}}
+      }
+    ]
+  },
+
   "small_chest_panel_top_half_mod": {
     "type": "panel",
     "size": [ "100%", "50%" ],
@@ -178,12 +234,54 @@
   /// Toggle
 
   "core_toggle@test_toggle.yaemiko": {
+
+    "$default_texture": ".hans_common_textures/.common_button_texture/default",
+    "$hover_texture": "textures/neko/toggle_button/di_tekan",
+    "$pressed_texture": "textures/neko/toggle_button/di_tekan",
+    "$pressed_no_hover_texture": "textures/neko/toggle_button/di_tekan_hover",
+
+
+    "$toggle_enabled_binding_type": "view",
+    "$toggle_binding_type": "view",
+    "$binding_type": "global",
+    "$binding_condition": "once",
+ 
     "size": [ 25, 25],
-    
     "$toggle_group_default_selected": "$apa_coba",
     "$radio_toggle_group": true,
     "$toggle_name": "",
-    "$button_text_default": "","$button_text_hover": "","$button_text_pressed": ""
+    "button_mappings": [
+      {
+        "from_button_id": "button.menu_select",
+        "to_button_id": "button.menu_select",
+        "mapping_type": "pressed"
+      },
+      {
+        "from_button_id": "button.menu_ok",
+        "to_button_id": "button.menu_ok",
+        "mapping_type": "focused"
+      },
+      {
+        "from_button_id": "button.controller_back",
+        "to_button_id": "button.controller_back",
+        "mapping_type": "focused",
+        "ignored": "(not $is_ps4)"
+      },
+      {
+        "ignored": "(not $enable_directional_toggling)",
+        "from_button_id": "button.menu_left",
+        "to_button_id": "$toggle_off_button",
+        "mapping_type": "pressed",
+        "input_mode_condition": "gamepad_and_not_gaze"
+      },
+      {
+        "ignored": "(not $enable_directional_toggling)",
+        "from_button_id": "button.menu_right",
+        "to_button_id": "$toggle_on_button",
+        "mapping_type": "pressed",
+        "input_mode_condition": "gamepad_and_not_gaze"
+      }
+    ]
   },
 
     "normal_inven@chest.core_toggle": {
@@ -411,6 +509,28 @@
       ]
     }, 
 
+  "hans_section_label@neko_c.bg_3": {
+    "$hans_inven_text|default": "N/A",
+
+    "color": [ 0.02, 0.61, 1.00 ],
+    "anchor_from": "top_right",
+    "anchor_to": "top_right",
+    "offset": [ -8, 3 ],
+    "size": [ "100%c + 5px", "100%c" ],
+    "controls": [
+      {
+        "label": {
+          "type": "label",
+          "offset": [ 0, -1.1 ],
+          "color": "white",
+          "font_type": "MinecraftTen",
+          "font_scale_factor": 0.75,
+          "text": "$hans_inven_text"
+        }
+      }
+    ]
+  },
+
     /// DROP ONE
 
     "inventory_panel_bottom_half_with_label_drop_one@common.inventory_panel_bottom_half_mod": {
@@ -428,12 +548,8 @@
       "controls": [
         { "inventory_drop_one@common.inventory_drop_one": {} },
         {
-          "inventory_label@common.section_heading_label": {
-            "anchor_from": "top_left",
-            "anchor_to": "top_left",
-            "offset": [ 7, 3 ],
-            "layer": 2,
-            "text": "§fInventory [§bDROP ONE§f]"
+          "inventory_label@chest.hans_section_label": {
+            "$hans_inven_text": "DROP ONE"
           }
         }
       ]
@@ -468,12 +584,8 @@
       "controls": [
         { "inventory_panel_drop_stack@common.inventory_panel_drop_stack": {} },
         {
-          "inventory_label@common.section_heading_label": {
-            "anchor_from": "top_left",
-            "anchor_to": "top_left",
-            "offset": [ 7, 3 ],
-            "layer": 2,
-            "text": "§fInventory [§bDROP ONE STACK§f]"
+          "inventory_label@chest.hans_section_label": {
+            "$hans_inven_text": "DROP ALL"
           }
         }
       ]
@@ -520,12 +632,8 @@
       "controls": [
         { "inventory_panel@common.inventory_panel": {} },
         {
-          "inventory_label@common.section_heading_label": {
-            "anchor_from": "top_left",
-            "anchor_to": "top_left",
-            "offset": [ 7, 3 ],
-            "layer": 2,
-            "text": "§fInventory [§aNORMAL§f]"
+          "inventory_label@chest.hans_section_label": {
+            "$hans_inven_text": "NORMAL"
           }
         }
       ]
@@ -547,12 +655,8 @@
       "controls": [
         { "inventory_panel_mod@common.inventory_panel_mod":  {} },
         {
-          "inventory_label@common.section_heading_label": {
-            "anchor_from": "top_left",
-            "anchor_to": "top_left",
-            "offset": [ 7, 3 ],
-            "layer": 2,
-            "text": "§fInventory [§bQUICK PLACE & LOOT§f]"
+          "inventory_label@chest.hans_section_label": {
+            "$hans_inven_text": "QUICK PLACE & LOOT"
           }
         }
       ]

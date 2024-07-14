@@ -15,7 +15,7 @@
           "type": "slider",
           "path": "pick_custom_distance/distance",
           "label": "text_distance",
-          "range_float": [4, 4096]
+          "range_float": [4,20]
         },
         {
           "type": "toggle",

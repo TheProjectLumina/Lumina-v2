@@ -92,7 +92,7 @@
           "layer": 2,
           "anchor_from": "top_left",
           "anchor_to": "top_left",
-          "size": [ "100%", 35 ],
+          "size": [ "100%", 20 ],
           "$text_box_name": "$text_box_name",
           "$text_edit_box_content_binding_name": "$content_binding_name",
           "max_length": "$max_length",
@@ -216,7 +216,7 @@
           "keep_ratio": false,
           "size": [ "100%", "100%sm" ],
           "color": [ 0.0 ,0.0 ,0.0 ], // First test: [0.239, 0.204, 0.204]
-          "alpha": 0.75,
+          "alpha": 0.9,
           "offset": [ 0, 0 ],
           "layer": "$layer",
           "anchor_from": "top_left",
@@ -225,7 +225,7 @@
       },
       {
         "header@settings_common.header": {
-          "$neko_title_text": "neko_add_server_header.tile",
+          "$neko_title_text": "TAMBAH SERVER",
           "$gunakan_dialog_tile_2": true,
           "$neko_uwu_from|default": [ 0, "-25%"],
           "$neko_uwu_to|default": [ 0, 0 ],

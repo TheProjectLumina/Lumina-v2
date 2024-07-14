@@ -1,21 +1,11 @@
-//* --------------------------------------------------------------------- *//
-//* ----------------          ADD SERVER                ----------------- *//
-//* --------------------------------------------------------------------- *//
+// ADD SERVER & PLAY UI
 
 neko_add_server_header.tile=Tambah Server
-
-//* --------------------------------------------------------------------- *//
-//* ----------------          PLAY UI                   ----------------- *//
-//* --------------------------------------------------------------------- *//
 
 neko_button_play_s.import_world= Import Dunia
 neko_button_play_s_tab.servers= Server
 
-//* --------------------------------------------------------------------- *//
-//* ----------------          SETTINGS UI               ----------------- *//
-//* --------------------------------------------------------------------- *//
-
-// Graphics & Video
+// SETTINGS: Graphics & Video
 
 neko_settings_slider.brightness_desc=Direkomendasikan menggunakan brightness= 80 - 100%
 neko_settings_slider.fps_desc=Direkomendasikan menggunakan Frame Rate= Unlimited
@@ -26,27 +16,21 @@ neko_settings_slider.render_desc=Direkomendasikan menggunakan Render Distance= 8
 neko_settings_slider.hud_opacity_desc=Semakin rendah opasitas dari HUD maka kamu tidak dapat melihat Hotbar.
 neko_settings_slider.fov_desc=Semakin tinggi sudut dapat membuat kamu mual ( Tapi untuk PVP disarankan menggunakan POV 110 )
 
-//* --------------------------------------------------------------------- *//
-//* ----------------          MAIN UI                   ----------------- *//
-//* --------------------------------------------------------------------- *//
+// MAIN UI
 
 neko_button.show_player_skin=Tampilkan skin Player
 neko_title_text_button.start=MAIN
 neko_desc_text_button.start=DUNIA & SERVER
 
-neko_title_text_button.settings=Pengaturan
+neko_title_text_button.settings=PENGATURAN
 neko_desc_text_button.settings=Grafis | Video | Suara
-
-neko_title_text_button.marketplace=Marketplace
+neko_title_text_button.marketplace=MARKETPLACE
 neko_desc_text_button.marketplace=Temukan Addon & Resource Packs menarik disini
-
-neko_title_text_button.achievements=Prestasi
+neko_title_text_button.achievements=ACHIEVEMENTS
 neko_desc_text_button.achievements=Prestasi yang sudah kamu capai
-
-neko_title_text_button.dressing_room=Ruang Ganti
+neko_title_text_button.dressing_room=RUANG GANTI
 neko_desc_text_button.dressing_room=Ganti skin kamu disini
-
-neko_title_text_button.realms_invitation=Undangan Realm
+neko_title_text_button.realms_invitation=UNDANGAN REALM
 neko_desc_text_button.realms_invitation=Undangan Realm kamu akan muncul disini
 
 neko_title_text_button.feedback=Feedback
@@ -55,7 +39,7 @@ neko_desc_text_button.feedback=Kirim masukan kamu ke Mojang
 neko_title_text_button.sign=Login XBOX
 neko_desc_text_button.sign=Login XBOX untuk bermain di SERVER & Realms!
 
-//* --------------------------------------------------------------------- *//
+
 
 neko.main_ui.title_warning.text=Warning
 neko.main_ui.desc_warning.text=Kamu belum login Xbox
@@ -139,3 +123,7 @@ neko.c.rule_3=3. Dilarang Re-Upload NekoUI ke link apapun yang terdapat MONETISA
 neko.c.rule_4=4. Dilarang menggunakan file JSON NekoUI!
 neko.c.rule_5=5. Nemu bug? report ke creator
 neko.c.rule_6=Jika kamu ingin memodifikasi NekoUI / Menggunakan NekoUI sebagai base Resource Packs kamu, kamu bisa dm @Han's404 di discord.
+
+// Bossbar Localization (ExplHD)
+entity.wither.name=§2§3§rWither
+entity.ender_dragon.name=§2§1§rEnder Dragon

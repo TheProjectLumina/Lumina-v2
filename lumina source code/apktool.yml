@@ -40,3 +40,4 @@ unknownFiles:
 doNotCompress:
 - resources.arsc
 - png
+- jpg

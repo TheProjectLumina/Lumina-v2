@@ -155,10 +155,8 @@
         }
       },
       {
-        "game_settings_panel": {
-          "type": "panel",
+        "game_settings_panel@settings.toggle_background": {
           "size": [ "100% - 3px", "100%c" ],
-          "color": [ 0.10, 0.10, 0.10 ],
           "controls": [
               {
                 "general_and_account_stack": {
@@ -166,6 +164,7 @@
                   "size": [ "100%", "100%c" ],
                   "orientation": "vertical",
                   "controls": [
+                    { "a_spacer2": {"type": "panel","size": [ 5, 5 ]}},
                     {
                       "selector_group_label_2@settings_common.selector_group_label": {
                         "ignored": "(not $include_world_section)",
@@ -191,23 +190,17 @@
                       "button_curang@world_section.button_curang": {
                         "$toggle_group_forced_index": 1000
                       }
+                    },
+                    {
+                      "multiplayer_button@world_section.multiplayer_button": {
+                        "$toggle_group_forced_index": "$multiplayer_forced_index"
+                      }
                     }
                   ]
                 }
               }
             ]
           }
-      },
-      {
-        "a_spacer2": {
-          "type": "panel",
-          "size": [ 5, 5 ]
-        }
-      },
-      {
-        "multiplayer_button@world_section.multiplayer_button": {
-          "$toggle_group_forced_index": "$multiplayer_forced_index"
-        }
       },
       { "spacer0": { "type": "panel", "size": [ 5, 5 ] }},
       {
@@ -231,6 +224,12 @@
           "$glyph_texture": "textures/neko/glyph_icon/game_color.png",
           "$glyph_size": [ 18, 18 ],
           "$glyph_color_texture": "textures/neko/glyph_icon/game.png"
+        }
+      },
+      {
+        "cloud_button@world_section.cloud_button": {
+          "visible": "($education_edition and $edu_save_to_cloud_on and $edu_save_to_cloud_general_toggle_on)",
+          "$toggle_group_forced_index": "$edu_cloud_level_forced_index"
         }
       },
       {
@@ -276,6 +275,27 @@
             }
           ]
         }
+      }
+    ]
+  },
+
+  "edit_world_manipulation_buttons": {
+    "type": "stack_panel",
+    "orientation": "horizontal",
+    "size": [ "100%", 30 ],
+    "controls": [
+      {
+        "export@world_section.export_world_button": {}
+      },
+      {
+        "padding": {
+          "type": "panel",
+          "size": [ 1, 0 ],
+          "ignored": "($pocket_edition or $education_ios or not $file_picking_supported)"
+        }
+      },
+      {
+        "delete@world_section.delete_world_button": {}
       }
     ]
   },
@@ -1333,6 +1353,17 @@
           "$toggle_binding_condition": "always_when_visible"
         }
       },
+      {//1.21
+        "show_days_played_toggle@settings_common.option_toggle": {
+          "$tts_section_header": "createWorldScreen.worldSettings",
+          "$option_label": "createWorldScreen.showDaysPlayed",
+          "$option_binding_name": "#show_days_played",
+          "$option_enabled_binding_name": "#show_days_played_enabled",
+          "$toggle_name": "show_days_played",
+          "$focus_override_right": "FOCUS_OVERRIDE_STOP",
+          "$toggle_binding_condition": "always_when_visible"
+        }
+      },
       {
         "fire_spreads_toggle@settings_common.option_toggle": {
           "$tts_section_header": "createWorldScreen.worldSettings",
@@ -1340,6 +1371,17 @@
           "$option_binding_name": "#fire_spreads",
           "$option_enabled_binding_name": "#fire_spreads_enabled",
           "$toggle_name": "fire_spreads",
+          "$focus_override_right": "FOCUS_OVERRIDE_STOP",
+          "$toggle_binding_condition": "always_when_visible"
+        }
+      },
+      {//1.21
+        "recipes_unlock_toggle@settings_common.option_toggle": {
+          "$tts_section_header": "createWorldScreen.worldSettings",
+          "$option_label": "createWorldScreen.recipesUnlock",
+          "$option_binding_name": "#recipes_unlock",
+          "$option_enabled_binding_name": "#recipes_unlock_enabled",
+          "$toggle_name": "recipes_unlock",
           "$focus_override_right": "FOCUS_OVERRIDE_STOP",
           "$toggle_binding_condition": "always_when_visible"
         }

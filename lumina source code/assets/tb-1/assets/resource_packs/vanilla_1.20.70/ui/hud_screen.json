@@ -5,18 +5,146 @@
   // Hud Screen
   //---------------------------------------------------------------------------
 
+
+  "panel_heart@neko_c.bg_r2": {
+    "bindings": [
+      {
+        "binding_name": "( not #is_creative_mode )",
+        "binding_name_override": "#visible"
+      }
+    ]
+  },
+
+  "neko_heart_renderer": {
+    "type": "custom",
+    "size": [ "100%", 1 ],
+    "offset": [ 22.5, 6.1 ],
+    "renderer": "heart_renderer",
+    "layer": 1,
+    "bindings": [
+      {
+        "binding_name": "#show_survival_ui",
+        "binding_name_override": "#visible"
+      }
+    ]
+  },
+
+  "neko_armor_renderer": {
+    "type": "custom",
+    "offset": [ 22.5, 2.2 ],
+    "size": [ "100%", 1 ],
+    "renderer": "armor_renderer",
+    "layer": 1,
+    "bindings": [
+      {
+        "binding_type": "global",
+        "binding_name": "#is_armor_visible",
+        "binding_name_override": "#visible"
+      }
+    ]
+  },
+  
   "hotbar_panel": {"modifications": [ 
+/*
+  
+  { "array_name": "controls","operation": "insert_back","value": [{"text_elipses_content_panel_right@zxyn_hud.text_elipses_content_panel_right": {}}]},
+ { "array_name": "controls","operation": "insert_back","value": {"empty_elipses_right_a@zxyn_hud.empty_elipses_right": {}}},
+  { "array_name": "controls","operation": "insert_front","value": {"text_elipses_content_panel_left@zxyn_hud.text_elipses_content_panel_left": {}}},
+ { "array_name": "controls","operation": "insert_front","value": {"empty_elipses_right@zxyn_hud.empty_elipses_right": {}}},
 
-  /// Kanan 
-//  { "array_name": "controls","operation": "insert_back","value": [{"text_elipses_content_panel_right@zxyn_hud.text_elipses_content_panel_right": {}}]},
- // { "array_name": "controls","operation": "insert_back","value": {"empty_elipses_right_a@zxyn_hud.empty_elipses_right": {}}},
 
-//  { "array_name": "controls","operation": "insert_front","value": {"text_elipses_content_panel_left@zxyn_hud.text_elipses_content_panel_left": {}}},
- // { "array_name": "controls","operation": "insert_front","value": {"empty_elipses_right@zxyn_hud.empty_elipses_right": {}}},
-  ///
-
- // { "array_name": "controls","operation": "remove","where": { "hotbar_elipses_panel_left@hud.hotbar_elipses_panel_left_content": {} }}
+  { "array_name": "controls","operation": "remove","where": { "hotbar_elipses_panel_left@hud.hotbar_elipses_panel_left_content": {} }} */
   ]},
+
+  "centered_gui_elements_at_bottom_middle": {
+    "type": "panel",
+    "anchor_from": "bottom_middle",
+    "anchor_to": "bottom_middle",
+    "size": [ 180, 50 ],
+    "controls": [
+      {
+        "heart_rend@heart_renderer": {
+          "offset": [ -1, -40 ],
+          "anchor_from": "bottom_left",
+          "anchor_to": "bottom_left"
+        }
+      },
+      {
+        "horse_heart_rend_0@horse_heart_renderer": {
+          "offset": [ 180, -56 ],
+          "anchor_from": "bottom_left",
+          "anchor_to": "bottom_left",
+          "bindings": [
+            {
+              "binding_name": "#creative_horse_hearts",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "horse_heart_rend_1@horse_heart_renderer": {
+          "offset": [ 180, -50 ],
+          "anchor_from": "bottom_left",
+          "anchor_to": "bottom_left",
+          "bindings": [
+            {
+              "binding_name": "#survival_horse_hearts",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "armor_rend@armor_renderer": {
+          "offset": [ -1, -40 ],
+          "anchor_from": "bottom_left",
+          "anchor_to": "bottom_left"
+        }
+      },
+      {
+        "hunger_rend@hunger_renderer": {
+          "offset": [ 178, -40 ],
+          "anchor_from": "bottom_left",
+          "anchor_to": "bottom_left"
+        }
+      },
+      {
+        "bubbles_rend_0@bubbles_renderer": {
+          "offset": [ 180, -50 ],
+          "anchor_from": "bottom_left",
+          "anchor_to": "bottom_left",
+          "bindings": [
+            {
+              "binding_name": "#is_not_riding_bubbles",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "bubbles_rend_1@bubbles_renderer": {
+          "offset": [ 180, -70 ],
+          "anchor_from": "bottom_left",
+          "anchor_to": "bottom_left",
+          "bindings": [
+            {
+              "binding_name": "#is_riding_bubbles",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      { "exp_rend@exp_progress_bar_and_hotbar": {} } // for classic
+    ],
+    "bindings": [
+      {
+        "binding_name": "#hud_visible_centered",
+        "binding_name_override": "#visible",
+        "binding_type": "global"
+      }
+    ]
+  },
   
   "exp_progress_bar_and_hotbar": {
     "type": "panel",
@@ -28,27 +156,47 @@
       {
         "resizing_xp_bar_with_hotbar": {
           "type": "panel",
-          "size": [ "100%c", 5 ],
+          "size": [ "100%c + 30px", 4.5 ],
           "controls": [
             {
               "empty_progress_bar@empty_progress_bar": {
-                "size": [ "100%c", 5 ],
+                "size": [ "100%c", 4.5 ],
                 "layer": 1,
                 "controls": [
                   {
                     "full_progress_bar@full_progress_bar": {
-                      "size": [ "100%c + 10px", 5 ],
+                      "size": [ "100%c", 4.5 ],
                       "layer": 2,
                       "controls": [
                         {
                           "progress_bar_nub@progress_bar_nub": {
-                            "size": [ "100%c - 10px", 5 ],
-                            "max_size": [ 190, 5 ],
+                            "size": [ "100%c", 4.5 ],
+                            "max_size": [ 225, 6 ],
                             "layer": 3,
                             "controls": [
                               {
-                                "hotbar@hotbar_chooser": {
-                                  "offset": [ 4, 16 ]
+                                "horse_jump_rend@horse_jump_renderer": {
+                                  "anchor_from": "bottom_middle",
+                                  "anchor_to": "bottom_middle",
+                                  "size": [ "100%c", 4.5 ],
+                                  "layer": 7,
+                                  "controls": [
+                                    {
+                                      "dash_rend@dash_renderer": {
+                                        "anchor_from": "bottom_middle",
+                                        "anchor_to": "bottom_middle",
+                                        "size": [ "100%c", 4.5 ],
+                                        "layer": 7,
+                                        "controls": [
+                                          {
+                                            "hotbar@hotbar_chooser": {
+                                              "offset": [ 3, 16 ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
                                 }
                               }
                             ]
@@ -62,7 +210,7 @@
             },
             {
               "progress_text_label@progress_text_label": {
-                "offset": [ 0, -3 ],
+                "offset": [ 0, -2 ],
                 "layer": 7
               }
             }
@@ -88,6 +236,28 @@
         }
       },
       {
+        "resizing_hotbar_no_xp_bar": {
+          "type": "panel",
+          "size": [ "100%c", 4 ],
+          "controls": [
+            {
+              "horse_jump_rend@horse_jump_renderer": {
+                "anchor_from": "bottom_middle",
+                "anchor_to": "bottom_middle",
+                "size": [ "100%c", 4 ],
+                "layer": 7,
+                "bindings": [
+                  {
+                    "binding_name": "#hotbar_no_xp_bar",
+                    "binding_name_override": "#visible"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
         "item_text_factory": {
           "size": [ 100, 10 ],
           "type": "factory",
@@ -104,7 +274,7 @@
     "type": "image",
     "texture": "textures/gui/experience/full",
     "clip_direction": "left",
-    "clip_pixelperfect": false,
+    "clip_pixelperfect": true,
     "bindings": [
       {
         "binding_name": "#exp_progress",
@@ -293,18 +463,22 @@
     ]
   },
 
-
   "root_panel/chat_stack": {
     "modifications": [
       {
         "array_name": "controls",
         "operation": "remove",
         "where": { "player_position@hud.player_position": {}}
+      },
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": [{"kordinat_player@zxyn_hud.kordinat_player": { "layer": 100 }}] 
       }
     ]
   },
 
-  "boss_health_panel_v2": {
+  "boss_health_panel_v2(DSIABLE)": {
     "type": "stack_panel",
     "orientation": "vertical",
     "size": [ "100%", "100%" ],
@@ -352,26 +526,195 @@
     ]
   },
 
-  "anim_item_name_a": {
+  "fade_up": {
     "anim_type": "offset",
-    "easing": "in_expo",
-    "duration": 0.5,
-    "from": [ 0, -30 ],
-    "to": [ 0, -35 ]
-  },
+    "easing": "out_expo",
+    "from": [0, 12],
+    "to": [0, -25],
+    "duration": 1
+},
 
-
-  "anim_item_name_text_alpha_out": {
+"fade_in": {
     "anim_type": "alpha",
-    "easing": "in_expo",
-    "destroy_at_end": "$destroy_id",
     "duration": 1,
-    "from": 1.0,
-    "to": 0
+    "easing": "linear",
+    "from": 0,
+    "to": 1
+},
+
+  "item_name_text_root": {
+    "type": "panel",
+    "size": [ "100%cm", "100%cm" ],
+    "$show_interact_padding|default": false,
+    "$show_survival_padding|default": false,
+
+    "$show_text_background|default": false,
+
+    "$text_color|default": "$tool_tip_text",
+    "$text_binding|default": "#item_text",
+
+    "anchor_from": "bottom_middle",
+    "anchor_to": "bottom_middle",
+    "offset": "@hud.fade_up",
+    "alpha": "@hud.fade_in",
+    "$wait_duration|default": 1,
+    "$destroy_id|default": "item_name_text",
+    "controls": [
+        {
+            "item_text_aligner": {
+                "type": "stack_panel",
+                "size": [ "100%cm", "100%c" ],
+                "controls": [
+                    {
+                      "item_text_control": {
+                        "type": "panel",
+                        "size": [ 300, 16 ],
+                        "controls": [
+                          {
+                            "item_text_background": {
+                              "ignored": "(not $show_text_background)",
+                              "type": "image",
+                              "size": [ "100%sm + 12px", "100%sm + 5px" ],
+                              "texture": "textures/ui/hud_tip_text_background",
+                              "alpha": "@hud.anim_item_name_background_alpha_in"
+                            }
+                          },
+                        {
+                          "item_text_label": {
+                            "type": "label",
+                            "max_size": [ 200, "default" ],
+                            "text_alignment": "center",
+                            "layer": 31,
+                            "color": "$text_color",
+                            "text": "#text",
+                            "alpha": "@hud.anim_item_name_text_alpha_in",
+                            "enable_profanity_filter": false,
+                            "bindings": [
+                              {
+                                "binding_name": "$text_binding",
+                                "binding_name_override": "#text"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                {
+                  "interact_padding@common.empty_panel": {
+                    "visible": "$show_interact_padding",
+                    "size": [ "100%sm", 18 ],
+                    "bindings": [
+                      {
+                        "binding_name": "#interact_visible",
+                        "binding_name_override": "#visible",
+                        "binding_condition": "always"
+                      }
+                    ]
+                  }
+                },
+              {
+                "survival_buffer@common.empty_panel": {
+                  "visible": "$show_survival_padding",
+                  "size": [ "100%sm", 17 ],
+                  "bindings": [
+                  {
+                    "binding_name": "#show_survival_ui",
+                    "binding_name_override": "#visible"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
   },
 
-  "item_name_text@hud.item_name_text_root": {
-    "offset": "@hud.anim_item_name_a"
+  "boss_health_panel": {
+    "type": "panel",
+    "size": [182, 20],
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "$progress_bar_collection": "boss_bars",
+    "controls": [
+      {
+        "vanilla_bossbar":{
+            "type":"panel",
+            "controls":[
+                {
+                    "boss_name@boss_name_panel": {}
+                },
+                { 
+                    "progress_bar_for_collections@common.progress_bar_for_collections": {
+                        "offset": [0, 10]
+                    }
+                }
+            ],
+            "bindings": [
+                {
+                    "binding_name": "#bossName",
+                    "binding_type": "collection",
+                    "binding_collection_name": "boss_bars"
+                },
+                {
+                    "binding_type": "view",
+                    "source_property_name": "(((#bossName - $wither_boss_string) = #bossName) and ((#bossName - $ender_dragon_boss_string) = #bossName)",
+                    "target_property_name": "#visible"
+                }
+            ]
+        }
+    },
+            {
+              "wither_bossbar@boss_panel.wither_bossbar": {
+                "offset": [0, -16],
+                "layer": 2,
+                "bindings": [
+                {
+                  "binding_name": "#bossName",
+                  "binding_type": "collection",
+                  "binding_collection_name": "boss_bars"
+                },
+                {
+                  "binding_type": "view",
+                  "source_property_name": "(not ((#bossName - $wither_boss_string) = #bossName))",
+                  "target_property_name": "#visible"
+                }
+              ]
+            }
+          },
+          {
+            "ender_dragon_bossbar@boss_panel.ender_dragon_bossbar": {
+              "offset": [0, -16],
+              "layer": 2,
+              "bindings": [
+            {
+              "binding_name": "#bossName",
+              "binding_type": "collection",
+              "binding_collection_name": "boss_bars"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(not ((#bossName - $ender_dragon_boss_string) = #bossName))",
+              "target_property_name": "#visible"
+            }
+          ]
+        }
+      }
+    ],
+    "bindings": [
+      {
+        "binding_name": "#bar_visible",
+        "binding_type": "collection",
+        "binding_collection_name": "boss_bars",
+        "binding_name_override": "#visible"
+      },
+      {
+        "binding_name": "#bossName",
+        "binding_type": "collection",
+        "binding_collection_name": "boss_bars"
+      }
+    ]
   },
 
   "jukebox_popup_text@hud.item_name_text_root": {
@@ -387,69 +730,6 @@
         "operation": "insert_back",
         "value": { "durability_ping_panel@zxyn_hud.durability_ping_panel": {} }
       },     
-      {
-        "array_name": "controls",
-        "operation": "insert_front",
-        "value": [{"kordinat_player@zxyn_hud.kordinat_player": {}}] 
-      },
-      {
-        "array_name": "controls",
-        "operation": "insert_front",
-        "value": [{ "boss_health_panel_v2@hud.boss_health_panel_v2": {}}] 
-      },
-      {
-        "array_name": "controls",
-        "operation": "remove",
-        "where":
-        {
-          "boss_health_panel": {
-            "type": "stack_panel",
-            "orientation": "vertical",
-            "size": [ "100%", "100%" ],
-            "controls": [
-              {
-                "boss_hud_padding": {
-                  "type": "panel",
-                  "size": [ "100%", 20 ],
-                  "visible": "#boss_hud_padding", //Make this visible to move the boss hud panel down
-                  "bindings": [
-                    {
-                      "binding_name": "#boss_hud_padding",
-                      "binding_name_override": "#visible"
-                    }
-                  ]
-                }
-              },
-              {
-                "boss_hud_touch_padding": {
-                  "type": "panel",
-                  "size": [ "100%", "15%" ],
-                  "visible": "#boss_hud_touch_padding", //Make this visible to move the boss hud panel down
-                  "bindings": [
-                    {
-                      "binding_name": "#boss_hud_touch_padding",
-                      "binding_name_override": "#visible",
-                      "binding_condition": "always"
-                    }
-                  ]
-                }
-              },
-              {
-                "boss_hud_panel": {
-                  "type": "panel",
-                  "controls": [
-                    {
-                      "boss_health_grid@boss_health_grid": {
-                        "offset": [ 0, 2 ]
-                      }
-                    }
-                  ]
-                }
-              }
-            ]
-          }
-        } 
-      },
       {
         "array_name": "controls",
         "operation": "insert_front",

@@ -26,12 +26,7 @@
 "shulker_top_purple", "shulker_top_blue", "shulker_top_brown",
 "shulker_top_green", "shulker_top_red",
 "shulker_top_black", "shulker_top_undyed"],
-          "block_values": ["diamond_ore", "gold_ore", "iron_ore", "coal_ore", "lapis_ore", "redstone_ore", "emerald_ore", "copper_ore", "deepslate_diamond_ore", "deepslate_gold_ore", "deepslate_iron_ore", "deepslate_coal_ore", "deepslate_lapis_ore", "deepslate_redstone_ore", "deepslate_emerald_ore", "deepslate_copper_ore", "raw_gold_block", "raw_iron_block", "raw_copper_block", "quartz_ore", "nether_gold_ore", "ancient_debris", "gilded_blackstone", "diamond_block", "gold_block", "iron_block", "lapis_block", "redstone_block", "emerald_block", "lava", "water", "obsidian", "netherite_block", "crying_obsidian", "lodestone", "shroomlight", "glowstone", "soul_sand", "magma", "netherrack", "blackstone", "polished_blackstone_bricks", "red_nether_brick", "nether_brick", "stone", "stonebrick", "purpur_block", "end_bricks", "end_stone", "mob_spawner", "beacon", "bedrock", "tnt", "bookshelf", "portal", "end_portal", "barrier", "structure_void", "slime", "sealantern", "hardened_clay", "grass_path", "dirt", "crafting_table", "cobblestone", "mossy_cobblestone", "gravel", "sponge", "glass", "ice", "snow", "deny", "allow", "amethyst_block", "budding_amethyst", "calcite", "tuff", "smooth_basalt", "azalea_leaves", "dirt_with_roots", "copper_block", "cut_copper", "exposed_copper", "exposed_cut_copper", "oxidized_copper", "oxidized_cut_copper", "weathered_copper", "weathered_cut_copper", "dripstone_block", "powder_snow", "moss_block", "tinted_glass", "deepslate", "cobbled_deepslate", "chiseled_deepslate", "deepslate_tiles", "deepslate_bricks", "cracked_deepslate_tiles", "cracked_deepslate_bricks", "polished_deepslate", "shulker_top_white",
-"shulker_top_orange", "shulker_top_magenta", "shulker_top_light_blue", "shulker_top_yellow", "shulker_top_lime", "shulker_top_pink",
-"shulker_top_gray", "shulker_top_silver", "shulker_top_cyan",
-"shulker_top_purple", "shulker_top_blue", "shulker_top_brown",
-"shulker_top_green", "shulker_top_red",
-"shulker_top_black", "shulker_top_undyed"]
+          "block_values": ["diamond_ore", "gold_ore", "iron_ore", "coal_ore", "lapis_ore", "redstone_ore", "emerald_ore", "copper_ore", "deepslate_diamond_ore", "deepslate_gold_ore", "deepslate_iron_ore", "deepslate_coal_ore", "deepslate_lapis_ore", "deepslate_redstone_ore", "deepslate_emerald_ore", "deepslate_copper_ore", "raw_gold_block", "raw_iron_block", "raw_copper_block", "quartz_ore", "nether_gold_ore", "ancient_debris", "gilded_blackstone", "diamond_block", "gold_block", "iron_block", "lapis_block", "redstone_block", "emerald_block", "lava", "water", "obsidian", "netherite_block", "crying_obsidian", "lodestone", "shroomlight", "glowstone", "soul_sand", "magma", "netherrack", "blackstone", "polished_blackstone_bricks", "red_nether_brick", "nether_brick", "stone", "stonebrick", "purpur_block", "end_bricks", "end_stone", "mob_spawner", "beacon", "bedrock", "tnt", "bookshelf", "portal", "end_portal", "barrier", "structure_void", "slime", "sealantern", "hardened_clay", "grass_path", "dirt", "crafting_table", "cobblestone", "mossy_cobblestone", "gravel", "sponge", "glass", "ice", "snow", "deny", "allow", "amethyst_block", "budding_amethyst", "calcite", "tuff", "smooth_basalt", "azalea_leaves", "dirt_with_roots", "copper_block", "cut_copper", "exposed_copper", "exposed_cut_copper", "oxidized_copper", "oxidized_cut_copper", "weathered_copper", "weathered_cut_copper", "dripstone_block", "powder_snow", "moss_block", "tinted_glass", "deepslate", "cobbled_deepslate", "chiseled_deepslate", "deepslate_tiles", "deepslate_bricks", "cracked_deepslate_tiles", "cracked_deepslate_bricks", "polished_deepslate"]
         }
       ]
     },
@@ -131,20 +126,6 @@
       ]
     },
     {
-      "type": "toggle",
-      "path": "text_truncate/enabled",
-      "label": "s_render_text_truncate",
-      "has_shortcut": false,
-      "items": [
-        {
-          "type": "slider",
-          "path": "text_truncate/length",
-          "label": "text_text_length",
-          "range_float": [0, 512]
-        }
-      ]
-    },
-    {
        "type": "toggle",
       "path": "xray/block_tracker/enabled",
       "label": "s_render_xray_block_tracker",
@@ -167,7 +148,7 @@
           "type": "slider",
           "path": "zoom/value",
           "label": "Amount",
-          "range_float": [-100, 100]
+          "range_float": [-50, 50]
         }
       ]
     }

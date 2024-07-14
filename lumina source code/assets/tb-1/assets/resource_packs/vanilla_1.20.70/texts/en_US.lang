@@ -1,75 +1,55 @@
-//* --------------------------------------------------------------------- *//
-//* ----------------          ADD SERVER                ----------------- *//
-//* --------------------------------------------------------------------- *//
+// ADD SERVER & PLAY UI
 
-neko_add_server_header.tile=Tambah Server
+neko_add_server_header.tile=Add Server
 
-//* --------------------------------------------------------------------- *//
-//* ----------------          PLAY UI                   ----------------- *//
-//* --------------------------------------------------------------------- *//
+neko_button_play_s.import_world= Import World
+neko_button_play_s_tab.servers= Server
 
-neko_button_play_s.import_world= Import Worlds
-neko_button_play_s_tab.servers= Server's
-
-//* --------------------------------------------------------------------- *//
-//* ----------------          SETTINGS UI               ----------------- *//
-//* --------------------------------------------------------------------- *//
-
-// Graphics & Video
+// SETTINGS: Graphics & Video
 
 neko_settings_slider.brightness_desc=Recommended brightness= 80 - 100%
 neko_settings_slider.fps_desc=Recommended Frame Rate= Unlimited
-neko_settings_slider.msaa_desc=Recommended Anti-Aliasing= 2 - 4 (The higher the Anti-Aliasing, the less pixellated the texture will be)
-neko_settings_slider.render_desc=Recommended Render Distance= 8 - 10 (The higher the Render Distance, the further you can see the world)
+neko_settings_slider.msaa_desc=Recommended Anti-Aliasing= 2 - 4 ( The higher the Anti-Aliasing, You will not find pixellated textures )
+neko_settings_slider.render_desc=Recommended Render Distance= 8 - 10 ( The higher the Render Distance, You can see more of the world )
 
 // Gameplay
-neko_settings_slider.hud_opacity_desc=Semakin rendah opasitas dari HUD maka kamu tidak dapat melihat Hotbar.
-neko_settings_slider.fov_desc=The higher angle may make you nauseous (But for PVP it is recommended to use POV 110).
+neko_settings_slider.hud_opacity_desc=The lower the HUD Opacity, You cannot see the hotbar.
+neko_settings_slider.fov_desc=The higher angle can make you nauseous ( But for PVP it is recommended to use POV 110 )
 
-//* --------------------------------------------------------------------- *//
-//* ----------------          MAIN UI                   ----------------- *//
-//* --------------------------------------------------------------------- *//
+// MAIN UI
 
 neko_button.show_player_skin=Show Player skin
 neko_title_text_button.start=PLAY
 neko_desc_text_button.start=WORLD & SERVER
 
-neko_title_text_button.settings=Settings
+neko_title_text_button.settings=SETTINGS
 neko_desc_text_button.settings=Graphics | Video | Sound
 
-neko_title_text_button.marketplace=Marketplace
-neko_desc_text_button.marketplace=USELESS
+neko_title_text_button.marketplace=MARKETPLACE
+neko_desc_text_button.marketplace=Find interesting Addons and Resource Packs here
 
-neko_title_text_button.achievements=Achievements
-neko_desc_text_button.achievements=Achievements you've made
+neko_title_text_button.achievements=ACHIEVEMENTS
+neko_desc_text_button.achievements=Achievements you have achieved
 
-neko_title_text_button.dressing_room=Dressing Room
-neko_desc_text_button.dressing_room=Change your player skin here
+neko_title_text_button.dressing_room=DRESSING ROOM
+neko_desc_text_button.dressing_room=Change your skins here
 
-neko_title_text_button.realms_invitation=Realm Invitation
-neko_desc_text_button.realms_invitation=Notification if someone invites you to play Realm 
-
-neko_title_text_button.feedback=Feedback
-neko_desc_text_button.feedback=Send your feedback to Mojang
-
-
-//* --------------------------------------------------------------------- *//
 
 neko.main_ui.title_warning.text=Warning
-neko.main_ui.desc_warning.text=You haven't logged into your Xbox
+neko.main_ui.desc_warning.text=You are not logged in to Xbox
 
 neko.world.header_title.y.text=PLAY
-neko.world.header_desc.y.text=The world you've been playing in recently
+neko.world.header_desc.y.text=The last world you played
 
-neko.world.header_title.n.text=You don't have a World yet:(
+neko.world.header_title.n.text=You don't have a world yet :(
 neko.world.header_desc.n.text=You can create a World by pressing the "Create New World" button
 
 // HUD //
 map.position=§bX:§f %s, §bY:§f %s, §bZ:§f %s
 
 // PAUSE
-zxyn_pause.ui.invite_to_game=Invite to the Game
-zxyn_pause.ui.screenshot=Screenshots
+zxyn_pause.ui.invite_to_game=Invite To Game
+zxyn_pause.ui.screenshot=Screenshot
 zxyn_pause.ui.title_pause=Pause
 
 // CHAT
@@ -79,22 +59,22 @@ zxyn_chat.ui.skip=Auto Complete
 zxyn_chat.ui.mute_all=Mute Chat
 
 // PLAY SCREEN
-servers.third_party=Third Party Server
-playscreen.create_new_world=Create New World
+servers.third_party=Third-party Server
+playscreen.create_new_world=Create new world
 createWorldScreen.experimtalSettings=Experimental Settings
 
 // WORLD SETTINGS
 toggle.game_rule.text=Advanced Settings
 
-neko.c.type_world.gamemode=Game Mode :
-neko.c.type_world.personal_gamemode=Personalized Game Mode :
+neko.c.type_world.gamemode=Game mode :
+neko.c.type_world.personal_gamemode=Personal Game mode :
 neko.c.type_world.world_type=World Type :
 neko.c.type_world.difficulty=Difficulty :
 
 // MAIN SCREEN
-menu.neko_quit_button=Exit
-xbox.sign_text_true=YOU'RE ALREADY LOGGED IN XBOX
-xbox.sign_text_false=YOU HAVEN'T LOGGED IN XBOX
+menu.neko_quit_button=QUIT
+xbox.sign_text_true=YOU HAVE ALREADY LOGGED IN TO XBOX
+xbox.sign_text_false=YOU HAVEN'T LOGGED IN TO XBOX
 
 // SETTINGS
 
@@ -102,7 +82,7 @@ world_settings.header.game_settings=World Settings
 
 settings.header.account=Account
 settings.header.quick_settings=Quick Settings
-settings.header.graphics_and_gameplay=Grpahics & Gameplay
+settings.header.graphics_and_gameplay=Graphics and Gameplay
 settings.header.controls_settings=Control Settings
 
 settings.header.graphics.text=Graphics
@@ -121,19 +101,22 @@ settings.header.general_tab_section=General
 
 yuki.general.text=General
 toggle.graphics.text=Graphics & Video
-toggle.controls_settings.text=Controls Settings
+toggle.controls_settings.text=Control Settings
 toggle.advanced_settings.text=Advanced Settings
 
 yuki.advanced_settings.text=Advanced Settings
 yuki.resource_packs.text=Resource Packs
 
-neko.c.camera_perspective.text=Camera Perspective :
+neko.c.camera_perspective.text=Camera Prespective :
 neko.c.ui_profile.text=UI Profile :
 
-neko.c.note.title=Note :
-neko.c.rule_1=1. Lumina is a closed source projec
-neko.c.rule_2=2. this pack is made by hans plz check em out
-neko.c.rule_3=3. Re-Upload Lumina to any link that contains MONETIZATION is prohibited (downloading NEKO UI is easy, directly from mediafire).
-neko.c.rule_4=4. Using Lumina files is prohibited!
-neko.c.rule_5=5. Found a bug? Report it to the author
-neko.c.rule_6=If you want to contributte Lumina / neko ui contact us on discord
+neko.c.note.title=NOTE :
+neko.c.rule_1=1. Do not modify NekoUI without Creator Permission!
+neko.c.rule_2=2. Do not change the NekoUI download link!
+neko.c.rule_3=3. It is prohibited to re-upload NekoUI to any link that contains MONETIZATION (downloading NEKO UI is easy, directly from Mediafire.)
+neko.c.rule_4=4. Using NekoUI JSON files is prohibited!
+neko.c.rule_5=5. Found a bug? report to creator
+neko.c.rule_6=6. If you want to modify NekoUI / Use NekoUI as your base Resource Packs, you can dm @Han's404 on discord.
+
+entity.wither.name=§2§3§rWither
+entity.ender_dragon.name=§2§1§rEnder Dragon

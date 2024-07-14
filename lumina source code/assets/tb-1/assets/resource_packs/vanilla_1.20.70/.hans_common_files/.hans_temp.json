@@ -1,0 +1,24 @@
+{
+    "namespace": "hans_background",
+
+    "neko_main_bg": {
+        "type": "image",
+        "fill": true,
+        "bilinear": true,
+        "texture": ".hans_common_textures/.hans_common_bg/bg_main_screen"
+    },
+
+    "neko_play_bg": {
+        "type": "image",
+        "fill": true,
+        "bilinear": true,
+        "texture": ".hans_common_textures/.hans_common_bg/bg_play_screen"
+    },
+
+    "neko_settings_bg": {
+        "type": "image",
+        "fill": true,
+        "bilinear": true,
+        "texture": ".hans_common_textures/.hans_common_bg/bg_settings_screen"
+    }
+}

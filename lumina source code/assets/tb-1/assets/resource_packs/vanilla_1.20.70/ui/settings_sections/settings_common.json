@@ -235,13 +235,11 @@
   },
 
   "option_toggle_on@settings_common.option_toggle_state_template": {
-    "texture": "textures/ui/toggle_on",
-    "color": "$toggle_on_default_color"
+    "texture": "textures/ui/toggle_on"
   },
 
   "option_toggle_on_hover@settings_common.option_toggle_state_template": {
-    "texture": "textures/ui/toggle_on_hover",
-    "color": "$toggle_on_hover_color"
+    "texture": "textures/ui/toggle_on_hover"
   },
 
   "option_toggle_control@common.toggle": {
@@ -416,6 +414,8 @@
                 "controls": [
                   {
                     "header@settings_common.header": {
+                      "$gunakan_dialog_tile_2": true,
+                      "$neko_title_text": "PENGATURAN"
                     }
                   },
                   {
@@ -507,7 +507,7 @@
             },
             {
               "requires": "$hover_state",
-              "$warna_glyph": [ 0.0, 0.0, 0.0 ]
+              "$warna_glyph": [ 0.00, 0.94, 1.00 ]
             },
             {
               "requires": "$pressed_state",
@@ -684,13 +684,37 @@
     ]
   },
 
-  "header": {
-    "type": "panel",
+  "header@neko_c.bg_2": {
     "layer": 10,
     "anchor_from": "top_right",
     "anchor_to": "top_right",
-    "size": [ "100% - 5px", 30 ],
+    "size": [ "100%", 27 ],
+
+    "$gunakan_dialog_tile_2|default": false,
+    "$neko_title_text|default": "?",
     "controls": [
+      {
+        "header_text_a": {
+          "type": "panel",
+          "size": [ "fill" , "100%" ],
+          "controls": [
+            {
+              "dialog_title_label@settings_common.core_label": {
+                "font_type": "MinecraftTen",
+                "font_scale_factor": 1.15,
+                "color": [ 1.0, 1.0, 1.0 ],
+                "offset": [ 0, 7 ],
+                "size": [ "default" , "100%" ],
+                "text_alignment": "center",
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "visible": "$gunakan_dialog_tile_2",
+                "text": "$neko_title_text"
+              }      
+            }
+          ]
+        }
+      },
       {
         "header_2": {
           "type": "stack_panel",
@@ -705,50 +729,14 @@
                 "size": [ 80 , "100%" ],
                 "controls": [
                   {
-                    "back_button@neko_c.common_back_button": {}
-                  }
-                ]
-              }
-            },
-            {
-              "header_text_a": {
-                "type": "panel",
-                "size": [ "fill" , "100%" ],
-                "controls": [
-                  {
-                    "dialog_title_label_2@settings_common.core_label": {
-                      "font_type": "EudoxusSans-Bold",
-                      "color": [ 1.0, 1.0, 1.0 ],
-                      "font_scale_factor": 1.5,
-                      "offset": [ 0, 5 ],
-                      "size": [ "default"  , "100%" ],
-                      "text_alignment": "left",
-                      "anchor_from": "left_middle",
-                      "anchor_to": "left_middle",
-                      "text": ""
-                    }      
-                  },
-                  {
-                    "dialog_title_label@settings_common.core_label": {
-                      "font_type": "EudoxusSans-Bold",
-                      "color": [ 1.0, 1.0, 1.0 ],
-                      "font_scale_factor": 1.3,
-                      "offset": [ 0, 5 ],
-                      "size": [ "default" , "100%" ],
-                      "text_alignment": "left",
-                      "anchor_from": "left_middle",
-                      "anchor_to": "left_middle",
-                      "visible": "$gunakan_dialog_tile_2",
-                      "$gunakan_dialog_tile_2|default": false,
-                      "text": "$neko_title_text"
-                    }      
+                    "back_button@neko_c.common_back_button": { "$neko.c_back_button_text": "BACK"}
                   }
                 ]
               }
             },
             {
               "uwu_panel": {
-                "size": [ "50%" , "100%" ],
+                "size": [ "fill" , "100%" ],
                 "type": "panel",
                 "controls": [
                   {
@@ -810,8 +798,9 @@
                                   "controls": [
                                     {
                                       "account_uwu@general_section.account_uwu": {
+                                        "$tts_section_header": "$general_section_header",
                                         "size": [ "100% - 10px", "100%" ],
-                                        "$toggle_group_forced_index": 1
+                                        "$toggle_group_forced_index": 19999
                                       }
                                     }
                                   ]
@@ -1001,7 +990,7 @@
   "dynamic_dialog_screen@common.base_screen": {
     "type": "screen",
     "$fill_alpha": 0,
-    "$screen_bg_content": "bg_animations.bg_anim",
+    "$screen_bg_content": "hans_animated_bg.bg_anim",
  
     "variables": [
       {

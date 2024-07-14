@@ -106,7 +106,7 @@
   },
 
   "start_screen@common.base_screen": {
-    "$screen_bg_content": "bg_animations.bg_anim",
+    "$screen_bg_content": "hans_animated_bg.bg_anim",
     "$screen_animations": [
       "@common.screen_exit_animation_push_fade",
       "@common.screen_exit_animation_pop_fade",
@@ -150,6 +150,15 @@
     ]
   },
 
+  "settings_button@start.main_button": {
+    "size": [ "80px", 25 ],
+    "anchor_from": "right_middle",
+    "anchor_to": "right_middle",
+    "$pressed_button_name": "button.menu_settings",
+    "$button_text": "menu.settings"
+  },
+
+
   "start_screen_content": {
     "type": "panel",
     "$achievements_ignored|default": false,
@@ -185,9 +194,12 @@
       }
     ],
     "controls": [
-      {
-        "neko_main_panel@zxyn_main_core.neko_main_panel":{}
+       {
+        "hans_main@hans_main_ui.hans_main": {}
       },
+    /* {
+        "neko_main_ui@zxyn_main_core.neko_main_ui":{}
+      },  */
       {
         "button_disebelah_event@zxyn_main_core.button_disebelah_event": {}
       }

@@ -1,0 +1,542 @@
+{
+  "namespace": "zxyn_pause",
+
+  "panel_icon_2": {
+    "type": "panel",
+    "size": [ "100%" , 32 ]
+  },
+
+  "main_pause_screen_new": {
+    "type": "panel",
+    "size": [ "100%", "100%" ],
+    "controls": [
+      {
+        "main_pause_stack": {
+          "type": "stack_panel",
+          "orientation": "horizontal",
+          "size": [ "100%", "100%" ],
+          "controls": [
+            {
+              "pause_button@zxyn_pause.pause_button": {}
+            },
+            {
+              "player_list_screen@zxyn_pause.player_list_screen": {}
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "button_panel": {
+    "type": "panel",
+    "size": [ "fill" , "100%" ]
+  },
+
+  "button_content_panel@button_panel": {
+    "size": [ 30 , "100%" ]
+  },
+
+  "bottom_button_panel": {
+    "type": "panel",
+    "anchor_from": "bottom_middle",
+    "anchor_to": "bottom_middle",
+    "size": [ "100%", 30 ],
+    "controls": [
+      {
+        "buttom_stack_panel": {
+          "type": "stack_panel",
+          "orientation": "horizontal",
+          "anchor_from": "left_middle",
+          "anchor_to": "left_middle",
+          "controls": [
+            {
+              "button_content_panel_0@button_content_panel": { "controls": [ ]}
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "pause_button_panel": {
+    "type": "panel",
+    "size": [ "100%", 23 ]
+  },
+
+  "pause_button_panel_ico": {
+    "type": "panel",
+    "size": [ 25, "100%" ]
+  },
+
+  "hans_player_list@neko_c.bg_2": {
+    "alpha": 0.55,
+    "offset": [ -11.2 , -15 ],
+    "anchor_from": "right_middle",
+    "anchor_to": "right_middle",
+    "size": [ "97.7px", "100% - 50px" ],
+    "bindings": [
+      {
+        "binding_type": "view",
+        "binding_condition":  "once",
+        "source_control_name": "main_pause_uwu",
+        "source_property_name": "( not #toggle_state )",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "daftar_player@zxyn_pause.daftar_player": {}
+      }
+    ]
+  },
+
+  "top_button": {
+    "type": "panel",
+    "offset": [ -10 , -10 ],
+    "size": [ "100%", 25 ],
+    "anchor_from": "bottom_middle",
+    "anchor_to": "bottom_middle",
+    "controls": [
+      {
+        "neko": {
+          "type": "stack_panel",
+          "orientation": "horizontal",
+          "size": [ "100%", "100%" ],
+          "controls": [
+            {
+              "panel_a": {
+                "type": "panel",
+                "size": [ "50%", "100%" ],
+                "controls": [
+                  {
+                    "top_button_stack": {
+                      "type": "stack_panel",
+                      "orientation": "horizontal",
+                      "anchor_from": "top_left",
+                      "anchor_to": "top_left",
+                      "size": [ "100%c", "100%" ],
+                      "controls": [
+                        {
+                          "panel": {
+                            "type": "panel",
+                            "size": [ 20, 0 ]
+                          }
+                        },
+                        {
+                          "pause_button_panel_ico@zxyn_pause.pause_button_panel_ico": {
+                            "controls": [
+                              {
+                                "pause_feedback_icon@hans_button.pause_feedback_icon": {}
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "pause_button_panel_ico@zxyn_pause.pause_button_panel_ico": {
+                            "controls": [
+                              {
+                                "pause_screenshot_icon@hans_button.pause_screenshot_icon": {}
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "panel_b": {
+                "type": "panel",
+                "size": [ "fill", "100%" ],
+                "controls": [
+                  {
+                    "top_button_stack": {
+                      "type": "stack_panel",
+                      "orientation": "horizontal",
+                      "anchor_from": "top_right",
+                      "anchor_to": "top_right",
+                      "size": [ "100%c", "100%" ],
+                      "controls": [
+                        {
+                          "pause_button_panel_ico@zxyn_pause.pause_button_panel_ico": {
+                            "controls": [
+                              {
+                                "nahida@test_toggle.nahida": { 
+                                  "$default_texture": ".hans_common_textures/.common_button_texture/.borderless/button_pressed",
+                                  "$hover_texture": ".hans_common_textures/.common_button_texture/.borderless/button_pressed",
+                                  "$pressed_texture": ".hans_common_textures/.common_button_texture/.borderless/button_pressed",
+                                  "$pressed_no_hover_texture": ".hans_common_textures/.common_button_texture/.borderless/button_pressed",
+                                  "$button_type_panel": "hans_button.hans_button_panel",
+                                  "$hans_icon_offset": [ 0, 0 ],
+                                  "$hans_icon_size": [ 15, 15 ],
+                                  "$hans_button_do_not_use_icon": false,
+                                  "$hans_button_do_not_use_label": true,
+                                  "$hans_button_icon": "textures/neko/main_icon/menu_pause", 
+                                  "$icon_size": [ 14, 14 ], 
+                                  "$default_border_visible": true, 
+                                  "size": [ "100% - 3px", "100% - 2px" ],
+                                  "$toggle_view_binding_name": "main_pause_uwu"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "pause_button_panel_ico@zxyn_pause.pause_button_panel_ico": {
+                            "controls": [
+                              {
+                                "pause_invite_icon@hans_button.pause_invite_icon": {}
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "pause_button_panel_ico@zxyn_pause.pause_button_panel_ico": {
+                            "controls": [
+                              {
+                                "pause_dressing_icon@hans_button.pause_dressing_icon": {}
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "pause_button_panel_ico@zxyn_pause.pause_button_panel_ico": {
+                            "controls": [
+                              {
+                                "pause_marketplace_icon@hans_button.pause_marketplace_icon": {}
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "pause_button": {
+    "type": "panel",
+    "size": [ "fill", "100%" ],
+    "controls": [
+      {
+        "hans_player_list@zxyn_pause.hans_player_list": {}
+      },
+      {
+        "top_button@zxyn_pause.top_button": {}
+      },
+      {
+        "bottom_button_panel@zxyn_pause.bottom_button_panel": {}
+      },
+      {
+        "a_panel": {
+          "type": "stack_panel",
+          "orientation": "vertical",
+          "anchor_to": "center",
+          "anchor_from": "center",
+          "size": [ "150px", "100%c"],
+          "controls": [
+            {
+              "label_panel": {
+              "type": "panel",
+              "size": [ "100%", 40 ],
+              "controls": [
+                  {
+                    "icon": {
+                      "type": "label",
+                      "anchor_from": "top_right",
+                      "anchor_to": "top_right",
+                      "font_scale_factor": 2,
+                      "size": [ "100%", "default" ],
+                      "text_alignment": "center",
+                      "font_type": "MinecraftTen",
+                      "text": "zxyn_pause.ui.title_pause" // zxyn_ui.pause.pause_header
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "panel_b": {
+                "type": "panel",
+                "size": [ "100%", "100%c" ],
+                "controls": [
+                  {
+                    "panel_b_button": {
+                      "type": "stack_panel",
+                      "orientation": "vertical",
+                      "size": [ "100%", "100%c" ],
+                      "controls": [
+                        {
+                          "resume_and_market@zxyn_pause.pause_button_panel": {
+                            "controls": [ {"pause_return_to_game_button@hans_button.pause_return_to_game_button": {}}]
+                          }
+                        },
+                        {
+                          "resume_and_market@zxyn_pause.pause_button_panel": {
+                            "controls": [ {"pause_settings_button@hans_button.pause_settings_button": {}}]
+                          }
+                        },
+                        {
+                          "quit_and_settings@zxyn_pause.pause_button_panel": {
+                            "controls": [ {"pause_quit_button@hans_button.pause_quit_button": {}}]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "player_list_screen@neko_c.bg_2": {
+    "alpha": 0.75,
+    "anchor_to": "center",
+    "anchor_from": "center",
+    "size": [ "140px", "100%" ],
+    "bindings": [
+      {
+        "binding_type": "view",
+        "binding_condition":  "once",
+        "source_control_name": "main_pause_uwu",
+        "source_property_name": "#toggle_state",
+        "target_property_name": "#visible"
+      }
+    ],
+    "controls": [
+      {
+        "daftar_player@zxyn_pause.daftar_player": {}
+      }
+    ]
+  },
+
+  "daftar_player": {
+    "type": "panel",
+    "size": [ "100% - 1.5px", "100% - 1.5px" ],
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "controls": [
+      {
+        "info_panel_content_list@zxyn_pause.info_panel_content_list": {}
+      }
+    ]
+  },
+
+  "info_panel_content_list": {
+    "type": "panel",
+    "size": [ "100% - 2px", "100% - 2px" ],
+    "controls": [
+      {
+        "uwu": {
+          "type": "stack_panel",
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "size": [  "100%", "100%" ],
+          "orientation": "vertical",
+          "controls": [
+            { "player_list_scrolling_panel@zxyn_pause.player_list_scrolling_panel": {} },
+            {
+              "vertical_padding@zxyn_pause.vertical_padding": {
+                "size": [ 0, 8 ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "player_list_scrolling_panel@common.scrolling_panel": { //  Di Ubah
+    "size": [ "100%", "100%" ],
+    "offset": [ 2, 0 ],
+    "anchor_from": "top_right",
+    "anchor_to": "top_right",
+    "$show_background": false,
+    "$scroll_track_size": [ 5, "100% - 2px" ],
+    "$scroll_track_offset|default": [ -10, 2 ],
+    "$scrolling_content": "zxyn_pause.player_lists"
+  },
+
+  "players_grid": {
+    "type": "grid",
+    "size": [ "100%", "default" ],
+    "grid_item_template": "zxyn_pause.player_grid_item",
+    "grid_dimension_binding": "#players_grid_dimension",
+    "collection_name": "players_collection",
+    "anchor_to": "top_left",
+    "anchor_from": "top_left",
+    "bindings": [
+      {
+        "binding_name": "#players_grid_dimension",
+        // Necessary do to a bug with grid item bindings not refreshing when the grid is inside a stack panel
+        "binding_condition": "always"
+      }
+    ]
+  },
+
+  "player_grid_item_content": {
+    "type": "panel",
+
+    "controls": [
+      {
+        "player_button_panel": {
+          "type": "stack_panel",
+          "orientation": "horizontal",
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "size": [ "100%", "100% + 1px" ],
+          "controls": [
+            {
+              "player_button_banner": {
+                "type": "panel",
+                "size": [ "fill", "100%" ],
+                "controls": [
+                  { "player_button@pause.player_button": {} },
+                  { "player_banner@pause.player_banner": {} }
+                ]
+              }
+            },
+            {
+              "player_permission_button_padding": {
+                "type": "panel",
+                "size": [ 32, "100%" ],
+                "bindings": [
+                  {
+                    "binding_name": "#permissions_button_visible",
+                    "binding_name_override": "#visible"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "player_permission_button_panel": {
+          "type": "panel",
+          "anchor_to": "top_right",
+          "anchor_from": "top_right",
+          "offset": [ "-1px", 0 ],
+          "size": [ "100%c", "100% + 1px" ],
+          "controls": [
+            { "player_permission_button@pause.player_permission_button": {} }
+          ],
+          "bindings": [
+            {
+              "binding_name": "#permissions_button_visible",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "player_grid_item": {
+    "type": "panel",
+    "size": [ "100%", 25 ],
+    "controls": [
+      { "player_grid_item_content@pause.player_grid_item_content": {} }
+    ]
+  },
+
+  "players_label": {
+    "type": "label",
+    "text": "#worldname",
+    "size": [ "100%", 20 ],
+    "font_scale_factor": 1,
+    "font_type": "MinecraftTen",
+    "color": "$main_header_text_color",
+    "layer": 2,
+    "bindings": [
+      {
+        "binding_name": "#worldname"
+      }
+    ]
+  },
+
+  "player_list": {
+    "type": "stack_panel",
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "size": [ "100%", "100%c" ],
+    "focus_container": true,
+    "use_last_focus": true,
+    "focus_nagivation_mode_right": "contained",
+    "controls": [
+      {
+        "vertical_padding_0@pause.vertical_padding": {
+          "size": [ 0, 4 ]
+        }
+      },
+      {
+        "players_label@zxyn_pause.players_label": {
+          "ignored": "$education_edition"
+        }
+      },
+      {
+        "vertical_padding_2@pause.vertical_padding": {
+          "size": [ 0, 3 ],
+          "ignored": "$education_edition"
+        }
+      },
+      { "players_grid_panel@zxyn_pause.players_grid": {} },
+      {
+        "vertical_padding_3@pause.vertical_padding": {
+          "size": [ 0, 3 ]
+        }
+      },
+      {
+        "vertical_padding_4@pause.vertical_padding": {
+          "size": [ 0, 3 ]
+        }
+      },
+      { "disconnected_from_multiplayer_label_panel@pause.disconnected_from_multiplayer_label_panel": {} },
+      {
+        "vertical_padding_5@pause.vertical_padding": {
+          "size": [ 0, 1 ]
+        }
+      }
+    ]
+  },
+
+  "player_lists": {
+    "type": "panel",
+    "size": [ "100%", "100%c" ],
+    "controls": [
+      {
+        "normal_list@zxyn_pause.player_list": {
+          "bindings": [
+            {
+              "binding_name": "(not #list_has_display_objective)",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      },
+      {
+        "scoreboard_list@scoreboard.scoreboard_player_list": {
+          "bindings": [
+            {
+              "binding_name": "#list_has_display_objective",
+              "binding_name_override": "#visible"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

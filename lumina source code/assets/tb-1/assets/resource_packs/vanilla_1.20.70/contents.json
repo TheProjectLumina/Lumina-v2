@@ -4,94 +4,382 @@
          "path": "loading_messages.json"
       },
       {
-         "path": "zxyn-core/neko_animation.json"
+         "path": "hans_inven_common/enchanting_screen.json"
       },
       {
-         "path": "zxyn-core/neko_play_screen_common.json"
+         "path": "hans_inven_common/enchanting_screen.png"
       },
       {
-         "path": "zxyn-core/neko_common.json"
+         "path": "hans_inven_common/anvil_screen.png"
       },
       {
-         "path": "zxyn-core/neko_background.json"
+         "path": "hans_inven_common/chest_background_large.json"
       },
       {
-         "path": "zxyn-core/button.json"
+         "path": "hans_inven_common/stone_cutter_screen.png"
       },
       {
-         "path": "zxyn-core/zxyn_information.json"
+         "path": "hans_inven_common/stone_cutter_screen.json"
       },
       {
-         "path": "zxyn-core/neko_play_screen.json"
+         "path": "hans_inven_common/grindstone_screen.png"
       },
       {
-         "path": "zxyn-core/button_panel.json"
+         "path": "hans_inven_common/chest_background.png"
       },
       {
-         "path": "zxyn-core/neko_button.json"
+         "path": "hans_inven_common/chest_background.json"
       },
       {
-         "path": "zxyn-core/zxyn_pause_ui.json"
+         "path": "hans_inven_common/smithing_table.png"
       },
       {
-         "path": "zxyn-core/neko_template_tabs.json"
+         "path": "hans_inven_common/chest_background_large.png"
       },
       {
-         "path": "zxyn-core/neko_toggle.json"
+         "path": "hans_inven_common/anvil_screen.json"
       },
       {
-         "path": "zxyn-core/hud/zxyn_hud.json"
+         "path": "hans_inven_common/inventory_background.json"
       },
       {
-         "path": "zxyn-core/hud/main_hand_slot.json"
+         "path": "hans_inven_common/furnace_background.json"
       },
       {
-         "path": "zxyn-core/uwu/loading.png"
+         "path": "hans_inven_common/furnace_background.png"
       },
       {
-         "path": "zxyn-core/uwu/loading.json"
+         "path": "hans_inven_common/inventory_background.png"
       },
       {
-         "path": "zxyn-core/mainui/zxyn_main_ui_core.json"
+         "path": "hans_inven_common/grindstone_screen.json"
       },
       {
-         "path": "zxyn-core/mainui/uwu_4.png"
+         "path": "hans_inven_common/smithing_table.json"
       },
       {
-         "path": "zxyn-core/mainui/zxyn_main_ui.json"
+         "path": "hans_animated_background/bg_settings_screen.png"
       },
       {
-         "path": "zxyn-core/settings/neko_settings_section.json"
+         "path": "hans_animated_background/bg_play_screen.png"
       },
       {
-         "path": "zxyn-core/settings/neko_settings_common.json"
+         "path": "hans_animated_background/bg_main_screen.png"
       },
       {
-         "path": "zxyn-core/settings/neko_custom_radio_settings.json"
+         "path": ".hans_common_textures/.play_screen/menu_icon.png"
       },
       {
-         "path": "zxyn-core/settings/ico/ui_cc.png"
+         "path": ".hans_common_textures/.play_screen/neko_icon.png"
       },
       {
-         "path": ".hans-icon-texture/.main-screen/notif_ico.png"
+         "path": ".hans_common_textures/.play_screen/friends_icon.png"
       },
       {
-         "path": ".hans-icon-texture/.main-screen/quit_ico.png"
+         "path": ".hans_common_textures/.play_screen/no_internet.png"
       },
       {
-         "path": ".hans-icon-texture/.main-screen/realm_ico.png"
+         "path": ".hans_common_textures/.play_screen/beta.png"
+      },
+      {
+         "path": ".hans_common_textures/.play_screen/quick_play.png"
+      },
+      {
+         "path": ".hans_common_textures/.play_screen/worlds_icon.png"
+      },
+      {
+         "path": ".hans_common_textures/.play_screen/servers_icon.png"
+      },
+      {
+         "path": ".hans_common_textures/.play_screen/worldsIcon.png"
+      },
+      {
+         "path": ".hans_common_textures/.play_screen/texture_nf.png"
+      },
+      {
+         "path": ".hans_common_textures/.main_screen_ui/start_icon.png"
+      },
+      {
+         "path": ".hans_common_textures/.main_screen_ui/feedback_ico.png"
+      },
+      {
+         "path": ".hans_common_textures/.main_screen_ui/marketplace_pause.png"
+      },
+      {
+         "path": ".hans_common_textures/.main_screen_ui/settings_ico.png"
+      },
+      {
+         "path": ".hans_common_textures/.main_screen_ui/pause_dressing_room.png"
+      },
+      {
+         "path": ".hans_common_textures/.main_screen_ui/settings_icon_rev.png"
+      },
+      {
+         "path": ".hans_common_textures/.main_screen_ui/dressing_room_rev.png"
+      },
+      {
+         "path": ".hans_common_textures/.main_screen_ui/pause_screenshot.png"
+      },
+      {
+         "path": ".hans_common_textures/.main_screen_ui/notif_ico.png"
+      },
+      {
+         "path": ".hans_common_textures/.main_screen_ui/skin_ico.png"
+      },
+      {
+         "path": ".hans_common_textures/.main_screen_ui/quit_ico.png"
+      },
+      {
+         "path": ".hans_common_textures/.main_screen_ui/store_icon_rev.png"
+      },
+      {
+         "path": ".hans_common_textures/.main_screen_ui/neko_ui.png"
+      },
+      {
+         "path": ".hans_common_textures/.main_screen_ui/pause_invite.png"
+      },
+      {
+         "path": ".hans_common_textures/.main_screen_ui/achievement_icon_rev.png"
+      },
+      {
+         "path": ".hans_common_textures/.main_screen_ui/neko_studios.png"
+      },
+      {
+         "path": ".hans_common_textures/.main_screen_ui/skin_gesture_ico.png"
+      },
+      {
+         "path": ".hans_common_textures/.main_screen_ui/invite_icon_rev.png"
+      },
+      {
+         "path": ".hans_common_textures/.main_screen_ui/mc_ui.png"
+      },
+      {
+         "path": ".hans_common_textures/.main_screen_ui/gear.png"
+      },
+      {
+         "path": ".hans_common_textures/.boss_bar/ender_dragon/ender_dragon_bar_overlay.png"
+      },
+      {
+         "path": ".hans_common_textures/.boss_bar/ender_dragon/ender_dragon_bar_empty.png"
+      },
+      {
+         "path": ".hans_common_textures/.boss_bar/ender_dragon/ender_dragon_bar_full.png"
+      },
+      {
+         "path": ".hans_common_textures/.boss_bar/wither/wither_bar_full.png"
+      },
+      {
+         "path": ".hans_common_textures/.boss_bar/wither/wither_bar_overlay.png"
+      },
+      {
+         "path": ".hans_common_textures/.boss_bar/wither/wither_bar_empty.png"
+      },
+      {
+         "path": ".hans_common_textures/.common_button_texture/default.json"
+      },
+      {
+         "path": ".hans_common_textures/.common_button_texture/hover.json"
+      },
+      {
+         "path": ".hans_common_textures/.common_button_texture/close_texture.json"
+      },
+      {
+         "path": ".hans_common_textures/.common_button_texture/lock.png"
+      },
+      {
+         "path": ".hans_common_textures/.common_button_texture/pressed.json"
+      },
+      {
+         "path": ".hans_common_textures/.common_button_texture/lock.json"
+      },
+      {
+         "path": ".hans_common_textures/.common_button_texture/hover.png"
+      },
+      {
+         "path": ".hans_common_textures/.common_button_texture/default.png"
+      },
+      {
+         "path": ".hans_common_textures/.common_button_texture/close_texture.png"
+      },
+      {
+         "path": ".hans_common_textures/.common_button_texture/pressed.png"
+      },
+      {
+         "path": ".hans_common_textures/.common_button_texture/.borderless/button_default.json"
+      },
+      {
+         "path": ".hans_common_textures/.common_button_texture/.borderless/button_pressed.png"
+      },
+      {
+         "path": ".hans_common_textures/.common_button_texture/.borderless/quit_button.png"
+      },
+      {
+         "path": ".hans_common_textures/.common_button_texture/.borderless/button_pressed.json"
+      },
+      {
+         "path": ".hans_common_textures/.common_button_texture/.borderless/button_default.png"
+      },
+      {
+         "path": ".hans_common_textures/.common_button_texture/.borderless/default.json"
+      },
+      {
+         "path": ".hans_common_textures/.common_button_texture/.borderless/hover.json"
+      },
+      {
+         "path": ".hans_common_textures/.common_button_texture/.borderless/button_hover.png"
+      },
+      {
+         "path": ".hans_common_textures/.common_button_texture/.borderless/pressed.json"
+      },
+      {
+         "path": ".hans_common_textures/.common_button_texture/.borderless/button_red.png"
+      },
+      {
+         "path": ".hans_common_textures/.common_button_texture/.borderless/hover.png"
+      },
+      {
+         "path": ".hans_common_textures/.common_button_texture/.borderless/button_red.json"
+      },
+      {
+         "path": ".hans_common_textures/.common_button_texture/.borderless/default.png"
+      },
+      {
+         "path": ".hans_common_textures/.common_button_texture/.borderless/pressed.png"
+      },
+      {
+         "path": ".hans_common_textures/.common_button_texture/.borderless/quit_button.json"
+      },
+      {
+         "path": ".hans_common_textures/.common_button_texture/.borderless/button_hover.json"
+      },
+      {
+         "path": ".hans_common_textures/.common_button_texture/start_button/hover.json"
+      },
+      {
+         "path": ".hans_common_textures/.common_button_texture/start_button/default_a.json"
+      },
+      {
+         "path": ".hans_common_textures/.common_button_texture/start_button/default_a.png"
+      },
+      {
+         "path": ".hans_common_textures/.common_button_texture/start_button/common_start_button.png"
+      },
+      {
+         "path": ".hans_common_textures/.common_button_texture/start_button/hover.png"
+      },
+      {
+         "path": ".hans_common_textures/.play_screen_button/default.json"
+      },
+      {
+         "path": ".hans_common_textures/.play_screen_button/hover.json"
+      },
+      {
+         "path": ".hans_common_textures/.play_screen_button/lock.png"
+      },
+      {
+         "path": ".hans_common_textures/.play_screen_button/pressed.json"
+      },
+      {
+         "path": ".hans_common_textures/.play_screen_button/lock.json"
+      },
+      {
+         "path": ".hans_common_textures/.play_screen_button/hover.png"
+      },
+      {
+         "path": ".hans_common_textures/.play_screen_button/default.png"
+      },
+      {
+         "path": ".hans_common_textures/.play_screen_button/pressed.png"
+      },
+      {
+         "path": "texts/ru_RU.lang"
       },
       {
          "path": "texts/languages.json"
       },
       {
+         "path": "texts/pt_BR.lang"
+      },
+      {
+         "path": "texts/ja_JP.lang"
+      },
+      {
+         "path": "texts/fr_CA.lang"
+      },
+      {
+         "path": "texts/zh_TW.lang"
+      },
+      {
+         "path": "texts/pl_PL.lang"
+      },
+      {
          "path": "texts/id_ID.lang"
+      },
+      {
+         "path": "texts/pt_PT.lang"
+      },
+      {
+         "path": "texts/en_GB.lang"
+      },
+      {
+         "path": "texts/el_GR.lang"
+      },
+      {
+         "path": "texts/nb_NO.lang"
+      },
+      {
+         "path": "texts/fi_FI.lang"
+      },
+      {
+         "path": "texts/cs_CZ.lang"
+      },
+      {
+         "path": "texts/ko_KR.lang"
+      },
+      {
+         "path": "texts/es_MX.lang"
+      },
+      {
+         "path": "texts/bg_BG.lang"
+      },
+      {
+         "path": "texts/sk_SK.lang"
+      },
+      {
+         "path": "texts/hu_HU.lang"
+      },
+      {
+         "path": "texts/zh_CN.lang"
       },
       {
          "path": "texts/en_US.lang"
       },
       {
-         "path": "texts/language_names.json"
+         "path": "texts/de_DE.lang"
+      },
+      {
+         "path": "texts/sv_SE.lang"
+      },
+      {
+         "path": "texts/uk_UA.lang"
+      },
+      {
+         "path": "texts/fr_FR.lang"
+      },
+      {
+         "path": "texts/it_IT.lang"
+      },
+      {
+         "path": "texts/es_ES.lang"
+      },
+      {
+         "path": "texts/tr_TR.lang"
+      },
+      {
+         "path": "texts/nl_NL.lang"
+      },
+      {
+         "path": "texts/da_DK.lang"
       },
       {
          "path": "ui/enchanting_screen.json"
@@ -104,6 +392,9 @@
       },
       {
          "path": "ui/profile_screen.json"
+      },
+      {
+         "path": "ui/ui_template_tabs.json"
       },
       {
          "path": "ui/resource_packs_screen.json"
@@ -190,7 +481,16 @@
          "path": "ui/hud_screen.json"
       },
       {
+         "path": "ui/hud_screen_2.json"
+      },
+      {
          "path": "ui/ui_common.json"
+      },
+      {
+         "path": "ui/smithing_table_2_screen.json"
+      },
+      {
+         "path": "ui/grindstone_screen.json"
       },
       {
          "path": "ui/settings_sections/general_section.json"
@@ -202,88 +502,10 @@
          "path": "ui/settings_sections/controls_section.json"
       },
       {
+         "path": "ui/settings_sections/progress_screen.json"
+      },
+      {
          "path": "ui/settings_sections/settings_common.json"
-      },
-      {
-         "path": "ui/neko/uwu/ezgif-frame-011-min.png"
-      },
-      {
-         "path": "ui/neko/uwu/ezgif-frame-004-min.png"
-      },
-      {
-         "path": "ui/neko/uwu/ezgif-frame-009-min.png"
-      },
-      {
-         "path": "ui/neko/uwu/ezgif-frame-010-min.png"
-      },
-      {
-         "path": "ui/neko/uwu/ezgif-frame-027-min.png"
-      },
-      {
-         "path": "ui/neko/uwu/ezgif-frame-019-min.png"
-      },
-      {
-         "path": "ui/neko/uwu/ezgif-frame-017-min.png"
-      },
-      {
-         "path": "ui/neko/uwu/ezgif-frame-006-min.png"
-      },
-      {
-         "path": "ui/neko/uwu/ezgif-frame-012-min.png"
-      },
-      {
-         "path": "ui/neko/uwu/ezgif-frame-014-min.png"
-      },
-      {
-         "path": "ui/neko/uwu/ezgif-frame-015-min.png"
-      },
-      {
-         "path": "ui/neko/uwu/ezgif-frame-025-min.png"
-      },
-      {
-         "path": "ui/neko/uwu/ezgif-frame-002-min.png"
-      },
-      {
-         "path": "ui/neko/uwu/ezgif-frame-023-min.png"
-      },
-      {
-         "path": "ui/neko/uwu/ezgif-frame-001-min.png"
-      },
-      {
-         "path": "ui/neko/uwu/ezgif-frame-013-min.png"
-      },
-      {
-         "path": "ui/neko/uwu/ezgif-frame-016-min.png"
-      },
-      {
-         "path": "ui/neko/uwu/ezgif-frame-003-min.png"
-      },
-      {
-         "path": "ui/neko/uwu/ezgif-frame-020-min.png"
-      },
-      {
-         "path": "ui/neko/uwu/ezgif-frame-005-min.png"
-      },
-      {
-         "path": "ui/neko/uwu/ezgif-frame-008-min.png"
-      },
-      {
-         "path": "ui/neko/uwu/ezgif-frame-018-min.png"
-      },
-      {
-         "path": "ui/neko/uwu/ezgif-frame-022-min.png"
-      },
-      {
-         "path": "ui/neko/uwu/ezgif-frame-021-min.png"
-      },
-      {
-         "path": "ui/neko/uwu/ezgif-frame-026-min.png"
-      },
-      {
-         "path": "ui/neko/uwu/ezgif-frame-024-min.png"
-      },
-      {
-         "path": "ui/neko/uwu/ezgif-frame-007-min.png"
       },
       {
          "path": "font/default8.png"
@@ -301,6 +523,300 @@
          "path": "font/EudoxusSans-Medium.ttf"
       },
       {
+         "path": ".hans_common_files/neko_animation.json"
+      },
+      {
+         "path": ".hans_common_files/.hans_play_screen_common.json"
+      },
+      {
+         "path": ".hans_common_files/zxyn_loading_background.json"
+      },
+      {
+         "path": ".hans_common_files/button.json"
+      },
+      {
+         "path": ".hans_common_files/zxyn_information.json"
+      },
+      {
+         "path": ".hans_common_files/.hans_pause_screen.json"
+      },
+      {
+         "path": ".hans_common_files/button_panel.json"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background.json"
+      },
+      {
+         "path": ".hans_common_files/.hans_temp.json"
+      },
+      {
+         "path": ".hans_common_files/.explhd_boss_panel.json"
+      },
+      {
+         "path": ".hans_common_files/neko_template_tabs.json"
+      },
+      {
+         "path": ".hans_common_files/.hans_play_screen.json"
+      },
+      {
+         "path": ".hans_common_files/neko_toggle.json"
+      },
+      {
+         "path": ".hans_common_files/.hans_common.json"
+      },
+      {
+         "path": ".hans_common_files/hud/zxyn_hud.json"
+      },
+      {
+         "path": ".hans_common_files/hud/main_hand_slot.json"
+      },
+      {
+         "path": ".hans_common_files/button/.hans_new_button.json"
+      },
+      {
+         "path": ".hans_common_files/button/.hans_button.json"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_042.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_014.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_061.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_055.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_006.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_022.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_002.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_043.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_017.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_004.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_034.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_031.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_001.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_037.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_007.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_024.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_044.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_028.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_005.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_051.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_054.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_009.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_060.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_011.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_046.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_047.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_048.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_058.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_041.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_023.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_063.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_038.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_029.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_021.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_040.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_019.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_039.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_062.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_003.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_033.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_020.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_018.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_026.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_012.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_015.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_035.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_025.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_027.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_010.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_052.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_013.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_030.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_032.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_036.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_049.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_045.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_056.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_053.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_050.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_016.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_008.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_059.png"
+      },
+      {
+         "path": ".hans_common_files/.hans_animated_background/.hans_nonomi_057.png"
+      },
+      {
+         "path": ".hans_common_files/uwu/loading.png"
+      },
+      {
+         "path": ".hans_common_files/uwu/loading.json"
+      },
+      {
+         "path": ".hans_common_files/mainui/loading_spin.json"
+      },
+      {
+         "path": ".hans_common_files/mainui/.hans_event.json"
+      },
+      {
+         "path": ".hans_common_files/mainui/uwu_4.png"
+      },
+      {
+         "path": ".hans_common_files/mainui/loading_spin.png"
+      },
+      {
+         "path": ".hans_common_files/mainui/.hans_new_main_ui.json"
+      },
+      {
+         "path": ".hans_common_files/mainui/.hans_common_gamertag.json"
+      },
+      {
+         "path": ".hans_common_files/settings/neko_settings_section.json"
+      },
+      {
+         "path": ".hans_common_files/settings/neko_settings_common.json"
+      },
+      {
+         "path": ".hans_common_files/settings/neko_custom_radio_settings.json"
+      },
+      {
+         "path": ".hans_common_files/settings/ico/ui_cc.png"
+      },
+      {
+         "path": "hans_loading_background/BG_CS_Abydos_02.jpg"
+      },
+      {
+         "path": "hans_loading_background/BG_CS_Abydos_04.jpg"
+      },
+      {
+         "path": "hans_loading_background/BG_CS_Abydos_08.jpg"
+      },
+      {
+         "path": "hans_loading_background/BG_CS_Abydos_03.png"
+      },
+      {
+         "path": "hans_loading_background/BG_CS_Abydos_09.jpg"
+      },
+      {
          "path": "textures/gui/gui.png"
       },
       {
@@ -310,10 +826,19 @@
          "path": "textures/gui/icons.png"
       },
       {
+         "path": "textures/gui/experience/load_full.png"
+      },
+      {
          "path": "textures/gui/experience/empty.png"
       },
       {
+         "path": "textures/gui/experience/load_empty.png"
+      },
+      {
          "path": "textures/gui/experience/full.png"
+      },
+      {
+         "path": "textures/gui/experience/load_empty.json"
       },
       {
          "path": "textures/gui/achievements/hotdogfull.png"
@@ -556,13 +1081,28 @@
          "path": "textures/neko/chevron_left.png"
       },
       {
+         "path": "textures/neko/feedback_ico.png"
+      },
+      {
+         "path": "textures/neko/sign_in_ico.png"
+      },
+      {
          "path": "textures/neko/line.png"
+      },
+      {
+         "path": "textures/neko/settings_ico.png"
+      },
+      {
+         "path": "textures/neko/shiroko.png"
       },
       {
          "path": "textures/neko/pocketui.png"
       },
       {
          "path": "textures/neko/promo_creeper.png"
+      },
+      {
+         "path": "textures/neko/realm_ico.png"
       },
       {
          "path": "textures/neko/line.json"
@@ -572,9 +1112,6 @@
       },
       {
          "path": "textures/neko/tpp_image.png"
-      },
-      {
-         "path": "textures/neko/no_loli.png"
       },
       {
          "path": "textures/neko/fpp_image.png"
@@ -748,9 +1285,6 @@
          "path": "textures/neko/borderless/main_ui/button_borderless_lightpressednohover.png"
       },
       {
-         "path": "textures/neko/borderless/main_ui/start.json"
-      },
-      {
          "path": "textures/neko/borderless/main_ui/button_borderless_light_locked.png"
       },
       {
@@ -769,9 +1303,6 @@
          "path": "textures/neko/borderless/main_ui/default.json"
       },
       {
-         "path": "textures/neko/borderless/main_ui/start_2.png"
-      },
-      {
          "path": "textures/neko/borderless/main_ui/button_borderless_lightpressed.json"
       },
       {
@@ -784,25 +1315,16 @@
          "path": "textures/neko/borderless/main_ui/hover_and_pressed.png"
       },
       {
-         "path": "textures/neko/borderless/main_ui/start_3.json"
-      },
-      {
          "path": "textures/neko/borderless/main_ui/button_borderless_dark_line.json"
       },
       {
          "path": "textures/neko/borderless/main_ui/button_borderless_lighthover.png"
       },
       {
-         "path": "textures/neko/borderless/main_ui/start.png"
-      },
-      {
          "path": "textures/neko/borderless/main_ui/button_borderless_lightpressednohover.json"
       },
       {
          "path": "textures/neko/borderless/main_ui/button_borderless_light_locked.json"
-      },
-      {
-         "path": "textures/neko/borderless/main_ui/start_2.json"
       },
       {
          "path": "textures/neko/borderless/main_ui/button_borderless_light.png"
@@ -812,9 +1334,6 @@
       },
       {
          "path": "textures/neko/borderless/main_ui/button_borderless_dark_line_hover.json"
-      },
-      {
-         "path": "textures/neko/borderless/main_ui/start_3.png"
       },
       {
          "path": "textures/neko/borderless/main_ui/button_borderless_dark_line_hover.png"
@@ -886,9 +1405,6 @@
          "path": "textures/neko/button_icon/main_b.png"
       },
       {
-         "path": "textures/neko/button_icon/start_icon.png"
-      },
-      {
          "path": "textures/neko/button_icon/main_d.png"
       },
       {
@@ -901,15 +1417,6 @@
          "path": "textures/neko/button_icon/b.json"
       },
       {
-         "path": "textures/neko/button_icon/settings.png"
-      },
-      {
-         "path": "textures/neko/button_icon/settings_icon_rev.png"
-      },
-      {
-         "path": "textures/neko/button_icon/dressing_room_rev.png"
-      },
-      {
          "path": "textures/neko/button_icon/realms_invite_icon.png"
       },
       {
@@ -919,25 +1426,10 @@
          "path": "textures/neko/button_icon/dressing_room.png"
       },
       {
-         "path": "textures/neko/button_icon/store_icon_rev.png"
-      },
-      {
          "path": "textures/neko/button_icon/main_c.png"
       },
       {
-         "path": "textures/neko/button_icon/nvite.png"
-      },
-      {
          "path": "textures/neko/button_icon/main_a.png"
-      },
-      {
-         "path": "textures/neko/button_icon/achievement_icon_rev.png"
-      },
-      {
-         "path": "textures/neko/button_icon/invite_icon_rev.png"
-      },
-      {
-         "path": "textures/neko/button_icon/store_icon.png"
       },
       {
          "path": "textures/neko/button_icon/b.png"
@@ -1387,9 +1879,6 @@
          "path": "textures/ui/recipe_book_pane_bg.json"
       },
       {
-         "path": "textures/ui/hotbar_0.png"
-      },
-      {
          "path": "textures/ui/close_button_default_compact.png"
       },
       {
@@ -1546,9 +2035,6 @@
          "path": "textures/ui/dialog_background_hollow_4_thin.png"
       },
       {
-         "path": "textures/ui/hotbar_1.png"
-      },
-      {
          "path": "textures/ui/TabRightBack.png"
       },
       {
@@ -1568,9 +2054,6 @@
       },
       {
          "path": "textures/ui/button_borderless_lighthover.json"
-      },
-      {
-         "path": "textures/ui/hotbar_6.png"
       },
       {
          "path": "textures/ui/haste_effect.png"
@@ -1616,9 +2099,6 @@
       },
       {
          "path": "textures/ui/TabTopBackRightMostDark.png"
-      },
-      {
-         "path": "textures/ui/hotbar_8.png"
       },
       {
          "path": "textures/ui/arrow_icon.png"
@@ -1780,9 +2260,6 @@
          "path": "textures/ui/TabTopBack.png"
       },
       {
-         "path": "textures/ui/server3rd.png"
-      },
-      {
          "path": "textures/ui/ScrollGutterWithBG.png"
       },
       {
@@ -1841,9 +2318,6 @@
       },
       {
          "path": "textures/ui/pocket_ui_highlight_slot.png"
-      },
-      {
-         "path": "textures/ui/hotbar_5.png"
       },
       {
          "path": "textures/ui/button_borderless_light.png"
@@ -2092,9 +2566,6 @@
          "path": "textures/ui/panorama_2.png"
       },
       {
-         "path": "textures/ui/hotbar_2.png"
-      },
-      {
          "path": "textures/ui/arrow_down.png"
       },
       {
@@ -2167,9 +2638,6 @@
          "path": "textures/ui/TabLeftFrontHover.png"
       },
       {
-         "path": "textures/ui/hotbar_3.png"
-      },
-      {
          "path": "textures/ui/dropdown_background.png"
       },
       {
@@ -2180,9 +2648,6 @@
       },
       {
          "path": "textures/ui/recipe_book_light_button_pressed.png"
-      },
-      {
-         "path": "textures/ui/hotbar_7.png"
       },
       {
          "path": "textures/ui/dialog_background_hollow_3.png"
@@ -2230,9 +2695,6 @@
          "path": "textures/ui/nausea_effect.png"
       },
       {
-         "path": "textures/ui/hotbar_4.png"
-      },
-      {
          "path": "textures/ui/pocket_ui_highlight_slot.json"
       },
       {
@@ -2267,6 +2729,12 @@
       },
       {
          "path": "textures/ui/play_screen/default.json"
+      },
+      {
+         "path": "textures/ui/play_screen/hover.json"
+      },
+      {
+         "path": "textures/ui/play_screen/hover.png"
       },
       {
          "path": "textures/ui/play_screen/default.png"

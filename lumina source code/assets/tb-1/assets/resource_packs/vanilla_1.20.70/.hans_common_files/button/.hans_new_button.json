@@ -1,0 +1,444 @@
+{
+    "namespace": "hans_button",
+
+    "core_toggle_2@core_toggle": {
+
+       "$neko_toggle_icon_anchor|default": "left_middle",
+       "$neko_toggle_icon|default": "textures/ui/white",
+  
+       "$neko_text_font_scale_factor": 0.7,
+       "$neko_toggle_text_anchor": "right_middle",
+       "$neko_text_alignment": "center",
+       "$neko_toggle_text_size": [ "100% - 17px", "default" ],
+  
+       "$toggle_group_default_selected": "",
+       "$toggle_name": "",
+       "$radio_toggle_group": false,
+       "$light_toggle_default_text_color": [ 1.0, 1.0, 1.0 ],
+       "$light_toggle_hover_text_color": [ 0.00, 0.75, 0.90 ],
+       "$light_toggle_checked_default_text_color": [ 0.00, 0.75, 0.90 ],
+       "$light_toggle_checked_hover_text_color": [ 1.0, 1.0, 1.0 ],
+       "size": [ "100% - 2px", "100%"],
+       "$icon_offset": [ 1.2, 0 ],
+       "$button_type_panel": "test_toggle.sub_neko",
+       "$default_texture": ".hans_common_textures/.common_button_texture/start_button/default_a",
+       "$hover_texture": ".hans_common_textures/.common_button_texture/start_button/hover",
+       "$pressed_texture": ".hans_common_textures/.common_button_texture/start_button/hover",
+       "$pressed_no_hover_texture": ".hans_common_textures/.common_button_texture/start_button/hover",
+       "$icon_texture": "",
+       "$button_text_default": "","$button_text_hover": "","$button_text_pressed": "",
+       "$default_border_visible": false,
+       "$hover_border_visible": false
+    },
+  
+    "core_toggle@test_toggle.yaemiko": {
+       "$light_toggle_default_text_color": [ 1.0, 1.0, 1.0 ],
+       "$light_toggle_hover_text_color": [ 0.25, 0.26, 0.34 ],
+       "$light_toggle_checked_default_text_color": [ 0.25, 0.26, 0.34 ],
+       "$light_toggle_checked_hover_text_color": [ 0.25, 0.26, 0.34 ],
+       "size": [ "100% - 2px", "100%"],
+       "$icon_offset": [ -1.4, 0 ],
+       "$button_type_panel": "test_toggle.sub_neko",
+       "$default_texture": "",
+       "$hover_texture": "textures/neko/button_icon/a",
+       "$pressed_texture": "textures/neko/button_icon/a",
+       "$pressed_no_hover_texture": "textures/neko/button_icon/a",
+       "$toggle_group_default_selected": "$apa_coba",
+       "$radio_toggle_group": true,
+       "$default_border_visible": true,
+       "$hover_border_visible": true,
+       "$toggle_name": "navigation_tab",
+       "$icon_texture": "",
+       
+       "$button_text_default": "","$button_text_hover": "","$button_text_pressed": ""
+    },
+
+    "start_button_panel": {
+        "type": "panel",
+        "$hans_button_text|default": "SEGS",
+        "$hans_button_text_offset|default": [ 17, -0.5 ],
+        "controls": [
+            {
+                "texture_button": {
+                    "type": "image",
+                    "offset": [ -12, -0.5 ],
+                    "size": [ "100% + 15px", "100% + 15px" ],
+                    "texture": ".hans_common_textures/.common_button_texture/start_button/common_start_button",
+                    "controls": [
+                        {
+                            "text_button": {
+                                "type": "label",
+                                "font_scale_factor": 1.5,
+                                "font_type": "MinecraftTen",
+                                "text": "$hans_button_text",
+                                "offset": "$hans_button_text_offset",
+                                "color": "$text_color"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+
+    "pause_button_panel": {
+        "type": "panel",
+        "$hans_button_text|default": "SEGS",
+        "$hans_button_text_offset|default": [ 0, -1.1 ],
+        "controls": [
+            {
+                "text_button": {
+                    "type": "label",
+                    "font_scale_factor": 0.8,
+                    "font_type": "MinecraftTen",
+                    "text": "$hans_button_text",
+                    "offset": "$hans_button_text_offset",
+                    "color": "$text_color"
+                }
+            }
+        ]
+    },
+
+    "hans_button_panel": {
+        "type": "panel",
+        "$hans_icon_offset|default": [ 0, -2 ],
+        "$hans_icon_size|default": [ 21.5, 21.5 ],
+        "$hans_icon_anchor|default":"center",
+        "$hans_button_do_not_use_icon|default": false,
+        "$hans_button_do_not_use_label|default": false,
+        "controls": [
+            {
+                "sales_banner@start.store_button_sale_banner": {
+                  "anchor_from": "top_left",
+                  "anchor_to": "top_left",
+                  "offset": [ -6, -8 ],
+                  "visible": false // leaving this here in case we override with a treatment pack during a sale
+                }
+            },
+            {
+                "serika": {
+                    "type": "stack_panel",
+                    "size": [ "100%", "100%" ],
+                    "controls": [
+                        {
+                            "icon_panel": {
+                                "type": "panel",
+                                "ignored": "$hans_button_do_not_use_icon",
+                                "size": [ "100%", "fill" ],
+                                "controls": [
+                                    {
+                                        "icon": {
+                                            "type": "image",
+                                            "texture": "$hans_button_icon",
+                                            "size": "$hans_icon_size",
+                                            "offset": "$hans_icon_offset",
+                                            "anchor_from": "$hans_icon_anchor",
+                                            "anchor_to": "$hans_icon_anchor",
+                                            "bilinear": true
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "icon_label": {
+                                "type": "panel",
+                                "ignored": "$hans_button_do_not_use_label",
+                                "size": [ "100%", "10px" ],
+                                "controls": [
+                                    {
+                                        "button_text": {
+                                            "type": "label",
+                                            "font_scale_factor": 0.6,
+                                            "offset": [ 0, 3 ],
+                                            "color": "$text_color",
+                                            "font_type": "MinecraftTen",
+                                            "text": "$hans_button_text",
+                                            "size": [ "100% - 3px", "100%" ],
+                                            "anchor_from": "bottom_middle",
+                                            "anchor_to": "bottom_middle",
+                                            "text_alignment": "center"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+
+    /////////////////////////////////
+    ///                           ///
+    ///     MAIN SCREEN BUTTON    ///
+    ///                           ///
+    ///////////////////////////////// 
+    
+
+    "common_hans_icon_button@hans_button.common_hans_button": {
+        "$default_button_texture": ".hans_common_textures/.common_button_texture/start_button/default_a",
+        "$hover_button_texture": ".hans_common_textures/.common_button_texture/start_button/hover",
+        "$pressed_button_texture": ".hans_common_textures/.common_button_texture/start_button/hover",
+        "$locked_button_texture": ".hans_common_textures/.common_button_texture/start_button/hover",
+
+        "$hans_icon_offset": [ 0, 0 ],
+        "$hans_icon_size": [ 16, 16 ],
+        "$hans_button_do_not_use_label": true,
+
+        "$border_visible": false,
+        "size": [ "100% - 1.5px", "100%" ],
+        "$button_type_panel": "hans_button.hans_button_panel"
+    },
+
+    "red_0": {
+       "anim_type": "alpha",
+       "duration": 0.5,
+       "from": 1,
+       "to": 0.65,
+       "next": "@hans_button.red_nunggu"
+    },
+    
+    "red_1": {
+       "anim_type": "alpha",
+       "duration": 1,
+       "from": 0.65,
+       "to": 1,
+       "next": "@hans_button.red_0"
+    },
+    
+    "red_nunggu": {
+       "anim_type": "wait",
+       "duration": 0,
+       "next": "@hans_button.red_1"
+    },
+    
+    "unread_notification_icon": { "alpha": "@hans_button.red_0", "type": "image","texture": "textures/ui/red_dot","layer": 4,"anchor_from": "top_right","anchor_to": "top_right","size": [ 4, 4 ]},
+    "inbox_button_unread_panel": {"type": "panel","anchor_from": "top_right","anchor_to": "top_right","size": [ 4, 4 ],"offset": [ -1.1, 2 ],"controls": [{"background@hans_button.unread_notification_icon": {"layer": 8}}]},
+    
+    "hans_notifications_button": {
+      "type": "panel",
+      "$button_tts_header": "menu.inbox",
+      "offset": [ 0, 0 ],
+      "ignored": "$education_edition",
+      "controls": [
+           { "inbox_button@hans_button.hans_inbox_button": {} },
+           { "inbox_button_unread_panel@hans_button.inbox_button_unread_panel": {"bindings": [{"binding_name": "#unread_notification_icon"},{"binding_name": "#unread_notification_icon_visibility","binding_name_override": "#visible"}]} }
+        ]
+    },
+
+    "hans_inbox_button@hans_button.common_hans_icon_button": {
+        "$pressed_button_name": "button.menu_inbox",
+        "$button_tts_header": "menu.inbox",
+        "button_mappings": [
+          {
+            "from_button_id": "button.menu_select",
+            "to_button_id": "$pressed_button_name",
+            "mapping_type": "pressed"
+          },
+          {
+            "from_button_id": "button.menu_ok",
+            "to_button_id": "$pressed_button_name",
+            "mapping_type": "pressed"
+          },
+          {
+            "to_button_id": "inbox_button.is_hovered",
+            "mapping_type": "pressed"
+          }
+        ],
+        "$hans_button_icon": ".hans_common_textures/.main_screen_ui/notif_ico"
+    },
+
+    "hans_settings_button@hans_button.common_hans_icon_button": {
+        "$pressed_button_name": "button.menu_settings",
+        "$hans_button_icon": ".hans_common_textures/.main_screen_ui/settings_ico"
+    },
+
+    "hans_quit_button@hans_button.common_hans_icon_button": {
+        "$pressed_button_name": "button.menu_exit",
+        "$hans_button_icon": ".hans_common_textures/.main_screen_ui/quit_ico"
+    },
+
+    "common_hans_button@common_buttons.light_text_button": {
+        "$default_button_texture": "",
+        "$hover_button_texture": ".hans_common_textures/.common_button_texture/start_button/hover",
+        "$pressed_button_texture": ".hans_common_textures/.common_button_texture/start_button/hover",
+        "$locked_button_texture": ".hans_common_textures/.common_button_texture/start_button/hover",
+        "$default_text_color|default": [ 1.0, 1.0, 1.0 ],
+        "$hover_text_color|default":  [ 0.00, 0.75, 0.90 ],
+        "$pressed_text_color|default":  [ 1.0, 1.0, 1.0],
+        "$locked_text_color|default": [ 0.0, 0.0, 0.0 ],
+        "$border_visible": false,
+        "size": [ "100% - 1.5px", "100%" ],
+        "$button_type_panel": "hans_button.hans_button_panel"
+    },
+
+    "hans_xbox@hans_button.common_hans_button": {
+        "$pressed_button_name": "button.menu_store",
+        "$hans_button_icon": ".hans_common_textures/.main_screen_ui/store_icon_rev",
+        "$hans_button_text": "MARKETPLACE"
+    },
+
+    "hans_invite@hans_button.common_hans_button": {
+        "$pressed_button_name": "button.menu_invite_notification",
+        "$hans_button_icon": ".hans_common_textures/.main_screen_ui/invite_icon_rev",
+        "$hans_button_text": "REALMS INVITATION"
+    },
+
+    "hans_realm_button": {
+        "type": "panel",
+        "offset": [ 0, 0 ],
+        "controls": [
+            { "hans_invite@hans_button.hans_invite": {} },
+            { "inbox_button_unread_panel@hans_button.inbox_button_unread_panel": { "bindings": [{"binding_name": "#realms_notification_visible","binding_name_override": "#visible"}]} }
+         ]
+     },
+
+    "hans_dressing_room@hans_button.common_hans_button": {
+        "$pressed_button_name": "button.menu_skins",
+        "$hans_button_icon": ".hans_common_textures/.main_screen_ui/dressing_room_rev",
+        "$hans_button_text": "DRESSING ROOM"
+    },
+
+    "hans_achievements@hans_button.common_hans_button": {
+        "$pressed_button_name": "button.menu_achievements",
+        "$hans_button_icon": ".hans_common_textures/.main_screen_ui/achievement_icon_rev",
+        "$hans_button_text": "ACHIEVEMENTS"
+    },
+
+    "start_button@common_buttons.light_text_button": {
+        "$pressed_button_name": "$play_button_target",
+        "$default_button_texture": "",
+        "$hover_button_texture": "",
+        "$pressed_button_texture": "",
+        "$locked_button_texture": "",
+        "$default_text_color|default": [ 0,0, 0.0, 0.0 ],
+        "$hover_text_color|default":  [ 0.0, 0.0, 0.0 ],
+        "$pressed_text_color|default":  [ 1.0, 1.0, 1.0],
+        "$locked_text_color|default": [ 0.0, 0.0, 0.0 ],
+        "$border_visible": false,
+        "$hans_button_text": "MAIN",
+        "size": [ "100% - 5px", "100% - 2px" ],
+        "$button_type_panel": "hans_button.start_button_panel"
+    },
+
+    /////////////////////////////////
+    ///                           ///
+    ///     PAUSE SCREEN BUTTON   ///
+    ///                           ///
+    ///////////////////////////////// 
+
+
+    "hans_pause_button@common_buttons.light_text_button": {
+        "$pressed_button_name": "$play_button_target",
+        "$default_button_texture": ".hans_common_textures/.common_button_texture/.borderless/button_default",
+        "$hover_button_texture": ".hans_common_textures/.common_button_texture/.borderless/button_hover",
+        "$pressed_button_texture": ".hans_common_textures/.common_button_texture/.borderless/button_pressed",
+        "$locked_button_texture": ".hans_common_textures/.common_button_texture/.borderless/button_red",
+        "$default_text_color|default": [ 0.75, 0.75, 0.75 ],
+        "$hover_text_color|default":  [ 1.0, 1.0, 1.0 ],
+        "$pressed_text_color|default":  [ 1.0, 1.0, 1.0],
+        "$locked_text_color|default": [ 0.0, 0.0, 0.0 ],
+        "size": [ "100% - 5px", "100% - 2px" ],
+        "$button_type_panel": "hans_button.pause_button_panel"
+    },
+
+    "pause_return_to_game_button@hans_button.hans_pause_button": {
+        "$pressed_button_name": "button.menu_continue",
+        "$hans_button_text": "menu.returnToGame",
+        "$button_focus_precedence": 1,
+        "focus_change_up": "button.menu_quit",
+        "$focus_override_right": "rage_quit_a"
+    },
+
+    "pause_settings_button@hans_button.hans_pause_button": {
+        "$pressed_button_name": "button.menu_settings",
+        "$hans_button_text": "menu.settings",
+        "$button_focus_precedence": 1,
+        "focus_change_up": "button.menu_quit",
+        "$focus_override_right": "rage_quit_a"
+    },
+
+    "pause_quit_button@hans_button.hans_pause_button": {
+        "$pressed_button_name": "button.menu_quit",
+        "$hans_button_text": "pauseScreen.quit",
+        "focus_change_down": "button.menu_continue",
+        "$focus_override_right": "settings_button_a",
+        "variables": [
+            {
+              "requires": "$is_secondary_client",
+              "$button_text": "pauseScreen.secondaryClientLeave"
+            }
+        ]
+    },
+
+    ////////////////////////////////////////////////////////////
+
+    "hans_pause_icon_button@hans_button.hans_pause_button": {
+        "$button_type_panel": "hans_button.hans_button_panel",
+        "$hans_icon_offset": [ 0, 0 ],
+        "$hans_icon_size": [ 15, 15 ],
+        "$hans_button_do_not_use_icon": false,
+        "$hans_button_do_not_use_label": true
+    },
+
+    //////////////////////////////////////////////////////////// RIGHT
+
+    "pause_settings_icon@hans_button.hans_pause_icon_button": {
+        "$hans_button_icon": ".hans_common_textures/.main_screen_ui/gear",
+        "size": [ "100% - 3px", "100% - 2px" ],
+        "$pressed_button_name": "button.menu_settings",
+        "focus_change_down": "button.menu_continue",
+        "$focus_override_right": "settings_button_a",
+        "variables": [
+            {
+              "requires": "$is_secondary_client",
+              "$button_text": "pauseScreen.secondaryClientLeave"
+            }
+        ]
+    },
+
+    "pause_marketplace_icon@hans_button.hans_pause_icon_button": {
+        "$hans_button_icon": ".hans_common_textures/.main_screen_ui/marketplace_pause",
+        "$hans_icon_size": [ 16, 16 ],
+        "size": [ "100% - 3px", "100% - 2px" ],
+        "$pressed_button_name": "button.menu_store",
+        "focus_change_down": "button.menu_continue",
+        "$focus_override_right": "pause_marketplace_icon"
+    },
+
+    "pause_dressing_icon@hans_button.hans_pause_icon_button": {
+        "$hans_button_icon": ".hans_common_textures/.main_screen_ui/pause_dressing_room",
+        "size": [ "100% - 3px", "100% - 2px" ],
+        "$pressed_button_name": "button.to_profile_or_skins_screen",
+        "focus_change_down": "button.menu_store",
+        "$focus_override_right": "pause_settings_icon"
+    },
+
+    "pause_invite_icon@hans_button.hans_pause_icon_button": {
+        "$hans_button_icon": ".hans_common_textures/.main_screen_ui/pause_invite",
+        "size": [ "100% - 3px", "100% - 2px" ],
+        "$pressed_button_name": "button.menu_invite_players",
+        "focus_change_down": "button.to_profile_or_skins_screen",
+        "$focus_override_right": "pause_settings_icon",
+        "bindings": [ { "binding_name": "#invite_button_visible","binding_name_override": "#enabled","binding_type": "global"},{"binding_name": "#invite_button_enabled","binding_name_override": "#enabled"}]
+    },
+
+    //////////////////////////////////////////////////////////// LEFT
+
+    "pause_screenshot_icon@hans_button.hans_pause_icon_button": {
+        "$hans_button_icon": ".hans_common_textures/.main_screen_ui/pause_screenshot",
+        "size": [ "100% - 3px", "100% - 2px" ],
+        "$pressed_button_name": "button.screenshot",
+        "focus_change_down": "button.to_profile_or_skins_screen",
+        "$focus_override_right": "pause_settings_icon"
+    },
+
+    "pause_feedback_icon@hans_button.hans_pause_icon_button": {
+        "$hans_button_icon": ".hans_common_textures/.main_screen_ui/feedback_ico",
+        "size": [ "100% - 3px", "100% - 2px" ],
+        "$pressed_button_name": "button.feedback_button_pressed",
+        "focus_change_down": "button.to_profile_or_skins_screen",
+        "$focus_override_right": "pause_settings_icon"
+    }
+}

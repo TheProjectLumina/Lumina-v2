@@ -17,18 +17,12 @@
     "anchor_to": "top_left",
     "orientation": "vertical",
     "$ukuran_jarak": [ 3, 3 ],
-    "$default_selector_toggle_index": 5555,
+    "$default_selector_toggle_index": "$keyboard_and_mouse_forced_index",
     "ttsSectionContainer": true,
     "controls": [
-      {// Di ambil dari common file // neko_common.json
-        "90@neko_c.settings_title": { 
-          "ignored": "(not $include_controls_and_settings_sections or not $is_pregame)",
-          "$neko_c.s_text": "Settings"
-        }
-      },
-      { "spacer_banana": { "type": "panel", "size": "$ukuran_jarak","ignored": "(not $include_controls_and_settings_sections or not $is_pregame)"}},
       {
         "quick_panel@settings.toggle_background": {
+          "$general_section_header": "stat.generalButton",
           "ignored": "(not $include_controls_and_settings_sections)",
           "size": [ "100% - 3px", "100%c" ],
           "controls": [
@@ -40,7 +34,8 @@
                   "controls": [
                     {
                       "quick_settings@custom_settings_section.quick_settings": {
-                        "$toggle_group_forced_index": 5555
+                        "$tts_section_header": "$general_section_header",
+                        "$toggle_group_forced_index": "$keyboard_and_mouse_forced_index"
                       }
                     }
                   ]
@@ -57,6 +52,7 @@
       { "spacer0": { "type": "panel", "size": "$ukuran_jarak","ignored": "(not $include_controls_and_settings_sections or not $is_pregame)"}},
       {
         "graphics_panel@settings.toggle_background": {
+          "$general_section_header": "stat.generalButton",
           "ignored": "(not $include_controls_and_settings_sections)",
           "size": [ "100% - 3px", "100%c" ],
           "controls": [
@@ -68,11 +64,13 @@
                   "controls": [
                     {
                       "graphic_button@custom_settings_section.graphic_button": {
+                        "$tts_section_header": "$general_section_header",
                         "$toggle_group_forced_index": 3000
                       }
                     },
                     {
                       "gameplay_button@custom_settings_section.gameplay_button": {
+                        "$tts_section_header": "$general_section_header",
                         "$toggle_group_forced_index": 2000
                       }
                     }
@@ -87,6 +85,7 @@
       {
           "controls_panel@settings.toggle_background": {
             "ignored": "(not $include_controls_and_settings_sections)",
+            "$controls_section_header": "options.group.input",
             "size": [ "100% - 3px", "100%c" ],
             "controls": [
                 {
@@ -97,32 +96,32 @@
                     "controls": [
                       {
                         "keyboard_and_mouse_button@controls_section.keyboard_and_mouse_button": {
+                          "$tts_section_header": "$controls_section_header",
                           "ignored": "(not $keyboard_and_mouse_supported)",
-                          "$toggle_group_forced_index": "$keyboard_and_mouse_forced_index",
-                          "$tts_section_header": "$controls_section_header"
+                          "$toggle_group_forced_index": 5555
                       }
                     },
                       {
                         "controller_button@controls_section.controller_button": {
+                          "$tts_section_header": "$controls_section_header",
                           "ignored": "(not $gamepad_supported or $nx_os)",
-                          "$toggle_group_forced_index": "$controller_and_switch_forced_index",
-                          "$tts_section_header": "$controls_section_header"
+                          "$toggle_group_forced_index": "$controller_and_switch_forced_index"
                       }
                     },
                       {
                         "switch_controller_button@controls_section.controller_button": {
+                          "$tts_section_header": "$controls_section_header",
                           "ignored": "(not $gamepad_supported or not $nx_os)",
                           "$toggle_group_forced_index": "$controller_and_switch_forced_index",
                           "$glyph_texture": "textures/ui/controller_glyph_switch",
-                          "$glyph_color_texture": "textures/ui/controller_glyph_color_switch",
-                          "$tts_section_header": "$controls_section_header"
+                          "$glyph_color_texture": "textures/ui/controller_glyph_color_switch"
                        }
                      },
                         { 
                           "touch_button@controls_section.touch_button": {
-                              "ignored": "($is_holographic or not $touch_supported or $nx_os)",
-                              "$toggle_group_forced_index": "$touch_forced_index",
-                              "$tts_section_header": "$controls_section_header"
+                          "$tts_section_header": "$controls_section_header",
+                          "ignored": "($is_holographic or not $touch_supported or $nx_os)",
+                              "$toggle_group_forced_index": "$touch_forced_index"
                             }
                           }
                     ]
@@ -136,6 +135,7 @@
         {
           "graphics_panel_2@settings.toggle_background": {
             "ignored": "(not $include_controls_and_settings_sections)",
+            "$general_section_header": "stat.generalButton",
             "size": [ "100% - 3px", "100%c" ],
             "controls": [
                 {
@@ -146,6 +146,7 @@
                     "controls": [
                       {
                         "more_settings_button@custom_settings_section.more_settings_button": {
+                          "$tts_section_header": "$general_section_header",
                           "size": [ "100% - 3px", 25 ],
                           "$toggle_group_forced_index": 80
                         }
@@ -181,8 +182,7 @@
                         "global_texture_pack_button@general_section.global_texture_pack_button": {
                           "ignored": "(not $include_controls_and_settings_sections or not $is_pregame)",
                           "$toggle_group_forced_index": "$global_texture_pack_forced_index",
-                          "visible": "($is_global_texture_packs_visible)",
-                          "$tts_section_header": "$general_section_header"
+                          "visible": "($is_global_texture_packs_visible)"
                         }
                       },
                       {

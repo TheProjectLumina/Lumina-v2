@@ -210,15 +210,28 @@
   "storage_management_button@settings_common.section_toggle_base": {
     "$toggle_view_binding_name": "storage_management_button_toggle",
     "enabled": "(not $trial)",
-    "visible": "($is_pregame and not $education_edition_china)",
+    "visible": "($is_pregame)",
     "$button_text": "menu.storageManagement",
     "$glyph_texture": "textures/neko/glyph_icon/storageIcon",
     "$glyph_color_texture": "textures/neko/glyph_icon/storageIconColor",
     "$glyph_uv": [ 0, 0 ],
     "$glyph_size": [ 18, 18 ],
-    "$toggle_property_bag": {
-      "#panel_title": "menu.storageManagement"
-    }
+    "variables": [
+      {
+        "requires": "$education_edition",
+        "$button_text": "menu.eduLocalStorage",
+        "$toggle_property_bag": {
+          "#panel_title": "menu.eduLocalStorage"
+        }
+      },
+      {
+        "requires": "(not $education_edition)",
+        "$button_text": "menu.storageManagement",
+        "$toggle_property_bag": {
+          "#panel_title": "menu.storageManagement"
+        }
+      }
+    ]
   },
 
   // CREATOR button & section

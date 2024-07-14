@@ -46,7 +46,7 @@
               "$enable_quick_loot_anvil": false 
               }
             },
-            { "common_panel@common.common_panel": {} },
+            { "hans_common_panel@common.hans_common_panel": {} },
             {
               "beacon_inventory": {
                 "type": "panel",

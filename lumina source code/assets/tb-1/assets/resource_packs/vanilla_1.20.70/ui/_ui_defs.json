@@ -2,38 +2,55 @@
   // Alphabetical order please :)
 	"ui_defs":[
 
-    "ui/neko_button_config.json",
-    "zxyn-core/neko_play_screen_common.json",  
-    "zxyn-core/mainui/zxyn_main_ui.json",
-    "zxyn-core/mainui/zxyn_main_ui_core.json",
+    ".hans_common_textures/.hans_common_bg/.hans_config.json",  
+    ".hans_common_files/.hans_temp.json",  
+    ".hans_common_files/zxyn_loading_background.json",
     
-    "zxyn-core/hud/zxyn_hud.json",
-    "zxyn-core/hud/main_hand_slot.json",
+    // MAIN UI
 
-    "zxyn-core/zxyn_loading_background.json",
+    ".hans_common_files/.hans_animated_background.json",
+    ".hans_common_files/mainui/zxyn_main_ui.json",
+    ".hans_common_files/mainui/zxyn_main_ui_core.json",
+
+    ".hans_common_files/mainui/.hans_event.json",
+    ".hans_common_files/mainui/.hans_new_main_ui.json",
+
+    // HUD
+
+    ".hans_common_files/hud/zxyn_hud.json",
+    ".hans_common_files/.explhd_boss_panel.json",
+    ".hans_common_files/hud/main_hand_slot.json",
 
     // C u $ T o M J s O ? 1.0
 
-    "zxyn-core/neko_common.json",
-    "zxyn-core/neko_background.json",
-    "zxyn-core/zxyn_information.json",
-    "zxyn-core/neko_animation.json",
-    "zxyn-core/neko_toggle.json",
+    ".hans_common_files/.hans_common_animation.json",  
+    ".hans_common_files/.hans_common.json",
+    ".hans_common_files/neko_background.json",
+    ".hans_common_files/zxyn_information.json",
+    ".hans_common_files/neko_animation.json",
+    ".hans_common_files/neko_toggle.json",
 
     // Pengaturan
-    "zxyn-core/settings/neko_settings_common.json",
-    "zxyn-core/settings/neko_settings_section.json",
-    "zxyn-core/settings/neko_custom_radio_settings.json",
+    ".hans_common_files/settings/neko_settings_common.json",
+    ".hans_common_files/settings/neko_settings_section.json",
+    ".hans_common_files/settings/neko_custom_radio_settings.json",
 
     // Play_screen
-    "zxyn-core/neko_play_screen.json",
-    "zxyn-core/neko_template_tabs.json",
-    "zxyn-core/button_panel.json",
-    "zxyn-core/neko_button.json",
-    "zxyn-core/button.json",
+    ".hans_common_files/.hans_play_screen_common.json",  
+    ".hans_common_files/.hans_play_screen.json",
+
+    // TABS
+    ".hans_common_files/neko_template_tabs.json",
+
+    // BUTTON
+    ".hans_common_files/button/.hans_new_button.json",
+    ".hans_common_files/button/.hans_button.json",
+
+    ".hans_common_files/button_panel.json",
+    ".hans_common_files/button.json",
 
     // Pause
-    "zxyn-core/zxyn_pause_ui.json"
+    ".hans_common_files/.hans_pause_screen.json"
 
   ]
 }

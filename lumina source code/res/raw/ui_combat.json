@@ -33,7 +33,7 @@
                     "type": "slider",
                     "path": "killaura/frequency",
                     "label": "s_combat_killaura_interval",
-                    "values": [20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 12, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+                    "values": [20, 1]
                 }
             ]
         },
@@ -51,7 +51,7 @@
                     "type": "slider",
                     "path": "pick_custom_distance/distance",
                     "label": "text_distance",
-                    "range_float": [1, 100]
+                    "range_float": [1, 20]
                 },
                 {
                     "type": "toggle",
@@ -62,7 +62,7 @@
                     "type": "slider",
                     "path": "hitbox_expand/player_value",
                     "label": "Accuracy Ratio",
-                    "range_float": [1, 100]
+                    "range_float": [1, 120]
                 }
             ]
         },
@@ -112,7 +112,7 @@
                 "type": "slider",
                 "path": "pick_custom_distance/distance",
                 "label": "text_distance",
-                "range_float": [1, 4096]
+                "range_float": [1, 25]
             }]
         },
         {
