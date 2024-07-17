@@ -33,7 +33,7 @@
                     "type": "slider",
                     "path": "killaura/range_distance",
                     "label": "Range",
-                    "range_float": [5, 10]
+                    "range_float": [5, 10] // the maximum is only 5-10 according to the libs file. if it is changed more than that won't work
                 },
                 {
                     "type": "slider",
