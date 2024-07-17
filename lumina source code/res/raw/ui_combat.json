@@ -31,6 +31,12 @@
                 },
                 {
                     "type": "slider",
+                    "path": "killaura/range_distance",
+                    "label": "Range",
+                    "range_float": [5, 10]
+                },
+                {
+                    "type": "slider",
                     "path": "killaura/frequency",
                     "label": "s_combat_killaura_interval",
                     "values": [20, 1]
