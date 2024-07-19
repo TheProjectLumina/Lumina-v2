@@ -1,0 +1,518 @@
+{
+
+  "namespace":"hans_animated_bg",
+  "img":{
+      "type":"image",
+      "fill":true,
+      "size":[
+          "100%",
+          "100%"
+      ],
+      "property_bag":{
+          "#true":"0"
+      },
+      "bindings":[
+          {
+              "binding_name":"#collection_index",
+              "binding_type":"collection_details",
+              "binding_collection_name":"animated_background"
+          },
+          {
+              "binding_type":"view",
+              "source_property_name":"('#' + (#collection_index < 9))",
+              "target_property_name":"#pad00"
+          },
+          {
+              "binding_type":"view",
+              "source_property_name":"('#' + (#collection_index < 99))",
+              "target_property_name":"#pad0"
+          },
+          {
+              "binding_type":"view",
+              "source_property_name":"('.hans_common_files/.hans_animated_background/.hans' + '_nonomi_' + #pad00 + #pad0 + (#collection_index + 1))",
+              "target_property_name":"#texture"
+          }
+      ]
+  },
+  "bg_anim":{
+      "type":"panel",
+      "controls":[
+          {
+              "a@neko_c.bg_2":{
+                  "alpha":0.2
+              }
+          },
+          {
+              "bg_anim":{
+                  "type":"stack_panel",
+                  "size":[
+                      "100%",
+                      "100%"
+                  ],
+                  "anchor_from":"top_left",
+                  "anchor_to":"top_left",
+                  "offset":"@hans_animated_bg.01",
+                  "$duration_per_frame|default":0.09,
+                  "$frames|default":64,
+                  "collection_name":"animated_background",
+                  "factory":{
+                      "control_name":"hans_animated_bg.img"
+                  },
+                  "property_bag":{
+                      "#frames":"$frames"
+                  },
+                  "bindings":[
+                      {
+                          "binding_type":"view",
+                          "source_property_name":"(#frames*1)",
+                          "target_property_name":"#collection_length"
+                      }
+                  ]
+              }
+          }
+      ]
+  },
+  "hans_anim_base":{
+      "destroy_at_end":"@hans_animated_bg.bg_anim",
+      "anim_type":"offset",
+      "easing":"linear",
+      "duration":"$duration_per_frame",
+      "from":"$anm_offset",
+      "to":"$anm_offset"
+  },
+  "01@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " 0% "
+      ],
+      "next":"@hans_animated_bg.02"
+  },
+  "02@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -100% "
+      ],
+      "next":"@hans_animated_bg.03"
+  },
+  "03@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -200% "
+      ],
+      "next":"@hans_animated_bg.04"
+  },
+  "04@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -300% "
+      ],
+      "next":"@hans_animated_bg.05"
+  },
+  "05@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -400% "
+      ],
+      "next":"@hans_animated_bg.06"
+  },
+  "06@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -500% "
+      ],
+      "next":"@hans_animated_bg.07"
+  },
+  "07@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -600% "
+      ],
+      "next":"@hans_animated_bg.08"
+  },
+  "08@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -700% "
+      ],
+      "next":"@hans_animated_bg.09"
+  },
+  "09@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -800% "
+      ],
+      "next":"@hans_animated_bg.10"
+  },
+  "10@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -900% "
+      ],
+      "next":"@hans_animated_bg.11"
+  },
+  "11@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -1000% "
+      ],
+      "next":"@hans_animated_bg.12"
+  },
+  "12@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -1100% "
+      ],
+      "next":"@hans_animated_bg.13"
+  },
+  "13@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -1200% "
+      ],
+      "next":"@hans_animated_bg.14"
+  },
+  "14@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -1300% "
+      ],
+      "next":"@hans_animated_bg.15"
+  },
+  "15@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -1400% "
+      ],
+      "next":"@hans_animated_bg.16"
+  },
+  "16@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -1500% "
+      ],
+      "next":"@hans_animated_bg.17"
+  },
+  "17@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -1600% "
+      ],
+      "next":"@hans_animated_bg.18"
+  },
+  "18@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -1700% "
+      ],
+      "next":"@hans_animated_bg.19"
+  },
+  "19@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -1800% "
+      ],
+      "next":"@hans_animated_bg.20"
+  },
+  "20@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -1900% "
+      ],
+      "next":"@hans_animated_bg.21"
+  },
+  "21@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -2000% "
+      ],
+      "next":"@hans_animated_bg.22"
+  },
+  "22@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -2100% "
+      ],
+      "next":"@hans_animated_bg.23"
+  },
+  "23@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -2200% "
+      ],
+      "next":"@hans_animated_bg.24"
+  },
+  "24@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -2300% "
+      ],
+      "next":"@hans_animated_bg.25"
+  },
+  "25@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -2400% "
+      ],
+      "next":"@hans_animated_bg.26"
+  },
+  "26@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -2500% "
+      ],
+      "next":"@hans_animated_bg.27"
+  },
+  "27@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -2600% "
+      ],
+      "next":"@hans_animated_bg.28"
+  },
+  "28@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -2700% "
+      ],
+      "next":"@hans_animated_bg.29"
+  },
+  "29@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -2800% "
+      ],
+      "next":"@hans_animated_bg.30"
+  },
+  "30@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -2900% "
+      ],
+      "next":"@hans_animated_bg.31"
+  },
+  "31@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -3000% "
+      ],
+      "next":"@hans_animated_bg.32"
+  },
+  "32@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -3100% "
+      ],
+      "next":"@hans_animated_bg.33"
+  },
+  "33@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -3200% "
+      ],
+      "next":"@hans_animated_bg.34"
+  },
+  "34@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -3300% "
+      ],
+      "next":"@hans_animated_bg.35"
+  },
+  "35@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -3400% "
+      ],
+      "next":"@hans_animated_bg.36"
+  },
+  "36@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -3500% "
+      ],
+      "next":"@hans_animated_bg.37"
+  },
+  "37@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -3600% "
+      ],
+      "next":"@hans_animated_bg.38"
+  },
+  "38@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -3700% "
+      ],
+      "next":"@hans_animated_bg.39"
+  },
+  "39@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -3800% "
+      ],
+      "next":"@hans_animated_bg.40"
+  },
+  "40@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -3900% "
+      ],
+      "next":"@hans_animated_bg.41"
+  },
+  "41@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -4000% "
+      ],
+      "next":"@hans_animated_bg.42"
+  },
+  "42@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -4100% "
+      ],
+      "next":"@hans_animated_bg.43"
+  },
+  "43@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -4200% "
+      ],
+      "next":"@hans_animated_bg.44"
+  },
+  "44@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -4300% "
+      ],
+      "next":"@hans_animated_bg.45"
+  },
+  "45@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -4400% "
+      ],
+      "next":"@hans_animated_bg.46"
+  },
+  "46@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -4500% "
+      ],
+      "next":"@hans_animated_bg.47"
+  },
+  "47@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -4600% "
+      ],
+      "next":"@hans_animated_bg.48"
+  },
+  "48@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -4700% "
+      ],
+      "next":"@hans_animated_bg.49"
+  },
+  "49@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -4800% "
+      ],
+      "next":"@hans_animated_bg.50"
+  },
+  "50@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -4900% "
+      ],
+      "next":"@hans_animated_bg.51"
+  },
+  "51@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -5000% "
+      ],
+      "next":"@hans_animated_bg.52"
+  },
+  "52@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -5100% "
+      ],
+      "next":"@hans_animated_bg.53"
+  },
+  "53@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -5200% "
+      ],
+      "next":"@hans_animated_bg.54"
+  },
+  "54@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -5300% "
+      ],
+      "next":"@hans_animated_bg.55"
+  },
+  "55@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -5400% "
+      ],
+      "next":"@hans_animated_bg.56"
+  },
+  "56@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -5500% "
+      ],
+      "next":"@hans_animated_bg.57"
+  },
+  "57@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -5600% "
+      ],
+      "next":"@hans_animated_bg.58"
+  },
+  "58@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -5700% "
+      ],
+      "next":"@hans_animated_bg.59"
+  },
+  "59@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -5800% "
+      ],
+      "next":"@hans_animated_bg.60"
+  },
+  "60@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -5900% "
+      ],
+      "next":"@hans_animated_bg.61"
+  },
+  "61@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -6000% "
+      ],
+      "next":"@hans_animated_bg.62"
+  },
+  "62@hans_animated_bg.hans_anim_base":{
+      "$anm_offset":[
+          0,
+          " -6100% "
+      ],
+      "next":"@hans_animated_bg.01"
+  }
+
+}

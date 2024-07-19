@@ -415,7 +415,7 @@
                   {
                     "header@settings_common.header": {
                       "$gunakan_dialog_tile_2": true,
-                      "$neko_title_text": "PENGATURAN"
+                      "$neko_title_text": "Settings"
                     }
                   },
                   {

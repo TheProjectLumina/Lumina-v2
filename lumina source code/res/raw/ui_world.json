@@ -7,7 +7,7 @@
     {
       "type": "toggle",
       "path": "autobuild/no_fall/enabled",
-      "label": "s_world_bridge_builder",
+      "label": "scaffold",
       "icon": "ic_arrow_bottom_right_bold_outline_black_24dp"
     },
     {
