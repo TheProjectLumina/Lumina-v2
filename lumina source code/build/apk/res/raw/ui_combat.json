@@ -31,6 +31,12 @@
                 },
                 {
                     "type": "slider",
+                    "path": "killaura/range_distance",
+                    "label": "Range",
+                    "range_float": [5, 10] // the maximum is only 5-10 according to the libs file. if it is changed more than that won't work
+                },
+                {
+                    "type": "slider",
                     "path": "killaura/frequency",
                     "label": "s_combat_killaura_interval",
                     "values": [20, 1]
@@ -93,13 +99,13 @@
                     "type": "slider",
                     "path": "hitbox_expand/mob_value",
                     "label": "s_combat_hitbox_expand_mob",
-                    "range_float": [1, 10]
+                    "range_float": [1, 20]
                 },
                 {
                     "type": "slider",
                     "path": "hitbox_expand/player_value",
                     "label": "s_combat_hitbox_expand_player",
-                    "range_float": [1, 10]
+                    "range_float": [1, 20]
                 }
             ]
         },
